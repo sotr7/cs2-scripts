@@ -40,7 +40,7 @@ cc_create($component0, ^iftype_text, calc($int1 + 8));
 cc_setsize($int2, calc($int3 - 3), ^setsize_abs, ^setsize_abs);
 cc_setposition($int4, calc($int5 + 3), ^setpos_abs_left, ^setpos_abs_top);
 def_string $string1 = ",";
-if ($int6 = 0 & $int7 = 0 | ($int6 = -1 | $int7 = -1)) {
+if ($int6 = 0 & $int7 = 0 | ($int6 = null | $int7 = null)) {
 	cc_settext("N/A");
 } else if ($int8 = 0) {
 	cc_settext("<~tostring_spacer($int6, $string1)>/<~tostring_spacer($int7, $string1)><$string0>");

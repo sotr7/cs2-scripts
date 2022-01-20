@@ -5,7 +5,7 @@ def_int $int5 = 15;
 def_int $int6 = 20;
 def_int $index7 = string_indexof_string($string0, "|", 0);
 def_string $text1 = "";
-while ($index7 ! -1) {
+while ($index7 ! null) {
 	$text1 = substring($string0, 0, $index7);
 	$int4, $int5, $int6 = ~ii_tracker_build_element($text1, $component0, $component1, $component2, $int4, $int5, $int6);
 	$string0 = substring($string0, calc($index7 + 1), string_length($string0));

@@ -7,7 +7,7 @@ def_int $int2 = 0;
 def_int $int3 = 0;
 def_int $width4 = calc(if_getwidth($component0) - 15);
 def_int $int5 = 0;
-while ($index1 ! -1) {
+while ($index1 ! null) {
 	$string1 = substring($string0, 0, $index1);
 	$string0 = substring($string0, calc($index1 + 1), string_length($string0));
 	cc_create($component0, ^iftype_graphic, $int3);

@@ -5,7 +5,7 @@ if (worldmap_isloaded = false) {
 }
 sound_synth(interface_select1, 1, 0);
 def_int $int3 = worldmap_getzoom;
-def_int $int4 = -1;
+def_int $int4 = null;
 if ($boolean0 = true) {
 	if ($int3 < 50) {
 		$int4 = 50;

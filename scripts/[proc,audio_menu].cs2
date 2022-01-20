@@ -9,7 +9,7 @@ def_int $int7 = 0;
 def_int $height8 = 0;
 def_int $index9 = string_indexof_string($string1, "|", 0);
 def_string $string2 = "";
-while ($index9 ! -1) {
+while ($index9 ! null) {
 	$string2 = substring($string1, 0, $index9);
 	$int7, $height8 = ~audio_menu_createentry_indexed($string2, $component4, $width6, $int7, $height8, $enum0, $string0, $enum1, $int2);
 	$string1 = substring($string1, calc($index9 + 1), string_length($string1));

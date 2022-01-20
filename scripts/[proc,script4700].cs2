@@ -5,7 +5,7 @@ def_int $int2 = 0;
 def_int $int3 = 0;
 switch_int (~helper_generic_get_type($int0)) {
 	case 0 :
-		return(-1);
+		return(null);
 	case 1, 5 :
 		$int3 = ~min(parawidth(~helper_generic_get_string($int0), 140, b12_full), 140);
 	case 2 :

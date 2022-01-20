@@ -62,5 +62,5 @@ switch_namedobj ($namedobj0) {
 	case unidentified_rare_fossil_21568 :
 		return(%varbit5831);
 	case default :
-		return(-1);
+		return(null);
 }

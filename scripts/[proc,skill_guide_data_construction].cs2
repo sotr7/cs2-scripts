@@ -54,7 +54,7 @@ switch_int ($int0) {
 			case 24 :
 				return(80, marble_adventure_log_20625, "Achievement Gallery");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 1 :
 		switch_int ($int1) {
@@ -129,7 +129,7 @@ switch_int ($int0) {
 			case 34 :
 				return(90, occult_altar_20622, "Occult altar<br> (upgrade from Dark)");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 2 :
 		switch_int ($int1) {
@@ -210,7 +210,7 @@ switch_int ($int0) {
 			case 37 :
 				return(99, demonic_throne_8363, "Demonic throne");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 3 :
 		switch_int ($int1) {
@@ -363,7 +363,7 @@ switch_int ($int0) {
 			case 73 :
 				return(99, magical_cape_rack_9822, "Magic stone cape rack");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 4 :
 		switch_int ($int1) {
@@ -442,7 +442,7 @@ switch_int ($int0) {
 			case 36 :
 				return(95, large_orrery_8347, "Large orrery");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 5 :
 		switch_int ($int1) {
@@ -555,7 +555,7 @@ switch_int ($int0) {
 			case 53 :
 				return(93, marble_adventure_log_20625, "Marble adventure log");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 6 :
 		switch_int ($int1) {
@@ -618,7 +618,7 @@ switch_int ($int0) {
 			case 28 :
 				return(83, glorious_arena_12720, "Glorious pet arena");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 7 :
 		switch_int ($int1) {
@@ -751,7 +751,7 @@ switch_int ($int0) {
 			case 63 :
 				return(98, obsidian_decorative_bench_20652, "Obsidian garden bench<br> (decoration only)");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 8 :
 		switch_int ($int1) {
@@ -836,7 +836,7 @@ switch_int ($int0) {
 			case 39 :
 				return(99, rune_dragon_21911, "Rune dragon<br>(after Dragon Slayer II)");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 9 :
 		switch_int ($int1) {
@@ -903,7 +903,7 @@ switch_int ($int0) {
 			case 30 :
 				return(89, stained_glass_8078, "Stained-glass chapel window");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 10 :
 		switch_int ($int1) {
@@ -916,7 +916,7 @@ switch_int ($int0) {
 			case 3 :
 				return(99, massive_storage_unit_24660, "Massive storage unit");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 11 :
 		switch_int ($int1) {
@@ -1023,12 +1023,12 @@ switch_int ($int0) {
 			case 50 :
 				return(97, marble_spiral_8259, "Marble spiral");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 12 :
 		switch_int ($int1) {
 			case 0 :
-				return(-1, obj_7620, "Servants can be hired at the<br>Ardougne Domestic Service Agency.");
+				return(null, obj_7620, "Servants can be hired at the<br>Ardougne Domestic Service Agency.");
 			case 1 :
 				return(20, grail_bell_17, "Rick");
 			case 2 :
@@ -1040,7 +1040,7 @@ switch_int ($int0) {
 			case 5 :
 				return(50, grail_bell_17, "Demon butler");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 13 :
 		switch_int ($int1) {
@@ -1077,8 +1077,8 @@ switch_int ($int0) {
 			case 15 :
 				return(99, hammer_2347, "Maximum rooms: <tostring(34)>");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case default :
-		return(-1, null, "");
+		return(null, null, "");
 }

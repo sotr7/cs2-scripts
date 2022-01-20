@@ -3,7 +3,7 @@
 sound_synth(interface_select1, 1, 0);
 ~league_setup_display_hoverdisable($component1, $int5);
 if_sethide(false, $component3);
-if_setonclick("script1108(1, -1, $component1, $int2, $component3, $int5)", $component3);
+if_setonclick("script1108(1, null, $component1, $int2, $component3, $int5)", $component3);
 def_int $int6 = if_getx($component1);
 def_int $int7 = if_gety($component1);
 def_component $layer8 = if_getlayer($component1);

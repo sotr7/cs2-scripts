@@ -6,7 +6,7 @@ def_int $int2 = calc(($width0 - 5 * $int1) / 4 + $int1);
 def_int $int3 = calc(32 + 35);
 def_int $int4 = calc(($int1 - 36) / 2);
 cc_deleteall(interface_464:2);
-def_int $int5 = -1;
+def_int $int5 = null;
 def_int $int6 = 0;
 def_int $int7 = 0;
 def_obj $obj8 = null;

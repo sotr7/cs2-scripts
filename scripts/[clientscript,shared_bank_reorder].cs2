@@ -24,8 +24,8 @@ if (%varbit3959 = 0 | $dropsubid4 = calc($comsubid2 + 1) | $dropsubid4 = calc($c
 	}
 	return;
 }
-def_int $dropsubid10 = -1;
-def_int $slot11 = -1;
+def_int $dropsubid10 = null;
+def_int $slot11 = null;
 if ($dropsubid4 < $comsubid2) {
 	$dropsubid10 = $comsubid2;
 	while ($dropsubid10 > $dropsubid4) {

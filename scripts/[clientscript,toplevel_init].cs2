@@ -17,7 +17,7 @@ while ($component3 ! null) {
 if (%varcint171 <= 0 & enum(enum, boolean, enum_1134, $enum1) = false) {
 	%varcint171 = 3;
 }
-%varcint172, %varcint173 = null, -1;
+%varcint172, %varcint173 = null, null;
 $component3 = enum(component, component, $enum1, interface_161:30);
 if ($component3 ! null) {
 	cc_deleteall($component3);
@@ -40,7 +40,7 @@ if ($enum1 = enum_139) {
 	setshowmouseovertext(false);
 	setshowmousecross(false);
 	setshowloadingmessages(false);
-	_3130(299, -1);
+	_3130(299, null);
 	_3131(0);
 } else if ($enum1 = enum_1745) {
 	setshowmouseovertext(true);
@@ -57,7 +57,7 @@ if ($enum1 = enum_139) {
 	setshowmouseovertext(true);
 	setshowmousecross(true);
 	setshowloadingmessages(true);
-	_3130(299, -1);
+	_3130(299, null);
 	_3131(0);
 }
 ~account_update_display;

@@ -75,7 +75,7 @@ def_int $int26 = 0;
 def_int $int27 = 0;
 def_int $int28 = 0;
 def_int $int29 = 0;
-def_int $int30 = -1;
+def_int $int30 = null;
 def_int $int31 = 0;
 def_string $string0 = "";
 if (%varbit4150 <= 0 | %varbit4150 > 9) {
@@ -171,8 +171,8 @@ if (%varbit4150 <= 0 | %varbit4150 > 9) {
 if (~bankmain_searching = 1) {
 	~meslayer_close(1, 1, 1);
 }
-def_int $int32 = -1;
-def_int $int33 = -1;
+def_int $int32 = null;
+def_int $int33 = null;
 $int32, $int33 = ~bank_gettabrange(%varbit4150);
 def_int $int34 = 0;
 def_int $int35 = 0;

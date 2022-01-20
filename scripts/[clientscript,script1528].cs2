@@ -3,4 +3,4 @@
 if (cc_find($component0, $comsubid1) = ^true) {
 	cc_settrans($trans2);
 }
-~tooltip_mouserepeat($component0, -1, $component3, $string0, 25, 190);
+~tooltip_mouserepeat($component0, null, $component3, $string0, 25, 190);

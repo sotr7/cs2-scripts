@@ -12,7 +12,7 @@ if_setcolour($int20, $component6);
 if_setcolour($int20, $component14);
 if_setcolour($int20, $component15);
 if_setcolour($int20, $component11);
-def_int $comsubid21 = -1;
+def_int $comsubid21 = null;
 def_string $op1 = "";
 def_string $string2 = struct_param($struct17, param_880);
 def_string $string3 = struct_param($struct18, param_1020);

@@ -26,5 +26,5 @@ switch_int ($int0) {
 	case 11 :
 		return(calc(%varbit7933 + %varbit7934 + %varbit7935 + %varbit7936));
 	case default :
-		return(-1);
+		return(null);
 }

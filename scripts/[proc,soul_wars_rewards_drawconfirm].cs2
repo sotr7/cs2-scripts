@@ -3,7 +3,7 @@
 def_string $text0 = "";
 cc_deleteall($component2);
 def_int $int8 = 0;
-if ($int0 ! -1) {
+if ($int0 ! null) {
 	if ($enum4 = enum_3537) {
 		$text0 = ~script4124($enum4, $int0);
 	} else {

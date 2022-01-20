@@ -12,4 +12,4 @@ if ($int0 = 2) {
 if ($int0 = 3) {
 	return(70, black_salamander_10148, "Black salamander<br> (with 70 Attack, 70 Ranged & 70 Magic)");
 }
-return(-1, null, "");
+return(null, null, "");

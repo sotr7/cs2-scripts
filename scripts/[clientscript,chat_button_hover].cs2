@@ -4,6 +4,6 @@ if ($boolean0 = true) {
 	%varcint42 = $int1;
 	~redraw_chat_buttons;
 } else if (%varcint42 = $int1) {
-	%varcint42 = -1;
+	%varcint42 = null;
 	~redraw_chat_buttons;
 }

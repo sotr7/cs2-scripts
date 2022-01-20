@@ -25,7 +25,7 @@ def_int $int9 = 0;
 def_int $int10 = 0;
 if (~deadman_world = true) {
 	$int7 = ~script1936($stat0);
-	if ($int7 ! -1) {
+	if ($int7 ! null) {
 		$int7 = calc($int7 / 10);
 		if ($int7 > $xp5) {
 			$string2 = append($string2, "|<col=7c0808>XP to regain:</col>");
@@ -91,11 +91,11 @@ if ($boolean3 = true & map_members = ^false & %varcint103 = 0) {
 	$string3 = "<col=ff0000>Members Only</col>";
 }
 if (~on_mobile = true) {
-	if_setonop("stats_op(event_opindex, event_com, -1, $component2, $string2, $string3, p12_full)", $component1);
-	if (%varcint218 = $component1 & %varcint217 = -1) {
-		~script2344($component1, -1, $component2, $string2, $string3, p12_full);
+	if_setonop("stats_op(event_opindex, event_com, null, $component2, $string2, $string3, p12_full)", $component1);
+	if (%varcint218 = $component1 & %varcint217 = null) {
+		~script2344($component1, null, $component2, $string2, $string3, p12_full);
 	}
 } else {
-	if_setonmouserepeat("script992(event_com, -1, $component2, $string2, $string3, p12_full, calc(25 / 5))", $component1);
+	if_setonmouserepeat("script992(event_com, null, $component2, $string2, $string3, p12_full, calc(25 / 5))", $component1);
 	%varcint2 = 0;
 }

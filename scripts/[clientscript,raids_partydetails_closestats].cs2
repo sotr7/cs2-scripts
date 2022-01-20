@@ -2,4 +2,4 @@
 [clientscript,raids_partydetails_closestats]
 sound_synth(interface_select1, 1, 0);
 ~raids_partydetails_closestats;
-~raids_partydetails_setsort(-1);
+~raids_partydetails_setsort(null);

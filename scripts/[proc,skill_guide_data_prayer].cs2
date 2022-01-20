@@ -4,7 +4,7 @@ switch_int ($int0) {
 	case 0 :
 		switch_int ($int1) {
 			case 0 :
-				return(-1, obj_3258, "While any of your prayers are active, your prayer points will drain. Once you have run out of prayer points, you will no longer be able to use prayers.<br>Visit an altar to recharge your prayer points.");
+				return(null, obj_3258, "While any of your prayers are active, your prayer points will drain. Once you have run out of prayer points, you will no longer be able to use prayers.<br>Visit an altar to recharge your prayer points.");
 			case 1 :
 				return(1, thick_skin_20803, "Thick Skin");
 			case 2 :
@@ -64,7 +64,7 @@ switch_int ($int0) {
 			case 29 :
 				return(77, augury_20830, "Members: Augury<br> (with 70 Defence)");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 1 :
 		switch_int ($int1) {
@@ -117,7 +117,7 @@ switch_int ($int0) {
 			case 23 :
 				return(75, elysian_spirit_shield_12817, "Elysian spirit shield<br>(with 75 Defence)");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 2 :
 		if ($int1 = 0) {
@@ -126,7 +126,7 @@ switch_int ($int0) {
 		if ($int1 = 1) {
 			return(70, superior_dragon_bones_22124, "Use superior dragon bones");
 		}
-		return(-1, null, "");
+		return(null, null, "");
 	case default :
-		return(-1, null, "");
+		return(null, null, "");
 }

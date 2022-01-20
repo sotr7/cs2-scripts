@@ -120,4 +120,4 @@ if (%varbit6670 > 2 & %varbit10103 = 0) {
 	%varbit10103 = $int0;
 	return(30);
 }
-return(-1);
+return(null);

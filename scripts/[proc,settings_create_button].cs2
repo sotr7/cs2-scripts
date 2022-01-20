@@ -20,7 +20,7 @@ if ($int0 = ^max_32bit_int) {
 	$int0 = 2;
 }
 def_int $int14 = ^max_32bit_int;
-if (struct_param($struct5, param_1093) ! -1) {
+if (struct_param($struct5, param_1093) ! null) {
 	$int14 = struct_param($struct5, param_1093);
 	if ($int14 > $int0) {
 		$int0 = $int14;
@@ -33,7 +33,7 @@ if ($int0 = 1) {
 	$int15 = calc($int11 * 2);
 }
 def_int $int16 = 5;
-if (struct_param($struct5, param_1100) ! -1 & struct_param($struct5, param_1100) > $int13) {
+if (struct_param($struct5, param_1100) ! null & struct_param($struct5, param_1100) > $int13) {
 	$int16 = calc((struct_param($struct5, param_1100) - $int13) / 2);
 }
 $int1 = calc($int1 + $int16);

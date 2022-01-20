@@ -6,5 +6,5 @@ if (%varbit10032 = 2) {
 	$text0 = "Trailblazer Tasks";
 }
 def_int $comsubid15 = ~steelborder(interface_657:2, $text0, 1);
-if_setonvartransmit("league_tasks_draw_list(-1, $component0, $component1, $component2, $component3, $component4, $component5, $component6, $component7, $component8, $component9, $component10, $component11, $component12, $component13, 0, $comsubid15){var2606, var2805}", $component1);
-~league_tasks_draw_list(-1, $component0, $component1, $component2, $component3, $component4, $component5, $component6, $component7, $component8, $component9, $component10, $component11, $component12, $component13, 0, $comsubid15);
+if_setonvartransmit("league_tasks_draw_list(null, $component0, $component1, $component2, $component3, $component4, $component5, $component6, $component7, $component8, $component9, $component10, $component11, $component12, $component13, 0, $comsubid15){var2606, var2805}", $component1);
+~league_tasks_draw_list(null, $component0, $component1, $component2, $component3, $component4, $component5, $component6, $component7, $component8, $component9, $component10, $component11, $component12, $component13, 0, $comsubid15);

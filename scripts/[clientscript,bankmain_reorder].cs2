@@ -36,8 +36,8 @@ if ($obj11 = null | ~bankmain_searching = 1) {
 	}
 	return;
 }
-def_int $dropsubid12 = -1;
-def_int $slot13 = -1;
+def_int $dropsubid12 = null;
+def_int $slot13 = null;
 if ($dropsubid3 < $comsubid1) {
 	$dropsubid12 = $comsubid1;
 	while ($dropsubid12 > $dropsubid3) {

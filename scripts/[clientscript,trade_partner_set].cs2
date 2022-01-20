@@ -1,7 +1,7 @@
 // 209
 [clientscript,trade_partner_set](string $string0)
 %varcstring357 = $string0;
-def_int $mesuid0 = -1;
+def_int $mesuid0 = null;
 if (%varcint41 = 6) {
 	$mesuid0 = ~script553;
 	~rebuildchatbox($mesuid0);

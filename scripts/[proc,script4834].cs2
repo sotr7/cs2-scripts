@@ -1,6 +1,6 @@
 // 4834
 [proc,script4834](int $int0)(int)
-if ($int0 = -1 | $int0 < 0) {
+if ($int0 = null | $int0 < 0) {
 	return(0);
 }
 def_int $index1 = calc($int0 % 32);

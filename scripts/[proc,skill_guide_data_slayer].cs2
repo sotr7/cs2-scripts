@@ -171,4 +171,4 @@ switch_int ($int0) {
 				return(50, enchanted_gem_4155, "Shilo Village master<br> (with level 100 combat)");
 		}
 }
-return(-1, null, "");
+return(null, null, "");

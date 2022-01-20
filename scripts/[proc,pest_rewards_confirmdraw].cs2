@@ -1,6 +1,6 @@
 // 2778
 [proc,pest_rewards_confirmdraw](boolean $boolean0, string $text0, component $component1)
-def_int $int2 = -1;
+def_int $int2 = null;
 if ($boolean0 = true) {
 	$int2 = ~v2_stone_button_in_filled($component1);
 } else {

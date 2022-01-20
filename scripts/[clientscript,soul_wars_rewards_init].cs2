@@ -12,22 +12,22 @@ if_sethide(true, $component3);
 ~script3723(interface_442:5, 0, "Imbues");
 ~script3723(interface_442:6, 0, "Other");
 if ($int0 = 0) {
-	~script536(-1, $component1, $component4, $component5, $component2, $component3);
+	~script536(null, $component1, $component4, $component5, $component2, $component3);
 	if_sethide(false, interface_442:24);
 	if_sethide(false, interface_442:14);
 	~script3723(interface_442:4, 1, "Experience");
 	if_setonop("soul_wars_rewards_init(1, $component1, $component2, $component3, $component4, $component5, $component6, $component7, $component8, $component9, $component10, $component11, $component12, $component13)", interface_442:5);
 	if_setonop("soul_wars_rewards_init(2, $component1, $component2, $component3, $component4, $component5, $component6, $component7, $component8, $component9, $component10, $component11, $component12, $component13)", interface_442:6);
 } else if ($int0 = 1) {
-	~script675(-1, $component2, $component6, $component7, $component12, 0, $component1, $component3);
+	~script675(null, $component2, $component6, $component7, $component12, 0, $component1, $component3);
 	if_sethide(false, interface_442:23);
 	if_sethide(false, interface_442:16);
 	~script3723(interface_442:5, 1, "Imbues");
 	if_setonop("soul_wars_rewards_init(0, $component1, $component2, $component3, $component4, $component5, $component6, $component7, $component8, $component9, $component10, $component11, $component12, $component13)", interface_442:4);
 	if_setonop("soul_wars_rewards_init(2, $component1, $component2, $component3, $component4, $component5, $component6, $component7, $component8, $component9, $component10, $component11, $component12, $component13)", interface_442:6);
-	if_setoninvtransmit("script674(-1, $component2, $component6, $component7, interface_442:17, $component1, $component3){inv}", $component2);
+	if_setoninvtransmit("script674(null, $component2, $component6, $component7, interface_442:17, $component1, $component3){inv}", $component2);
 } else if ($int0 = 2) {
-	~script842(-1, $component3, $component8, $component9, $component13, 0, $component1, $component2);
+	~script842(null, $component3, $component8, $component9, $component13, 0, $component1, $component2);
 	if_sethide(false, interface_442:22);
 	if_sethide(false, interface_442:19);
 	~script3723(interface_442:6, 1, "Other");

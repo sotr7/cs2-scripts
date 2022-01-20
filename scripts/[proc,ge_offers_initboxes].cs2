@@ -51,7 +51,7 @@ cc_settextalign(^settextalign_left, ^settextalign_centre, 0);
 cc_settextshadow(true);
 def_int $int13 = calc($int7 / 2);
 def_int $int14 = calc($int7 / 4);
-def_int $comsubid15 = -1;
+def_int $comsubid15 = null;
 if ($boolean0 = true) {
 	$int1 = ~script771($component2, $int1, calc(15 + $int14), 106, calc($int7 - $int13), 76);
 } else {
@@ -109,7 +109,7 @@ cc_setcolour(0xffb83f);
 cc_settextfont($fontmetrics4);
 cc_settextalign(^settextalign_centre, ^settextalign_centre, 0);
 cc_settextshadow(true);
-def_int $comsubid17 = -1;
+def_int $comsubid17 = null;
 if ($boolean0 = false) {
 	$int1 = ~ge_textbox($component2, $int1, 30, 172, calc($width5 - 60));
 	cc_create($component2, ^iftype_text, $int1);

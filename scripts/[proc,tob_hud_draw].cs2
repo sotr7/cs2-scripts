@@ -65,12 +65,12 @@ if (~instance_check(coord) = 1) {
 			~tob_hud_updateprogress(scale(%varbit6448, ~max(1, %varbit6449), 16384), $component5);
 			if (%varbit6447 = 0) {
 				if_sethide(true, $component4);
-				%varcint220 = -1;
+				%varcint220 = null;
 			} else {
 				if_sethide(false, $component4);
 			}
 		} else {
-			%varcint220 = -1;
+			%varcint220 = null;
 			if_setontimer(null, $component5);
 			if_settext("", $component6);
 		}
@@ -87,7 +87,7 @@ if (~instance_check(coord) = 1) {
 			if_setsize(34, 174, ^setsize_abs, ^setsize_abs, $component7);
 		}
 	} else {
-		%varcint220 = -1;
+		%varcint220 = null;
 		if_setontimer(null, $component5);
 		if_sethide(true, $component4);
 		if_sethide(true, $component7);
@@ -95,7 +95,7 @@ if (~instance_check(coord) = 1) {
 		~deltooltip_action($component19);
 	}
 } else {
-	%varcint220 = -1;
+	%varcint220 = null;
 	if_setontimer(null, $component5);
 	if_sethide(true, $component4);
 	if_sethide(true, $component7);

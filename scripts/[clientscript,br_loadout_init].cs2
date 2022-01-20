@@ -74,7 +74,7 @@ while ($int9 < $int10) {
 		cc_setposition(0, $height13, ^setpos_abs_centre, ^setpos_abs_top);
 		cc_setop(1, "Add");
 		cc_setop(10, "Examine");
-		cc_setdraggable($component1, -1);
+		cc_setdraggable($component1, null);
 		cc_setdragdeadzone(5);
 		cc_setdragdeadtime(5);
 		$namedobj15 = enum(int, namedobj, enum_2630, $countarray0($int9));

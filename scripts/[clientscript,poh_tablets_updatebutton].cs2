@@ -7,7 +7,7 @@ if (cc_find($component0, $comsubid1) = ^true) {
 		cc_setmodel($model5);
 	}
 }
-if ($comsubid2 ! -1 & .cc_find($component0, $comsubid2) = ^true) {
+if ($comsubid2 ! null & .cc_find($component0, $comsubid2) = ^true) {
 	if (%var261 >= $int3 & %var262 >= $int4) {
 		.cc_setcolour(0xff981f);
 	} else {

@@ -9,7 +9,7 @@ def_namedobj $namedobj7 = enum(int, namedobj, $enum3, $int5);
 def_string $string0 = enum(obj, string, enum_3302, $namedobj7);
 def_int $int8 = $int1;
 def_int $int9 = $int1;
-def_int $int10 = -1;
+def_int $int10 = null;
 while ($int9 < $int2) {
 	$namedobj6 = enum(int, namedobj, $enum3, $intarray0($int9));
 	if (compare(enum(obj, string, enum_3302, $namedobj6), $string0) <= 0) {

@@ -9,7 +9,7 @@ def_int $int7 = 0;
 def_string $op1 = "";
 def_int $int8 = 0;
 def_int $int9 = enum(int, int, $enum0, $int8);
-while ($int9 ! -1) {
+while ($int9 ! null) {
 	$op1 = enum(int, string, enum_934, $int9);
 	cc_create($component3, ^iftype_rectangle, calc($int8 * 3));
 	cc_setposition(0, $int7, ^setpos_abs_left, ^setpos_abs_top);

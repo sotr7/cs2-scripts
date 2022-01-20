@@ -10,7 +10,7 @@ def_int $int8 = %var261;
 def_int $int9 = 0;
 def_int $int10 = 0;
 def_string $string0 = "N/A";
-if ($int8 > -1) {
+if ($int8 > null) {
 	if ($int8 > 0) {
 		$string0 = ~time_convert_option($int8);
 	}

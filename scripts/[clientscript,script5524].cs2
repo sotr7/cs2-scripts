@@ -9,4 +9,4 @@ if ($int2 = 0) {
 		cc_setcolour(^white);
 	}
 }
-~tooltip_mouserepeat($component0, -1, $component1, $string0, 25, 190);
+~tooltip_mouserepeat($component0, null, $component1, $string0, 25, 190);

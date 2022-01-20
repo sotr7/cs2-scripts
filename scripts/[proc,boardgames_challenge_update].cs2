@@ -16,7 +16,7 @@ if (~on_mobile = false) {
 	if_setonmouserepeat("settrans(boardgames_challenge:17, 127)", boardgames_challenge:16);
 	if_setonmouseleave("settrans(boardgames_challenge:17, 0)", boardgames_challenge:16);
 }
-if ($int0 = -1) {
+if ($int0 = null) {
 	$int0 = %varbit61;
 }
 switch_int ($int0) {

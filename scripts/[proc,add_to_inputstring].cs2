@@ -34,7 +34,7 @@ if (char_isprintable($keychar2) = false) {
 		if ($length3 < 15) {
 			return($string0);
 		}
-		if (string_indexof_string(substring($string0, calc($length3 - 15), $length3), "|", 0) ! -1) {
+		if (string_indexof_string(substring($string0, calc($length3 - 15), $length3), "|", 0) ! null) {
 			return($string0);
 		}
 		return(append($string0, "|"));
@@ -42,13 +42,13 @@ if (char_isprintable($keychar2) = false) {
 	return($string0);
 }
 if ($int0 = 2) {
-	if ((char_isalphanumeric($keychar2) = true | string_indexof_char(" _-", $keychar2) ! -1) & $length3 < 12) {
+	if ((char_isalphanumeric($keychar2) = true | string_indexof_char(" _-", $keychar2) ! null) & $length3 < 12) {
 		return(append_char($string0, $keychar2));
 	}
 	return($string0);
 }
 if ($int0 = 8) {
-	if ((char_isalphanumeric($keychar2) = true | string_indexof_char(" ", $keychar2) ! -1) & $length3 < 12) {
+	if ((char_isalphanumeric($keychar2) = true | string_indexof_char(" ", $keychar2) ! null) & $length3 < 12) {
 		return(append_char($string0, $keychar2));
 	}
 	return($string0);
@@ -62,7 +62,7 @@ if ($int0 = 1) {
 			return($string0);
 		}
 	}
-	if (string_indexof_char("kKmMbB", $keychar2) ! -1) {
+	if (string_indexof_char("kKmMbB", $keychar2) ! null) {
 		$int5 = 1;
 	}
 	if (($int5 = 1 | char_isnumeric($keychar2) = true) & $length3 < 10) {
@@ -79,7 +79,7 @@ if ($int0 = 6) {
 	}
 	return($string0);
 }
-if ($int0 = 5 & string_indexof_char("|", $keychar2) ! -1) {
+if ($int0 = 5 & string_indexof_char("|", $keychar2) ! null) {
 	return($string0);
 }
 if ($int0 = 10) {

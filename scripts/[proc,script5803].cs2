@@ -1,6 +1,6 @@
 // 5803
 [proc,script5803](int $int0, int $int1)(int)
-def_int $int2 = -1;
+def_int $int2 = null;
 def_int $int3 = 1;
 def_int $int4 = 0;
 def_int $int5 = 0;
@@ -21,10 +21,10 @@ if (%varbit10032 = 3) {
 		}
 		$int3 = calc($int3 + 1);
 	}
-	return(-1);
+	return(null);
 }
 $struct6 = ~script3180($int0, $int1);
 if ($struct6 = null) {
-	return(-1);
+	return(null);
 }
 return(struct_param($struct6, param_877));

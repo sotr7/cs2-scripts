@@ -18,7 +18,7 @@ if (compare(lowercase($string1), lowercase(removetags(chat_playername))) = 0) {
 	$colour2 = ^white;
 }
 def_int $int3 = 0;
-$string0, $int3 = ~script2322(1, -1, interface_50:32, $string0, $int1, $int3, $colour2);
+$string0, $int3 = ~script2322(1, null, interface_50:32, $string0, $int1, $int3, $colour2);
 $string0, $int3 = ~script2322(2, 3, interface_50:33, $string0, $int1, $int3, $colour2);
 $string0, $int3 = ~script2322(4, 5, interface_50:34, $string0, $int1, $int3, $colour2);
 $string0, $int3 = ~script2322(6, 7, interface_50:35, $string0, $int1, $int3, $colour2);

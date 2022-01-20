@@ -4,7 +4,7 @@ if ($boolean0 = true) {
 	if (cc_find($component1, $comsubid2) = ^true) {
 		cc_settrans(175);
 	}
-	~tooltip_mouserepeat($component1, -1, interface_422:66, $string0, 25, calc(512 / 2));
+	~tooltip_mouserepeat($component1, null, interface_422:66, $string0, 25, calc(512 / 2));
 } else {
 	if (cc_find($component1, $comsubid2) = ^true) {
 		cc_settrans(0);

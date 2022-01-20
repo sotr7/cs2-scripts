@@ -8,14 +8,14 @@ def_int $size10 = inv_size(inv);
 def_int $size11 = inv_size(worn);
 def_int $int12 = 0;
 def_int $int13 = 0;
-def_int $int14 = -1;
+def_int $int14 = null;
 if ($component0 = $component6) {
 	if ($comsubid1 >= 0 & $comsubid1 < $size10) {
 		$int14 = $comsubid1;
 	}
 	$int12 = 1;
 }
-def_int $int15 = -1;
+def_int $int15 = null;
 if ($drop2 = $component6) {
 	if ($dropsubid3 >= 0 & $dropsubid3 < $size10) {
 		$int15 = $dropsubid3;
@@ -23,18 +23,18 @@ if ($drop2 = $component6) {
 	$int13 = 1;
 }
 def_int $int16 = $size11;
-if ($int14 = -1 | $int15 = -1) {
+if ($int14 = null | $int15 = null) {
 	while ($int16 > 0) {
 		$int16 = calc($int16 - 1);
-		if ($int14 = -1 & enum(int, component, enum_2632, $int16) = $component0) {
+		if ($int14 = null & enum(int, component, enum_2632, $int16) = $component0) {
 			$int14, $int12 = $int16, 0;
 		}
-		if ($int15 = -1 & enum(int, component, enum_2632, $int16) = $drop2) {
+		if ($int15 = null & enum(int, component, enum_2632, $int16) = $drop2) {
 			$int15, $int13 = $int16, 0;
 		}
 	}
 }
-if ($int14 = -1) {
+if ($int14 = null) {
 	return;
 }
 if ($drop2 = $drop7) {
@@ -47,7 +47,7 @@ if ($drop2 = $drop7) {
 	~br_loadout_drawloadout($component5, $component6, $drop7, $component8);
 	return;
 }
-if ($int15 = -1) {
+if ($int15 = null) {
 	return;
 }
 def_int $int17 = 0;

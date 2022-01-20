@@ -2,7 +2,7 @@
 [clientscript,script5550](component $component0, int $int1, component $component2, string $string0, int $width3, component $component4)
 if (%varcint948 = $int1) {
 	~deltooltip_action($component2);
-	%varcint948 = -1;
+	%varcint948 = null;
 	if_setontimer(null, $component0);
 } else {
 	if (%varcint949 = 1) {

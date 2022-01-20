@@ -1,7 +1,7 @@
 // 2382
 [proc,script2382](component $component0, component $component1)
 switch_int (%var75) {
-	case -1 :
+	case null :
 		if_setmodelanim(seq_8173, $component0);
 	case -2 :
 		if_setmodelanim(seq_8174, $component0);

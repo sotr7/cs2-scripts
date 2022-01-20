@@ -17,7 +17,7 @@ def_int $int6 = 0;
 def_int $height7 = 0;
 def_int $index8 = string_indexof_string($string1, "|", 0);
 def_string $string2 = "";
-while ($index8 ! -1) {
+while ($index8 ! null) {
 	$string2 = substring($string1, 0, $index8);
 	$int6, $height7 = ~menu_createentry($string2, $component2, $component4, $width5, $int6, $height7, $boolean0);
 	$string1 = substring($string1, calc($index8 + 1), string_length($string1));

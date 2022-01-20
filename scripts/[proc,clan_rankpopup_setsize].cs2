@@ -5,7 +5,7 @@ if_setsize($int0, $int4, ^setsize_abs, ^setsize_abs, interface_289:3);
 def_int $int5 = calc($int4 - 54);
 if ($int1 > $int5) {
 	if_setscrollsize(0, $int1, interface_289:6);
-	if ($int2 ! -1) {
+	if ($int2 ! null) {
 		$int2 = ~max(0, calc($int2 - $int5 / 2));
 	} else {
 		$int2 = if_getscrolly(interface_289:6);
@@ -16,4 +16,4 @@ if ($int1 > $int5) {
 	if_setscrollsize(0, 0, interface_289:6);
 	~scrollbar_resize(interface_289:9, interface_289:6, 0);
 }
-if_setontimer("clan_rankpopup_checksize($int0, $int1, -1, $height3)", interface_289:1);
+if_setontimer("clan_rankpopup_checksize($int0, $int1, null, $height3)", interface_289:1);

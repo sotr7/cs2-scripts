@@ -12,7 +12,7 @@ if ($int1 ! 0 & cc_find($component2, 0) = ^true) {
 	} else {
 		cc_settext(substring($string0, 0, 1));
 	}
-	if_setonmouserepeat("tooltip_mouserepeat($component2, -1, $component4, $string0, 25, 512)", $component2);
+	if_setonmouserepeat("tooltip_mouserepeat($component2, null, $component4, $string0, 25, 512)", $component2);
 	if_setonmouseleave("deltooltip($component4)", $component2);
 	if ($int1 = 31) {
 		if (.cc_find($component3, 0) = ^true) {

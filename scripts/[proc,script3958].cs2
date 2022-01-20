@@ -16,8 +16,8 @@ def_struct $struct4 = null;
 def_int $count5 = 0;
 def_int $count6 = enum_getoutputcount($enum2);
 def_int $int7 = 0;
-def_int $int8 = -1;
-def_int $int9 = -1;
+def_int $int8 = null;
+def_int $int9 = null;
 def_int $int10 = 0;
 def_int $int11 = 0;
 while ($count5 < $count6) {

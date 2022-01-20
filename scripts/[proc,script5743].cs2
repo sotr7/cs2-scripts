@@ -23,7 +23,7 @@ while ($count5 < $count6) {
 		$int8 = struct_param($struct10, param_1468);
 		if ($int7 >= $int8) {
 			$struct11 = struct_param($struct10, param_1432);
-			if ($struct11 ! null & ~buff_bar_buff_create($component0, $int2, $component1, $struct11, -1) = 1) {
+			if ($struct11 ! null & ~buff_bar_buff_create($component0, $int2, $component1, $struct11, null) = 1) {
 				$int2 = calc($int2 + 1);
 			}
 		}

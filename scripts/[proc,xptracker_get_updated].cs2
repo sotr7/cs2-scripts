@@ -50,5 +50,5 @@ switch_stat ($stat0) {
 	case farming :
 		return(%varcint665);
 	case default :
-		return(-1);
+		return(null);
 }

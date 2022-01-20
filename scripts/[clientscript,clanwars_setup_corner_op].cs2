@@ -5,4 +5,4 @@ if ($opindex0 ! 1 | %varbit4285 = 1) {
 }
 sound_synth(interface_select1, 1, 0);
 %varbit4285 = 1;
-~clanwars_setup_corner_update($component1, $comsubid2, $component3, -1);
+~clanwars_setup_corner_update($component1, $comsubid2, $component3, null);

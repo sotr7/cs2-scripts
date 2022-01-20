@@ -55,7 +55,7 @@ $string2, $string0 = ~script632($string0);
 ~poll_addlink($string1, $string2, poll_results:11, $int36, 3, p11_full, p11_full, 10, 2);
 def_string $string3 = $string0;
 def_int $intarray0(calc(41 + 1));
-if ($int3 = -1) {
+if ($int3 = null) {
 	$intarray0(41) = 1;
 }
 $intarray0(0) = ~max(0, $int3);
@@ -92,7 +92,7 @@ $intarray0(30) = ~max(0, $int33);
 $intarray0(31) = ~max(0, $int34);
 $intarray0(38) = 0;
 $intarray0(39) = 100;
-$intarray0(40) = -1;
+$intarray0(40) = null;
 def_int $int40 = 0;
 def_int $int41 = 0;
 while ($int41 < $length1) {
@@ -101,7 +101,7 @@ while ($int41 < $length1) {
 	if ($intarray0(38) > $intarray0(39)) {
 		$intarray0(39) = $intarray0(38);
 	}
-	if ($int0 = -1) {
+	if ($int0 = null) {
 		if (compare(lowercase($string1), "skip question") = 0) {
 			$intarray0(40) = $int41;
 		} else {
@@ -110,7 +110,7 @@ while ($int41 < $length1) {
 	}
 	$int41 = calc($int41 + 1);
 }
-if ($int0 ! -1) {
+if ($int0 ! null) {
 	$int40 = $int0;
 }
 if ($int40 <= 0) {
@@ -119,26 +119,26 @@ if ($int40 <= 0) {
 def_int $intarray1($length1);
 def_int $int42 = 1000;
 $intarray0(32) = ^max_32bit_int;
-$intarray0(33) = -1;
-$intarray0(34) = -1;
+$intarray0(33) = null;
+$intarray0(34) = null;
 $intarray0(35) = ^min_32bit_int;
-$intarray0(36) = -1;
-$intarray0(37) = -1;
+$intarray0(36) = null;
+$intarray0(37) = null;
 $int41 = 0;
 while ($int41 < $length1) {
 	if ($int41 ! $intarray0(40)) {
 		$intarray1($int41) = interpolate(0, $intarray0($int41), 0, $int40, 2000);
-		if (calc($intarray1($int41) % 2) = 1 & ($int0 ! -1 | $length1 ! 3 | $int41 ! 0 | $intarray1($int41) ! calc(75 * 20 - 1))) {
+		if (calc($intarray1($int41) % 2) = 1 & ($int0 ! null | $length1 ! 3 | $int41 ! 0 | $intarray1($int41) ! calc(75 * 20 - 1))) {
 			$intarray1($int41) = calc($intarray1($int41) + 1);
 		}
 		$intarray1($int41) = calc($intarray1($int41) / 2);
 		if ($intarray0($int41) > 0) {
-			if ($int0 = -1) {
+			if ($int0 = null) {
 				$int42 = calc($int42 - $intarray1($int41));
 				if ($intarray0($int41) < $intarray0(32)) {
 					$intarray0(32) = $intarray0($int41);
 					$intarray0(33) = $int41;
-					$intarray0(34) = -1;
+					$intarray0(34) = null;
 				} else if ($intarray0($int41) = $intarray0(32)) {
 					$intarray0(34) = $int41;
 				}
@@ -146,7 +146,7 @@ while ($int41 < $length1) {
 			if ($intarray0($int41) > $intarray0(35)) {
 				$intarray0(35) = $intarray0($int41);
 				$intarray0(36) = $int41;
-				$intarray0(37) = -1;
+				$intarray0(37) = null;
 			} else if ($intarray0($int41) = $intarray0(35)) {
 				$intarray0(37) = $int41;
 			}
@@ -154,11 +154,11 @@ while ($int41 < $length1) {
 	}
 	$int41 = calc($int41 + 1);
 }
-if ($int0 = -1 & $int42 > 0 & $intarray0(33) ! -1 & $intarray0(34) = -1) {
+if ($int0 = null & $int42 > 0 & $intarray0(33) ! null & $intarray0(34) = null) {
 	$intarray1($intarray0(33)) = calc($intarray1($intarray0(33)) + $int42);
 }
-if ($intarray0(37) ! -1) {
-	$intarray0(36) = -1;
+if ($intarray0(37) ! null) {
+	$intarray0(36) = null;
 }
 if ($intarray0(39) > 230) {
 	$intarray0(39) = 230;
@@ -172,7 +172,7 @@ while ($int41 < $length1) {
 	$string1, $string0 = ~script632($string0);
 	if ($int41 = 0) {
 		$string2 = $string1;
-	} else if ($int41 = 1 & ($length1 = 2 | $length1 = 3 & $intarray0(40) = 2) & $int0 = -1 & compare(lowercase($string2), "yes") = 0 & compare(lowercase($string1), "no") = 0 & $intarray1(0) >= calc(75 * 10) & cc_find(poll_results:11, $int37) = ^true) {
+	} else if ($int41 = 1 & ($length1 = 2 | $length1 = 3 & $intarray0(40) = 2) & $int0 = null & compare(lowercase($string2), "yes") = 0 & compare(lowercase($string1), "no") = 0 & $intarray1(0) >= calc(75 * 10) & cc_find(poll_results:11, $int37) = ^true) {
 		cc_setcolour(^green);
 	}
 	$int39 = calc(paraheight($string1, $intarray0(39), p11_full) * 10 + 2);

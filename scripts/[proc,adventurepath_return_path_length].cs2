@@ -1,6 +1,6 @@
 // 2967
 [proc,adventurepath_return_path_length](int $int0)(int)
-if ($int0 = -1) {
+if ($int0 = null) {
 	return(0);
 }
 def_enum $enum1 = enum(int, enum, enum_2620, $int0);

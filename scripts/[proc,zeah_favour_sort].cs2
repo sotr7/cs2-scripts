@@ -6,7 +6,7 @@ $intarray0($index3) = $intarray0($int2);
 $intarray0($int2) = $int4;
 def_int $int5 = $int1;
 def_int $int6 = $int1;
-def_int $int7 = -1;
+def_int $int7 = null;
 def_int $int8 = 0;
 def_int $int9 = 0;
 while ($int6 < $int2) {

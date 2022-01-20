@@ -17,7 +17,7 @@ while ($count2 <= enum_getoutputcount($enum1)) {
 				if ($struct5 ! null) {
 					return(struct_param($struct5, param_363), struct_param($struct5, param_914), struct_param($struct5, param_151), $struct6);
 				}
-				return("", "", -1, null);
+				return("", "", null, null);
 			}
 			$int3 = calc($int3 + 1);
 			$count4 = calc($count4 + 1);
@@ -26,4 +26,4 @@ while ($count2 <= enum_getoutputcount($enum1)) {
 	$count2 = calc($count2 + 1);
 	$count4 = 0;
 }
-return("", "", -1, null);
+return("", "", null, null);

@@ -9,7 +9,7 @@ if ($int1 = 1) {
 		%varbit4398 = calc(%varbit4398 + 1);
 	}
 	sound_synth(ge_up_amount, 1, 0);
-} else if ($int1 = -1) {
+} else if ($int1 = null) {
 	if (%varbit4398 > 1) {
 		%varbit4398 = calc(%varbit4398 - 1);
 	}

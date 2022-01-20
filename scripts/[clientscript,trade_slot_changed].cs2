@@ -1,6 +1,6 @@
 // 765
 [clientscript,trade_slot_changed](boolean $boolean0, int $int1)
-def_int $int2 = -1;
+def_int $int2 = null;
 if ($boolean0 = true) {
 	~script147($int1);
 	if (cc_find(trademain:28, calc(inv_size(inv_90) + $int1)) = ^true) {

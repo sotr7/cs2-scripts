@@ -1,6 +1,6 @@
 // 912
 [proc,toplevel_sidebuttons_enable](enum $enum0)
-def_int $int1 = -1;
+def_int $int1 = null;
 def_component $component2 = null;
 def_int $int3 = 0;
 def_component $component4 = enum(int, component, enum_1138, $int3);

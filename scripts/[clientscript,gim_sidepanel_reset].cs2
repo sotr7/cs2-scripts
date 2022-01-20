@@ -9,7 +9,7 @@ if (clientclock >= $clock0 & cc_find($component1, $comsubid2) = ^true) {
 	cc_setonmouseleave("clan_members_hover(false, event_com, event_comsubid, 255)");
 	cc_setonop("gim_sidepanel_op(event_opindex, event_com, event_comsubid, $string0, $world3)");
 	if ($boolean4 = true) {
-		if ($world3 ! -1) {
+		if ($world3 ! null) {
 			resume_countdialog(tostring($world3));
 		} else {
 			resume_countdialog("0");

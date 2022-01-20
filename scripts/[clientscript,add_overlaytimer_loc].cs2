@@ -4,7 +4,7 @@ if (~on_enhanced_any = 0) {
 	return;
 }
 def_newvar $newvar7 = null;
-def_int $int8 = -1;
+def_int $int8 = null;
 if (loc_find($coord0, $loc1) = true) {
 	~add_overlaytimer_loc($int3, $int4, $colour5, $int6);
 } else {

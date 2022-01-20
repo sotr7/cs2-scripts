@@ -25,7 +25,7 @@ cc_setsize(36, 32, ^setsize_abs, ^setsize_abs);
 cc_setop(1, "Check");
 cc_setopbase("<col=ff9040><oc_name($namedobj4)></col>");
 cc_settrans(175);
-if ($int5 ! -1) {
+if ($int5 ! null) {
 	cc_setonop("collection_item_click($namedobj4, $int5)");
 	cc_setobject($namedobj4, $int5);
 	if ($int5 > 0) {

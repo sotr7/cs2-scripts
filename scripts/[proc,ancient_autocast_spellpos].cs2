@@ -34,5 +34,5 @@ switch_int ($int0) {
 	case 46 :
 		return(60, 60);
 	case default :
-		return(-1, -1);
+		return(null, null);
 }

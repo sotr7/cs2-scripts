@@ -58,10 +58,10 @@ if (%varbit357 = 18 | %varbit357 = 21) {
 	if_setsize($int1, $int3, ^setsize_abs, ^setsize_abs, interface_593:9);
 	if_setsize($int1, $int3, ^setsize_abs, ^setsize_abs, interface_593:13);
 	if_setsize($int1, $int3, ^setsize_abs, ^setsize_abs, interface_593:17);
-	if_setposition(0, -1, ^setpos_abs_centre, ^setpos_abs_centre, interface_593:6);
-	if_setposition(0, -1, ^setpos_abs_centre, ^setpos_abs_centre, interface_593:10);
-	if_setposition(0, -1, ^setpos_abs_centre, ^setpos_abs_centre, interface_593:14);
-	if_setposition(0, -1, ^setpos_abs_centre, ^setpos_abs_centre, interface_593:18);
+	if_setposition(0, null, ^setpos_abs_centre, ^setpos_abs_centre, interface_593:6);
+	if_setposition(0, null, ^setpos_abs_centre, ^setpos_abs_centre, interface_593:10);
+	if_setposition(0, null, ^setpos_abs_centre, ^setpos_abs_centre, interface_593:14);
+	if_setposition(0, null, ^setpos_abs_centre, ^setpos_abs_centre, interface_593:18);
 	if_setsize(33, 23, ^setsize_abs, ^setsize_abs, interface_593:6);
 	if_setposition(0, 10, ^setpos_abs_centre, ^setpos_abs_centre, interface_593:7);
 	if_setposition(0, 10, ^setpos_abs_centre, ^setpos_abs_centre, interface_593:11);
@@ -269,7 +269,7 @@ if ($graphic14 ! null) {
 	if_setonop("combat_interface_opbutton($graphic14, $graphic15, $graphic16, $graphic17, event_opindex, 0)", interface_593:4);
 	if_setonmouseleave("deltooltip(interface_593:42)", interface_593:4);
 	if (string_length($string4) > 0) {
-		if_setonmouserepeat("tooltip_mouserepeat(event_com, -1, interface_593:42, $string4, 25, 140)", interface_593:4);
+		if_setonmouserepeat("tooltip_mouserepeat(event_com, null, interface_593:42, $string4, 25, 140)", interface_593:4);
 	}
 } else {
 	if_sethide(true, interface_593:4);
@@ -284,7 +284,7 @@ if ($graphic15 ! null) {
 	if_setonop("combat_interface_opbutton($graphic14, $graphic15, $graphic16, $graphic17, event_opindex, 1)", interface_593:8);
 	if_setonmouseleave("deltooltip(interface_593:42)", interface_593:8);
 	if (string_length($string5) > 0) {
-		if_setonmouserepeat("tooltip_mouserepeat(event_com, -1, interface_593:42, $string5, 25, 140)", interface_593:8);
+		if_setonmouserepeat("tooltip_mouserepeat(event_com, null, interface_593:42, $string5, 25, 140)", interface_593:8);
 	}
 } else {
 	if_sethide(true, interface_593:8);
@@ -299,7 +299,7 @@ if ($graphic16 ! null) {
 	if_setonop("combat_interface_opbutton($graphic14, $graphic15, $graphic16, $graphic17, event_opindex, 2)", interface_593:12);
 	if_setonmouseleave("deltooltip(interface_593:42)", interface_593:12);
 	if (string_length($string6) > 0) {
-		if_setonmouserepeat("tooltip_mouserepeat(event_com, -1, interface_593:42, $string6, 25, 140)", interface_593:12);
+		if_setonmouserepeat("tooltip_mouserepeat(event_com, null, interface_593:42, $string6, 25, 140)", interface_593:12);
 	}
 } else {
 	if_sethide(true, interface_593:12);
@@ -314,7 +314,7 @@ if ($graphic17 ! null) {
 	if_setonop("combat_interface_opbutton($graphic14, $graphic15, $graphic16, $graphic17, event_opindex, 3)", interface_593:16);
 	if_setonmouseleave("deltooltip(interface_593:42)", interface_593:16);
 	if (string_length($string7) > 0) {
-		if_setonmouserepeat("tooltip_mouserepeat(event_com, -1, interface_593:42, $string7, 25, 140)", interface_593:16);
+		if_setonmouserepeat("tooltip_mouserepeat(event_com, null, interface_593:42, $string7, 25, 140)", interface_593:16);
 	}
 } else {
 	if_sethide(true, interface_593:16);

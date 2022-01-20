@@ -23,7 +23,7 @@ cc_deleteall($component3);
 cc_deleteall($component4);
 cc_deleteall($component5);
 ~script1586;
-while ($int8 <= $int0 & $index9 ! -1 & $index10 ! -1 & $index11 ! -1) {
+while ($int8 <= $int0 & $index9 ! null & $index10 ! null & $index11 ! null) {
 	$text4 = substring($string0, 0, $index9);
 	$text5 = substring($string1, 0, $index10);
 	$text6 = substring($string2, 0, $index11);

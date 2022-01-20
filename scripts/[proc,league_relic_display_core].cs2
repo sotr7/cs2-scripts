@@ -24,7 +24,7 @@ def_struct $struct8 = struct_param($struct7, param_1274);
 if ($struct8 = null) {
 	return($int2);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, $struct8, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, $struct8, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
 $struct5 = enum(int, struct, $enum4, 1);
@@ -43,7 +43,7 @@ $struct8 = struct_param($struct7, param_1274);
 if ($struct8 = null) {
 	return($int2);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, $struct8, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, $struct8, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
 $struct5 = enum(int, struct, $enum4, 2);
@@ -62,7 +62,7 @@ $struct8 = struct_param($struct7, param_1274);
 if ($struct8 = null) {
 	return($int2);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, $struct8, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, $struct8, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
 $struct5 = enum(int, struct, $enum4, 3);
@@ -81,7 +81,7 @@ $struct8 = struct_param($struct7, param_1274);
 if ($struct8 = null) {
 	return($int2);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, $struct8, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, $struct8, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
 $struct5 = enum(int, struct, $enum4, 4);
@@ -100,7 +100,7 @@ $struct8 = struct_param($struct7, param_1274);
 if ($struct8 = null) {
 	return($int2);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, $struct8, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, $struct8, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
 $struct5 = enum(int, struct, $enum4, 5);
@@ -119,7 +119,7 @@ $struct8 = struct_param($struct7, param_1274);
 if ($struct8 = null) {
 	return($int2);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, $struct8, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, $struct8, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
 return($int2);

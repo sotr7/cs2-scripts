@@ -152,4 +152,4 @@ switch_int ($int0) {
 				return(91, golden_statuette_9034, "Pyramid Plunder - Room 8");
 		}
 }
-return(-1, null, "");
+return(null, null, "");

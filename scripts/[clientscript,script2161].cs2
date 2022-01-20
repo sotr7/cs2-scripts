@@ -3,7 +3,7 @@
 if ($keychar0 = null | ~keypress_permit(interface_608, null) = 0) {
 	return;
 }
-if (string_indexof_char($string0, $keychar0) ! -1) {
+if (string_indexof_char($string0, $keychar0) ! null) {
 	~v2_stone_button_in($component1);
 	if_setonkey(null, $component1);
 	if_setontimer("script2162($component1, $string0, calc(clientclock + 40))", $component1);

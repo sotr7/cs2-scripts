@@ -18,7 +18,7 @@ def_int $count15 = 0;
 while ($count15 < $count13) {
 	$enum11 = enum(int, enum, enum_3825, $count15);
 	if ($enum11 ! null) {
-		$struct12 = enum(int, struct, $enum11, -1);
+		$struct12 = enum(int, struct, $enum11, null);
 		if ($struct12 ! null) {
 			$string0 = struct_param($struct12, param_1251);
 			$int10 = ~max($int10, calc(parawidth($string0, 512, p12_full) + 22 + 6));
@@ -62,7 +62,7 @@ $count15, $int14 = 0, 1;
 while ($count15 < $count13) {
 	$enum11 = enum(int, enum, enum_3825, $count15);
 	if ($enum11 ! null) {
-		$struct12 = enum(int, struct, $enum11, -1);
+		$struct12 = enum(int, struct, $enum11, null);
 		if ($struct12 ! null) {
 			$int20, $int18 = ~clan_permissions_categorytitle($int20, $int23, struct_param($struct12, param_1251), $component7, $component4, $int18, $component8, $count15, $int19);
 			$int23 = calc($int23 + 25 + 6);

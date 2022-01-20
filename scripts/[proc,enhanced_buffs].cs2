@@ -4,27 +4,27 @@ if (~on_enhanced_any = 0) {
 	return($int2);
 }
 def_int $int3 = 0;
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3077, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3077, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3078, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3078, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3741, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3741, null) = 1) {
 	$int2 = calc($int2 + 1);
-} else if (~buff_bar_buff_create($component0, $int2, $component1, struct_3740, -1) = 1) {
-	$int2 = calc($int2 + 1);
-}
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3763, -1) = 1) {
+} else if (~buff_bar_buff_create($component0, $int2, $component1, struct_3740, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3092, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3763, null) = 1) {
+	$int2 = calc($int2 + 1);
+}
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3092, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
 if (~buff_bar_buff_create($component0, $int2, $component1, struct_3081, %varbit12398) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3084, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3084, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
 if (~buff_bar_buff_create($component0, $int2, $component1, struct_3119, %varbit12136) = 1) {
@@ -33,79 +33,79 @@ if (~buff_bar_buff_create($component0, $int2, $component1, struct_3119, %varbit1
 if (~buff_bar_buff_create($component0, $int2, $component1, struct_3121, %varbit12291) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3120, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3120, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3123, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3123, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3125, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3125, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
 if (~buff_bar_buff_create($component0, $int2, $component1, struct_3127, %varbit12412) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3083, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3083, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3082, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3082, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3079, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3079, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3765, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3765, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3766, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3766, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3767, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3767, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3661, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3661, null) = 1) {
 	$int2 = calc($int2 + 1);
-} else if (~buff_bar_buff_create($component0, $int2, $component1, struct_3660, -1) = 1) {
+} else if (~buff_bar_buff_create($component0, $int2, $component1, struct_3660, null) = 1) {
 	$int2 = calc($int2 + 1);
-} else if (~buff_bar_buff_create($component0, $int2, $component1, struct_3659, -1) = 1) {
-	$int2 = calc($int2 + 1);
-}
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3091, -1) = 1) {
+} else if (~buff_bar_buff_create($component0, $int2, $component1, struct_3659, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3086, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3091, null) = 1) {
+	$int2 = calc($int2 + 1);
+}
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3086, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
 if (~buff_bar_buff_create($component0, $int2, $component1, struct_3087, %varbit12397) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3088, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3088, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
 if (~buff_bar_buff_create($component0, $int2, $component1, struct_3089, %varbit5420) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3097, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3097, null) = 1) {
 	$int2 = calc($int2 + 1);
 } else {
-	if (~buff_bar_buff_create($component0, $int2, $component1, struct_3094, -1) = 1) {
+	if (~buff_bar_buff_create($component0, $int2, $component1, struct_3094, null) = 1) {
 		$int2 = calc($int2 + 1);
 	}
-	if (~buff_bar_buff_create($component0, $int2, $component1, struct_3101, -1) = 1) {
+	if (~buff_bar_buff_create($component0, $int2, $component1, struct_3101, null) = 1) {
 		$int2 = calc($int2 + 1);
 	}
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3096, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3096, null) = 1) {
 	$int2 = calc($int2 + 1);
-} else if (~buff_bar_buff_create($component0, $int2, $component1, struct_3099, -1) = 1) {
-	$int2 = calc($int2 + 1);
-}
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3095, -1) = 1) {
-	$int2 = calc($int2 + 1);
-} else if (~buff_bar_buff_create($component0, $int2, $component1, struct_3100, -1) = 1) {
+} else if (~buff_bar_buff_create($component0, $int2, $component1, struct_3099, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3098, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3095, null) = 1) {
+	$int2 = calc($int2 + 1);
+} else if (~buff_bar_buff_create($component0, $int2, $component1, struct_3100, null) = 1) {
+	$int2 = calc($int2 + 1);
+}
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3098, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
 if (~buff_bar_buff_create($component0, $int2, $component1, struct_3102, %varbit12399) = 1) {
@@ -114,36 +114,36 @@ if (~buff_bar_buff_create($component0, $int2, $component1, struct_3102, %varbit1
 if (~buff_bar_buff_create($component0, $int2, $component1, struct_3103, %varbit12400) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3104, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3104, null) = 1) {
 	$int2 = calc($int2 + 1);
-} else if (~buff_bar_buff_create($component0, $int2, $component1, struct_3105, -1) = 1) {
+} else if (~buff_bar_buff_create($component0, $int2, $component1, struct_3105, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3085, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3085, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
 if (~buff_bar_buff_create($component0, $int2, $component1, struct_3118, %varbit12136) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3122, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3122, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3124, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3124, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3126, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3126, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
 if (~buff_bar_buff_create($component0, $int2, $component1, struct_3128, %varbit12412) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3080, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3080, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3093, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3093, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
-if (~buff_bar_buff_create($component0, $int2, $component1, struct_3090, -1) = 1) {
+if (~buff_bar_buff_create($component0, $int2, $component1, struct_3090, null) = 1) {
 	$int2 = calc($int2 + 1);
 }
 return($int2);

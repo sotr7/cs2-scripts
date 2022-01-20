@@ -3,7 +3,7 @@
 def_int $bool1 = testbit(%var2715, $index0);
 def_int $bool2 = testbit(%var2716, $index0);
 if ($bool1 = ^true & $bool2 = ^true) {
-	return(-1);
+	return(null);
 }
 if ($bool1 = ^false & $bool2 = ^false) {
 	return(0);
@@ -14,4 +14,4 @@ if ($bool1 = ^true) {
 if ($bool2 = ^true) {
 	return(1);
 }
-return(-1);
+return(null);

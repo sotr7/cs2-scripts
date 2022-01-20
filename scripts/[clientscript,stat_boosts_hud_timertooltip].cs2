@@ -14,4 +14,4 @@ if (%varcint551 = 1) {
 	$string3 = "<$string3>|<$string1><~time_convert($int3, 0)></col>";
 }
 %varcint2 = 0;
-~script5338($component0, -1, $component1, $string2, $string3, p12_full, 0);
+~script5338($component0, null, $component1, $string2, $string3, p12_full, 0);

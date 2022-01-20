@@ -1,9 +1,9 @@
 // 5802
 [proc,script5802](component $component0, component $component1, component $component2, component $component3, int $int4, int $int5)
-def_int $int6 = -1;
+def_int $int6 = null;
 def_int $int7 = ~script5786;
 def_string $string0 = enum(int, string, enum_4146, calc($int7 + 1));
-if ($int5 ! -1 & $int4 ! -1) {
+if ($int5 ! null & $int4 ! null) {
 	$int6 = calc($int5 - $int4);
 }
 if ($int6 <= 0 & if_find($component0) = true) {

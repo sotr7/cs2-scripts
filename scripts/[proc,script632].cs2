@@ -5,7 +5,7 @@ if ($length0 <= 0) {
 	return("", "");
 }
 def_int $index1 = string_indexof_string($string0, "|", 0);
-if ($index1 = -1) {
+if ($index1 = null) {
 	return($string0, "");
 }
 if ($index1 = 0) {

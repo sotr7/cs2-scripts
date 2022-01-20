@@ -22,19 +22,19 @@ def_int $int21 = calc($width18 - ($int19 * 36 + ($int19 - 1) * $int20));
 def_int $int22 = calc(($int21 + 1) / 2);
 def_obj $obj23 = null;
 def_int $int24 = 0;
-def_int $int25 = -1;
+def_int $int25 = null;
 def_int $int26 = 0;
-def_int $int27 = -1;
+def_int $int27 = null;
 def_int $int28 = calc(%varbit10472 - 1);
-if ($int28 = -1) {
+if ($int28 = null) {
 	$int28 = ^max_32bit_int;
 }
 def_int $int29 = calc(%varbit10473 - 1);
-if ($int29 = -1) {
+if ($int29 = null) {
 	$int29 = ^max_32bit_int;
 }
 def_int $int30 = calc(%varbit10474 - 1);
-if ($int30 = -1) {
+if ($int30 = null) {
 	$int30 = ^max_32bit_int;
 }
 def_int $int31 = 0;

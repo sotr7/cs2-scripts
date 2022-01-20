@@ -192,8 +192,8 @@ while ($int18 < $int16) {
 		cc_settrans(255);
 		cc_setonclick("script2612($obj17, $component1, $component2, $int12)");
 	} else {
-		if_setonmouserepeat("magic_spellbook_settooltip(true, $obj17, event_com, -1, $component2, $int12)", $component27);
-		if_setonmouseleave("magic_spellbook_settooltip(false, $obj17, event_com, -1, $component2, $int12)", $component27);
+		if_setonmouserepeat("magic_spellbook_settooltip(true, $obj17, event_com, null, $component2, $int12)", $component27);
+		if_setonmouseleave("magic_spellbook_settooltip(false, $obj17, event_com, null, $component2, $int12)", $component27);
 	}
 	$int18 = calc($int18 + 1);
 }

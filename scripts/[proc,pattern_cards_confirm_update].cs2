@@ -1,16 +1,16 @@
 // 345
 [proc,pattern_cards_confirm_update](component $component0)
-def_int $int1 = -1;
-def_int $int2 = -1;
-def_int $int3 = -1;
+def_int $int1 = null;
+def_int $int2 = null;
+def_int $int3 = null;
 def_int $int4 = 0;
 while ($int4 < 15) {
 	if (testbit(%varbit9756, $int4) = ^true) {
-		if ($int1 = -1) {
+		if ($int1 = null) {
 			$int1 = $int4;
-		} else if ($int2 = -1) {
+		} else if ($int2 = null) {
 			$int2 = $int4;
-		} else if ($int3 = -1) {
+		} else if ($int3 = null) {
 			$int3 = $int4;
 		} else {
 			~clan_stonebutton_draw(true, "<col=9f9f9f>Too many cards!</col>", "p11_full", $component0);
@@ -24,10 +24,10 @@ while ($int4 < 15) {
 	}
 	$int4 = calc($int4 + 1);
 }
-if ($int3 = -1) {
-	if ($int1 = -1) {
+if ($int3 = null) {
+	if ($int1 = null) {
 		~clan_stonebutton_draw(true, "<col=9f9f9f>Select 3 more</col>", "p11_full", $component0);
-	} else if ($int2 = -1) {
+	} else if ($int2 = null) {
 		~clan_stonebutton_draw(true, "<col=9f9f9f>Select 2 more</col>", "p11_full", $component0);
 	} else {
 		~clan_stonebutton_draw(true, "<col=9f9f9f>Select 1 more</col>", "p11_full", $component0);

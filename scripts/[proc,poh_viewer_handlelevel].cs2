@@ -14,7 +14,7 @@ if ($int7 = 3) {
 	if_setonop(null, $component5);
 	return;
 }
-def_int $int9 = -1;
+def_int $int9 = null;
 if ($int7 = $int2) {
 	if_sethide(false, $component5);
 	if_setop(1, "View", $component5);

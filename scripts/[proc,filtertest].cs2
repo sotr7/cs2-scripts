@@ -14,7 +14,7 @@ if (enum(int, boolean, enum_892, $chattype0) = true & $chattype0 ! ^chattype_pla
 }
 def_int $chatfilter4 = null;
 def_string $string4 = "";
-def_int $int5 = -1;
+def_int $int5 = null;
 def_int $int6 = ~script4487;
 switch_int ($chattype0) {
 	case ^chattype_publicchat, ^chattype_modchat :
@@ -31,7 +31,7 @@ switch_int ($chattype0) {
 		if ($chatfilter4 = ^chatfilter_off | $chatfilter4 = ^chatfilter_hide) {
 			return(0);
 		}
-		if (string_length(chat_getmessagefilter) > 0 & string_indexof_string(lowercase($string1), chat_getmessagefilter, 0) = -1) {
+		if (string_length(chat_getmessagefilter) > 0 & string_indexof_string(lowercase($string1), chat_getmessagefilter, 0) = null) {
 			return(0);
 		}
 		if ($chatfilter4 = ^chatfilter_friends) {
@@ -54,7 +54,7 @@ switch_int ($chattype0) {
 		if (chat_getfilter_public ! ^chatfilter_autochat) {
 			return(0);
 		}
-		if (string_length(chat_getmessagefilter) > 0 & string_indexof_string(lowercase($string1), chat_getmessagefilter, 0) = -1) {
+		if (string_length(chat_getmessagefilter) > 0 & string_indexof_string(lowercase($string1), chat_getmessagefilter, 0) = null) {
 			return(0);
 		}
 		return(1);

@@ -26,5 +26,5 @@ switch_int ($int0) {
 	case 11 :
 		return(%varbit7933, 12, %varbit7929, %varbit7934, 13, %varbit7930, %varbit7935, 10, %varbit7931, %varbit7936, 8, %varbit7932);
 	case default :
-		return(-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1);
+		return(null, null, null, null, null, null, null, null, null, null, null, null);
 }

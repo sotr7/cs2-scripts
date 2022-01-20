@@ -20,9 +20,9 @@ switch_int ($int0) {
 	case 16 :
 		return(%varbit6101);
 	case 28 :
-		return(calc((%var102 + 38) * -1));
+		return(calc((%var102 + 38) * null));
 	case 11 :
-		return(calc(%var102 * -1));
+		return(calc(%var102 * null));
 	case 43, 45, 44 :
 		return(%var102);
 	case 12 :

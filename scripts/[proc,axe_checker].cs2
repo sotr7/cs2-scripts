@@ -49,4 +49,4 @@ if ($lvl0 >= oc_param(iron_axe_1349, levelrequire) & ($obj1 = iron_axe_1349 | in
 if ($lvl0 >= oc_param(bronze_axe_1351, levelrequire) & ($obj1 = bronze_axe_1351 | inv_total(inv, bronze_axe_1351) > 0)) {
 	return(1351);
 }
-return(-1);
+return(null);

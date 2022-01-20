@@ -1,7 +1,7 @@
 // 3332
 [clientscript,script3332](component $component0, coord $coord1, mapelement $mapelement2, int $int3, int $int4, int $int5)
-def_int $int6 = -1;
-def_int $int7 = -1;
+def_int $int6 = null;
+def_int $int7 = null;
 $int6, $int7 = worldmap_getdisplayposition;
 switch_int ($int3) {
 	case 60 :

@@ -25,7 +25,7 @@ if (stockmarket_isofferempty($int1) = true) {
 		} else {
 			$string0 = "Selling: <oc_name($obj14)><br>1 / 1";
 		}
-		if_setonmouserepeat("tooltip_mouserepeat($component0, -1, $component2, $string0, 25, 512)", $component0);
+		if_setonmouserepeat("tooltip_mouserepeat($component0, null, $component2, $string0, 25, 512)", $component0);
 		if (cc_find($component0, $comsubid11) = ^true) {
 			cc_sethide(false);
 			cc_setobject($obj14, 1);
@@ -75,7 +75,7 @@ if (stockmarket_isofferempty($int1) = true) {
 			$string0 = "Buying: <oc_name($obj14)><br><~tostring_spacer($int16, $string1)> / <~tostring_spacer($int15, $string1)>";
 		}
 	}
-	if_setonmouserepeat("tooltip_mouserepeat($component0, -1, $component2, $string0, 25, 512)", $component0);
+	if_setonmouserepeat("tooltip_mouserepeat($component0, null, $component2, $string0, 25, 512)", $component0);
 	if (cc_find($component0, $comsubid11) = ^true) {
 		cc_sethide(false);
 		cc_setobject($obj14, $int15);

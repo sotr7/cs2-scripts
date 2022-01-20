@@ -1,7 +1,7 @@
 // 4343
 [proc,clan_storage_main_hint](component $component0)
 def_int $clanslot1 = null;
-def_int $int2 = -1;
+def_int $int2 = null;
 def_string $string0 = "";
 def_graphic $graphic3 = null;
 if (%varbit933 = 3 & activeclansettings_find_affined(^clantype_clan) = true) {

@@ -10,7 +10,7 @@ def_int $int8 = 0;
 while ($int8 < $int1) {
 	$int7 = activeclansettings_getsortedaffinedslot($int8);
 	if (.cc_find($component0, $int7) = ^true) {
-		if (.cc_gety ! -1) {
+		if (.cc_gety ! null) {
 			.cc_sethide(false);
 			cc_create($component0, ^iftype_text, $int3);
 			$int3 = calc($int3 + 1);
@@ -21,7 +21,7 @@ while ($int8 < $int1) {
 			cc_settextshadow(true);
 			if (activeclansettings_getaffinedrank($int7) >= 100) {
 				$int4 = ~script4256($int7);
-				if ($int4 ! -1) {
+				if ($int4 ! null) {
 					cc_settext(fromdate($int4));
 					cc_settextfont(p12_full);
 				} else {

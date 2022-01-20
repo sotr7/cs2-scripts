@@ -10,18 +10,18 @@ def_int $length2 = string_length(%varcstring335);
 def_int $int3 = 0;
 if (staffmodlevel > 0) {
 	$int3 = 1;
-	if (string_indexof_char("`", $keychar1) ! -1 & $length2 = 0) {
+	if (string_indexof_char("`", $keychar1) ! null & $length2 = 0) {
 		return;
-	} else if (string_indexof_char(":", $keychar1) ! -1 & string_indexof_string(%varcstring335, "::", 0) = 0 & $length2 = 2) {
+	} else if (string_indexof_char(":", $keychar1) ! null & string_indexof_string(%varcstring335, "::", 0) = 0 & $length2 = 2) {
 		return;
 	}
 }
 def_int $int4 = 0;
-def_int $int5 = -1;
+def_int $int5 = null;
 def_int $index6 = 0;
-def_int $int7 = -1;
+def_int $int7 = null;
 def_int $int8 = 0;
-def_int $int9 = -1;
+def_int $int9 = null;
 if ($key0 = ^key_return) {
 	~keyboard_hide;
 	if ($length2 > 0) {
@@ -157,7 +157,7 @@ if ($key0 = ^key_return) {
 			if ($int8 = 0 & activeclanchannel_find_affined(^clantype_clan) = true) {
 				if (%varbit931 = 0) {
 					$int7 = activeclanchannel_getuserslot(removetags(chat_playername));
-					if ($int7 ! -1 & activeclanchannel_getuserrank($int7) >= activeclanchannel_getranktalk) {
+					if ($int7 ! null & activeclanchannel_getuserrank($int7) >= activeclanchannel_getranktalk) {
 						~chat_send(substring(%varcstring335, $index6, $length2), 3, ^clantype_clan, 0, $int9);
 					} else {
 						mes("You do not have the required rank to talk in the clan's channel.");
@@ -185,7 +185,7 @@ if ($key0 = ^key_return) {
 					~chat_send(%varcstring335, 2, null, 0, $int9);
 				}
 			} else {
-				~chat_send(%varcstring335, 0, null, 0, -1);
+				~chat_send(%varcstring335, 0, null, 0, null);
 			}
 		} else if ($int5 = 2) {
 			~chat_send(substring(%varcstring335, $index6, $length2), 0, null, 0, $int9);
@@ -202,14 +202,14 @@ if ($key0 = ^key_return) {
 				} else if (string_indexof_string(%varcstring335, "::wiki ", 0) = 0 | compare(%varcstring335, "::wiki") = 0) {
 					~wiki_chat_search(%varcstring335);
 				} else if (string_indexof_string(%varcstring335, "::bank", 0) = 0) {
-					~chat_send("Hey, everyone, I just tried to do something very silly!", 0, null, 0, -1);
+					~chat_send("Hey, everyone, I just tried to do something very silly!", 0, null, 0, null);
 				} else {
 					%varcstring335 = ~inputstring_handlecheat(%varcstring335);
 					$length2 = string_length(%varcstring335);
 					docheat(substring(%varcstring335, 2, $length2));
 				}
 			} else {
-				~chat_send(%varcstring335, 0, null, 0, -1);
+				~chat_send(%varcstring335, 0, null, 0, null);
 			}
 		} else {
 			~chat_send(%varcstring335, 0, null, 1, $int9);

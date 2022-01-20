@@ -1,7 +1,7 @@
 // 3262
 [proc,magic_training_confirm](component $component0, int $int1)
 def_int $comsubid2 = 0;
-def_int $int3 = -1;
+def_int $int3 = null;
 $comsubid2 = ~v2_stone_button_filled($component0);
 cc_create($component0, ^iftype_text, $comsubid2);
 cc_setsize(5, 5, ^setsize_minus, ^setsize_minus);

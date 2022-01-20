@@ -2,8 +2,8 @@
 [clientscript,music_init_component](component $component0, int $comsubid1, int $count2, int $int3)
 def_int $int4 = 0;
 def_coord $coord5 = null;
-def_int $int6 = -1;
-def_int $index7 = -1;
+def_int $int6 = null;
+def_int $index7 = null;
 def_int $flags8 = 0;
 def_string $text0 = "";
 if (cc_find($component0, $comsubid1) = ^true) {

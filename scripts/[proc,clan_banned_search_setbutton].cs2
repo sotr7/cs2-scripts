@@ -1,6 +1,6 @@
 // 4281
 [proc,clan_banned_search_setbutton](component $component0, component $component1, int $int2, component $component3, component $component4, component $component5, component $component6, int $int7, int $int8, component $component9, int $int10)
-def_int $comsubid11 = -1;
+def_int $comsubid11 = null;
 if (~clan_members_searching = 1) {
 	$comsubid11 = ~clan_members_search_drawbutton(true, $component3);
 	if (~on_mobile = false) {

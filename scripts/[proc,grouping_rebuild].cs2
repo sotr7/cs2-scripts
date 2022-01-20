@@ -9,7 +9,7 @@ if (%varcint64 > 0 & %varcint64 <= 22) {
 	if_settext("Select an activity...", interface_76:8);
 }
 def_int $world0 = enum(int, int, enum_850, %varcint64);
-if ($world0 = -1) {
+if ($world0 = null) {
 	if_settext("---", interface_76:22);
 	if_setcolour(0xff981f, interface_76:22);
 } else {
@@ -70,7 +70,7 @@ cc_deleteall(interface_76:18);
 cc_deleteall(interface_76:12);
 $int1 = 0;
 def_string $string3 = "";
-def_int $rank6 = -1;
+def_int $rank6 = null;
 def_int $rank7 = 0;
 def_int $rank8 = 0;
 def_int $int9 = 0;

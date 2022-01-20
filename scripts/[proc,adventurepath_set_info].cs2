@@ -50,11 +50,11 @@ def_int $int27 = 0;
 $int23 = 0;
 def_int $width28 = if_getwidth($component4);
 def_struct $struct29 = struct_param($struct5, param_808);
-def_int $index30 = -1;
+def_int $index30 = null;
 if ($struct29 ! null) {
 	$index30 = struct_param($struct29, param_806);
 }
-if (($index30 = -1 | ~adventurepath_return_task_status($index30) = 1) & ~adventurepath_return_task_status($int0) = 0 & struct_param($struct5, param_927) ! null) {
+if (($index30 = null | ~adventurepath_return_task_status($index30) = 1) & ~adventurepath_return_task_status($int0) = 0 & struct_param($struct5, param_927) ! null) {
 	if_setop(1, "Show<col=ff9040> Hint", interface_642:22);
 	if_setop(2, "Remove<col=ff9040> Hint arrow", interface_642:22);
 	$int23 = ~v2_stone_button_filled(interface_642:22);

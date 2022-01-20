@@ -38,27 +38,27 @@ if (reboottimer > 0) {
 	$int9 = calc($int9 + 1);
 	$component10 = enum(int, component, enum_580, $int9);
 }
-def_int $mesuid12 = -1;
-def_int $int13 = -1;
+def_int $mesuid12 = null;
+def_int $int13 = null;
 def_string $string1 = "";
 def_int $int14 = 0;
 def_string $string2 = "";
 def_int $int15 = 0;
 def_string $string3 = "";
 def_string $string4 = "";
-def_int $int16 = -1;
+def_int $int16 = null;
 def_int $int17 = 0;
 def_string $string5 = "<col=00ffff>";
 def_string $string6 = "<col=ffff00>";
 $string5, $string6 = ~script4485($string5, $string6);
 if (%varcint55 >= %varcint202 & %varcint55 > calc(clientclock - 3000) & chat_gethistorylength(^chattype_broadcast) > 0) {
 	$mesuid12, $int13, $string1, $string3, $string0, $int14, $string2, $int15 = chat_gethistory_bytypeandline(^chattype_broadcast, 0);
-	if ($mesuid12 ! -1) {
+	if ($mesuid12 ! null) {
 		$string0, $string4, $int16 = ~chat_broadcast_parseurl($string0);
 		if ($int16 ! 4 | reboottimer <= 0) {
 			$int7 = calc($int7 + ~script199(~affixtimestamp($string2, "<$string6><$string0></col>", "null"), $int9, $component10, interface_163:0, $width8, $int1, 13, $int7, $setposv2, $int3, ^yellow, true));
 			if_clearops($component10);
-			if (string_length($string4) > 0 & $int16 ! -1) {
+			if (string_length($string4) > 0 & $int16 ! null) {
 				if_setop(6, "Open", $component10);
 				if_setop(7, "Check", $component10);
 				if_setonmouserepeat("chat_recol(if_getlayer($component10), $int9, ^white)", $component10);
@@ -79,7 +79,7 @@ $mesuid12 = $mesuid0;
 def_int $chattype18 = ^chattype_gamemessage;
 def_int $int19 = ~script4487;
 if (%var287 = 1 & (%varcint41 ! 1337 | %varbit4089 = 0)) {
-	while ($mesuid12 ! -1 & $component10 ! null & calc($int7 - $int4) < 57) {
+	while ($mesuid12 ! null & $component10 ! null & calc($int7 - $int4) < 57) {
 		$chattype18, $int13, $string1, $string3, $string0, $int14, $string2, $int15 = chat_gethistory_byuid($mesuid12);
 		if (~pm_filtertest($chattype18, $string1, $int13, $int14) = 1) {
 			switch_int ($chattype18) {

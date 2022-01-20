@@ -11,7 +11,7 @@ cc_deleteall($component6);
 def_struct $struct25 = null;
 def_int $width26 = if_getwidth($component4);
 def_enum $enum27 = null;
-def_int $int28 = -1;
+def_int $int28 = null;
 def_int $count29 = 0;
 def_int $int30 = 0;
 def_int $int31 = 0;

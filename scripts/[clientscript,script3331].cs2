@@ -4,8 +4,8 @@ if ($coord1 = null | worldmap_isloaded = false) {
 	return;
 }
 def_maparea $maparea3 = _6623($coord1);
-def_int $int4 = -1;
-def_int $int5 = -1;
+def_int $int4 = null;
+def_int $int5 = null;
 $int4, $int5 = worldmap_getdisplayposition;
 if (worldmap_coordinmap($maparea3, $coord1) = false) {
 	return;

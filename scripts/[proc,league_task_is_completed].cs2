@@ -9,7 +9,7 @@ if ($enum2 = null | enum(struct, boolean, $enum2, $struct0) = false) {
 	return(0);
 }
 def_int $int3 = struct_param($struct0, param_873);
-if ($int3 = -1 | $int3 < 0) {
+if ($int3 = null | $int3 < 0) {
 	return(0);
 }
 def_int $index4 = calc($int3 % 32);

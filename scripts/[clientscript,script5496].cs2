@@ -7,7 +7,7 @@ if ($opindex0 = 2) {
 	}
 } else if ($opindex0 = 1) {
 	sound_synth(interface_select1, 1, 0);
-	if ($index1 ! -1) {
+	if ($index1 ! null) {
 		if (testbit(%var286, $index1) = ^true) {
 			%var286 = clearbit(%var286, $index1);
 		} else {

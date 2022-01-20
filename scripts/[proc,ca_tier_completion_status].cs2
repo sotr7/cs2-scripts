@@ -14,5 +14,5 @@ switch_struct ($struct0) {
 	case struct_3593 :
 		return(%varbit12868);
 	case default :
-		return(-1);
+		return(null);
 }

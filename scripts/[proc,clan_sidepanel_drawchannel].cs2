@@ -1,7 +1,7 @@
 // 4399
 [proc,clan_sidepanel_drawchannel](boolean $boolean0, int $int1, component $component2, int $int3, component $component4)
 def_int $clanslot5 = activeclanchannel_getuserslot(removetags(chat_playername));
-def_int $int6 = -1;
+def_int $int6 = null;
 if ($clanslot5 ! null) {
 	$int6 = activeclanchannel_getuserrank($clanslot5);
 }
@@ -69,9 +69,9 @@ while ($int18 < $int1) {
 			.cc_setop(9, "Add friend");
 			cc_setop(10, "Add ignore");
 			.cc_setop(10, "Add ignore");
-			$int13 = -1;
+			$int13 = null;
 		}
-		if ($int15 <= -1) {
+		if ($int15 <= null) {
 			if ($int6 >= $int7) {
 				cc_setop(7, "Kick guest");
 				.cc_setop(7, "Kick guest");

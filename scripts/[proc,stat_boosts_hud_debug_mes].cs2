@@ -1,6 +1,6 @@
 // 4522
 [proc,stat_boosts_hud_debug_mes](string $string0)
-if (%varcint460 = 0 | %varcint460 = -1) {
+if (%varcint460 = 0 | %varcint460 = null) {
 	return;
 }
 ~debug_mes("[<tostring(clientclock)>][STAT BOOSTS HUD CLIENT]: <$string0>");

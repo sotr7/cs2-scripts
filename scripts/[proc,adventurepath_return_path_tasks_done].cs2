@@ -1,6 +1,6 @@
 // 2968
 [proc,adventurepath_return_path_tasks_done](int $int0)(int)
-if ($int0 = -1) {
+if ($int0 = null) {
 	return(0);
 }
 switch_int ($int0) {

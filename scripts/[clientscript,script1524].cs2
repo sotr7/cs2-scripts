@@ -16,7 +16,7 @@ if ($height3 > if_getheight(interface_507:11)) {
 if (%varcint181 ! 0 & %varcint181 ! 1 & %varcint181 ! 2 & %varcint181 ! 3 & %varcint181 ! 4 & %varcint181 ! 5 & %varcint181 ! 6 & %varcint181 ! 7) {
 	%varcint181 = 0;
 }
-~raids_partydetails_setsort(-1);
+~raids_partydetails_setsort(null);
 ~raids_partydetails_closestats;
 ~script1537;
 if_setonvartransmit("script1536{var1430}", interface_507:11);
@@ -30,20 +30,20 @@ if ($int0 = 2) {
 	} else {
 		$string1 = "<col=7f7f7f>Advertise (0)</col>";
 	}
-	~script1558(interface_507:31, $string1, interface_507:3, enum_1539, -1);
+	~script1558(interface_507:31, $string1, interface_507:3, enum_1539, null);
 	if_sethide(false, interface_507:31);
-	~script1558(interface_507:32, "<col=ff0000>Disband</col>", interface_507:3, enum_1539, -1);
+	~script1558(interface_507:32, "<col=ff0000>Disband</col>", interface_507:3, enum_1539, null);
 	if_sethide(false, interface_507:32);
 } else if ($int0 = 1) {
-	~script1558(interface_507:33, "<col=ff0000>Leave</col>", interface_507:3, enum_1539, -1);
+	~script1558(interface_507:33, "<col=ff0000>Leave</col>", interface_507:3, enum_1539, null);
 	if_sethide(false, interface_507:33);
 } else {
-	~script1558(interface_507:33, "<col=00ff00>Join</col>", interface_507:3, enum_1539, -1);
+	~script1558(interface_507:33, "<col=00ff00>Join</col>", interface_507:3, enum_1539, null);
 	if_sethide(false, interface_507:33);
 }
-~script1558(interface_507:34, "Back", interface_507:3, enum_1539, -1);
+~script1558(interface_507:34, "Back", interface_507:3, enum_1539, null);
 if_sethide(false, interface_507:34);
-~script1558(interface_507:35, "Refresh", interface_507:3, enum_1539, -1);
+~script1558(interface_507:35, "Refresh", interface_507:3, enum_1539, null);
 if_sethide(false, interface_507:35);
 ~script1530(interface_507:13, "Preferred party size", $int0);
 ~script1530(interface_507:17, "Preferred combat level", $int0);

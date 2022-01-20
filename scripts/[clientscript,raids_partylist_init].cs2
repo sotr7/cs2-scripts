@@ -25,6 +25,6 @@ cc_sethide(true);
 if_sethide(true, interface_499:58);
 cc_create(interface_499:3, ^iftype_rectangle, enum(component, int, enum_1538, interface_499:58));
 cc_sethide(true);
-~script1558(interface_499:56, "Refresh", interface_499:3, enum_1538, -1);
+~script1558(interface_499:56, "Refresh", interface_499:3, enum_1538, null);
 ~raids_partylist_setpartybutton;
 if_setonvartransmit("raids_partylist_setpartybutton{var1427}", interface_499:58);

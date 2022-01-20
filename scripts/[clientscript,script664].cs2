@@ -1,7 +1,7 @@
 // 664
 [clientscript,script664](boolean $boolean0)
 def_int $clock1 = clientclock;
-def_int $mesuid2 = -1;
+def_int $mesuid2 = null;
 if ($boolean0 = true | $clock1 = %varcint65 | calc($clock1 % 25) = 0) {
 	$mesuid2 = ~script553;
 	if ($clock1 = %varcint65) {

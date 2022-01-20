@@ -129,8 +129,8 @@ if (%varbit6363 = 1) {
 	if_setonop("opsound(event_opindex, 1)", $component12);
 }
 def_string $text0 = "";
-def_int $world16 = -1;
-def_int $rank17 = -1;
+def_int $world16 = null;
+def_int $rank17 = null;
 def_int $rank18 = clan_getchatrank;
 def_int $rank19 = clan_getchatminkick;
 def_int $width20 = if_getwidth($component3);

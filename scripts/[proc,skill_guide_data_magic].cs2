@@ -12,15 +12,15 @@ switch_int ($int0) {
 				$string1 = "you can see what each spell does by activating the spellbook's Info mode, then tapping the spells.";
 				$string2 = "Click a spell icon below to see the required runes to cast each spell.<br><br>";
 				$string3 = "Tap a spell icon below to see the required runes to cast each spell.<br><br>";
-				return(-1, battlestaff_1391, "<~text_device($string2, $string3)>By opening the spellbook icon on the side interface,<~text_device($string0, $string1)>");
+				return(null, battlestaff_1391, "<~text_device($string2, $string3)>By opening the spellbook icon on the side interface,<~text_device($string0, $string1)>");
 			case 1 :
 				if (~league_world = 1 & %varbit10032 = 1) {
-					return(-1, kourend_home_teleport_24369, "Home teleport (Kourend)");
+					return(null, kourend_home_teleport_24369, "Home teleport (Kourend)");
 				}
 				if (~league_world = 1 & %varbit10032 = 3) {
-					return(-1, catherby_home_teleport_26553, "Home teleport (Catherby)");
+					return(null, catherby_home_teleport_26553, "Home teleport (Catherby)");
 				}
-				return(-1, lumbridge_home_teleport_9712, "Home teleport (Lumbridge)");
+				return(null, lumbridge_home_teleport_9712, "Home teleport (Lumbridge)");
 			case 2 :
 				return(1, wind_strike_3273, "Wind Strike");
 			case 3 :
@@ -158,14 +158,14 @@ switch_int ($int0) {
 			case 69 :
 				return(95, fire_surge_21879, "Fire Surge");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 1 :
 		switch_int ($int1) {
 			case 0 :
-				return(-1, ancient_staff_4675, "Ancient magicks are available after<br>completing the Desert Treasure quest.");
+				return(null, ancient_staff_4675, "Ancient magicks are available after<br>completing the Desert Treasure quest.");
 			case 1 :
-				return(-1, edgeville_home_teleport_11142, "Home teleport (Edgeville)");
+				return(null, edgeville_home_teleport_11142, "Home teleport (Edgeville)");
 			case 2 :
 				return(50, smoke_rush_4629, "Smoke rush");
 			case 3 :
@@ -217,14 +217,14 @@ switch_int ($int0) {
 			case 26 :
 				return(96, ghorrock_teleport_4652, "Ghorrock teleport");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 2 :
 		switch_int ($int1) {
 			case 0 :
-				return(-1, lunar_staff_9084, "Lunar spells are available after<br>completing the Lunar Diplomacy quest.");
+				return(null, lunar_staff_9084, "Lunar spells are available after<br>completing the Lunar Diplomacy quest.");
 			case 1 :
-				return(-1, lunar_home_teleport_11143, "Home teleport (Lunar Isle)");
+				return(null, lunar_home_teleport_11143, "Home teleport (Lunar Isle)");
 			case 2 :
 				return(65, bake_pie_9107, "Bake pie");
 			case 3 :
@@ -314,14 +314,14 @@ switch_int ($int0) {
 			case 45 :
 				return(96, spellbook_swap_11150, "Spellbook swap<br>(after Dream Mentor)");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 3 :
 		switch_int ($int1) {
 			case 0 :
-				return(-1, obj_13578, "Arceuus spells are unlocked<br>in Arceuus.");
+				return(null, obj_13578, "Arceuus spells are unlocked<br>in Arceuus.");
 			case 1 :
-				return(-1, arceuus_home_teleport_21835, "Home teleport (Dark Altar)");
+				return(null, arceuus_home_teleport_21835, "Home teleport (Dark Altar)");
 			case 2 :
 				return(6, arceuus_library_teleport_20409, "Arceuus Library teleport");
 			case 3 :
@@ -409,7 +409,7 @@ switch_int ($int0) {
 			case 44 :
 				return(92, sinister_offering_8796, "Sinister Offering<br>(After A Kingdom Divided)");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 4 :
 		switch_int ($int1) {
@@ -456,7 +456,7 @@ switch_int ($int0) {
 			case 20 :
 				return(75, ancestral_robe_top_21021, "Ancestral robes<br> (with 65 Defence)");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 5 :
 		switch_int ($int1) {
@@ -481,7 +481,7 @@ switch_int ($int0) {
 			case 9 :
 				return(87, onyx_bolts_e_9245, "Onyx-tipped crossbow bolts<br>1 cosmic + 20 fire + 1 death rune");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 6 :
 		switch_int ($int1) {
@@ -534,7 +534,7 @@ switch_int ($int0) {
 			case 23 :
 				return(75, harmonised_nightmare_staff_24423, "Nightmare Staff (with orb)<br> (with 50 Hitpoints)");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 7 :
 		switch_int ($int1) {
@@ -547,10 +547,10 @@ switch_int ($int0) {
 			case 3 :
 				return(70, ancient_wyvern_shield_21633, "Wield Ancient Wyvern shield");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 8 :
 		return(~skill_guide_salamanders($int1));
 	case default :
-		return(-1, null, "");
+		return(null, null, "");
 }

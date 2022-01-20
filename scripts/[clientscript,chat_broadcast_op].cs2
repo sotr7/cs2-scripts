@@ -1,6 +1,6 @@
 // 2064
 [clientscript,chat_broadcast_op](int $opindex0, string $string0, int $int1)
-def_int $mesuid2 = -1;
+def_int $mesuid2 = null;
 def_boolean $boolean3 = false;
 def_enum $enum4 = null;
 def_component $component5 = null;
@@ -21,7 +21,7 @@ if ($opindex0 = 9) {
 					$component5 = enum(int, component, enum_1137, 8);
 					$component5 = enum(component, component, $enum4, $component5);
 					if ($component5 ! null & if_hassub($component5) = true) {
-						if_triggerop(interface_109:54, -1, 1);
+						if_triggerop(interface_109:54, null, 1);
 					} else {
 						mes("You can't open the poll menu at the moment.");
 					}

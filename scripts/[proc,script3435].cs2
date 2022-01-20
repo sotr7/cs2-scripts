@@ -1,8 +1,8 @@
 // 3435
 [proc,script3435]
 def_int $int0 = 1;
-def_int $int1 = -1;
-def_int $int2 = -1;
+def_int $int1 = null;
+def_int $int2 = null;
 def_int $intarray0(25);
 def_int $int3 = 0;
 def_int $int4 = 10;

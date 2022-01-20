@@ -31,13 +31,13 @@ if ($inv14 = null) {
 		cc_settext("No offer found for this slot.");
 	}
 	if (cc_find($component8, $comsubid11) = ^true) {
-		~script812(-1, -1, -1, 0x8f0000, $int12);
+		~script812(null, null, null, 0x8f0000, $int12);
 	}
 	return;
 }
 def_obj $obj15 = null;
 def_int $int16 = 0;
-def_int $int17 = -1;
+def_int $int17 = null;
 def_obj $obj18 = null;
 def_int $int19 = 0;
 def_int $int20 = 0;
@@ -75,7 +75,7 @@ if (stockmarket_isofferempty($int13) = true) {
 			cc_settext("No offer found for this slot.");
 		}
 		if (cc_find($component8, $comsubid11) = ^true) {
-			~script812(-1, -1, -1, 0x8f0000, $int12);
+			~script812(null, null, null, 0x8f0000, $int12);
 		}
 		return;
 	}

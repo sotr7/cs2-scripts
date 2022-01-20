@@ -13,7 +13,7 @@ if (%varcint41 = 1337 | %varbit542 = 1 & getwindowmode ! ^windowmode_fixed) {
 if_sethide($boolean0, interface_162:34);
 if (%varbit6374 = 1 & getwindowmode ! ^windowmode_fixed) {
 	if_setposition(1, 0, ^setpos_abs_right, ^setpos_abs_top, interface_162:56);
-	if_setposition(-1, 0, ^setpos_abs_left, ^setpos_abs_top, interface_162:557);
+	if_setposition(null, 0, ^setpos_abs_left, ^setpos_abs_top, interface_162:557);
 } else {
 	if_setposition(0, 0, ^setpos_abs_left, ^setpos_abs_top, interface_162:56);
 	if_setposition(0, 0, ^setpos_abs_right, ^setpos_abs_top, interface_162:557);

@@ -18,7 +18,7 @@ if (~on_mobile = false) {
 	cc_setonmouseleave("cc_graphic_swapper(event_com, event_comsubid, $graphic5, null)");
 }
 if_setop(1, removetags($string0), $component0);
-if ($comsubid3 = -1 & $enum2 ! null) {
+if ($comsubid3 = null & $enum2 ! null) {
 	$comsubid3 = enum(component, int, $enum2, $component0);
 }
 if_setonop("script4496(event_opindex, $component0, $string0, $component1, $comsubid3)", $component0);

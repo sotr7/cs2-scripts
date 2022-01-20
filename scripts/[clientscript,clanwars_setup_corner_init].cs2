@@ -10,5 +10,5 @@ cc_settextfont(p12_full);
 cc_settextalign(^settextalign_centre, ^settextalign_centre, 0);
 cc_settextshadow(true);
 cc_setcolour(0xff981f);
-~clanwars_setup_corner_update($component0, cc_getid, $component1, -1);
+~clanwars_setup_corner_update($component0, cc_getid, $component1, null);
 if_setonop("clanwars_setup_corner_op(event_opindex, $component0, cc_getid, $component1)", $component1);

@@ -5,7 +5,7 @@ cc_deleteall($component3);
 cc_deleteall($component1);
 cc_deleteall($component2);
 def_int $int8 = calc(32 + 10);
-def_int $int9 = -1;
+def_int $int9 = null;
 def_int $count10 = 0;
 def_namedobj $namedobj11 = enum(int, namedobj, $enum5, $count10);
 while ($namedobj11 ! null) {
@@ -30,7 +30,7 @@ while ($namedobj11 ! null) {
 	$count10 = calc($count10 + 1);
 	$namedobj11 = enum(int, namedobj, $enum5, $count10);
 }
-if ($int9 ! -1) {
+if ($int9 ! null) {
 	$int9 = calc($int9 + $int8);
 } else {
 	$int9 = 0;

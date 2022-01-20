@@ -140,4 +140,4 @@ switch_int ($int0) {
 				return(66, fire_of_unseasonal_warmth_22609, "Fire of Unseasonal Warmth<br>(with 60 Construction)");
 		}
 }
-return(-1, null, "");
+return(null, null, "");

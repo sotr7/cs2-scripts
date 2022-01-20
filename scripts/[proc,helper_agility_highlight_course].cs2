@@ -1,6 +1,6 @@
 // 5169
 [proc,helper_agility_highlight_course](int $int0)
-if ($int0 = -1) {
+if ($int0 = null) {
 	$int0 = %varbit13140;
 }
 def_enum $enum1 = null;
@@ -9,15 +9,15 @@ def_int $int3 = 0;
 def_int $int4 = 0;
 def_int $int5 = 0;
 def_int $count6 = enum_getoutputcount(enum_3997);
-def_int $int7 = -1;
-def_int $int8 = -1;
+def_int $int7 = null;
+def_int $int8 = null;
 def_loc $loc9 = null;
 def_npc $npc10 = null;
 _7019(11);
 _7009(11);
 _7039(10);
 ~helper_agility_highlight_starts;
-if ($int0 = -1) {
+if ($int0 = null) {
 	return;
 }
 while ($int3 < $count6) {

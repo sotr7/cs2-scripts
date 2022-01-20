@@ -22,7 +22,7 @@ $int6 = calc($int6 + 32 + 5);
 def_string $text0 = "";
 cc_deleteall($component3);
 $int5 = 0;
-if ($int0 ! -1) {
+if ($int0 ! null) {
 	$text0 = enum(int, string, enum_2646, $int0);
 	~pest_rewards_confirmdraw(false, $text0, $component4);
 	while ($int5 < $int0) {

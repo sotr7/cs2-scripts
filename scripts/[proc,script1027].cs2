@@ -3,7 +3,7 @@
 def_int $int1 = 0;
 def_int $int2 = 0;
 $int1, $int2 = ~xpdrops_data_get($stat0);
-if ($int2 = -1) {
+if ($int2 = null) {
 	if ($stat0 ! null) {
 		cc_settext("Tracking XP since <col=ffffff><~xpdrops_tostring($int1, 0)></col>.");
 	} else {

@@ -10,7 +10,7 @@ def_string $string0 = "";
 def_string $string1 = "";
 def_int $int7 = 0;
 $string0, $namedobj6, $int5 = ~script4102;
-if ($int5 ! -1 | compare($string0, "") ! 0) {
+if ($int5 ! null | compare($string0, "") ! 0) {
 	return;
 }
 $string1 = struct_param($struct3, param_689);

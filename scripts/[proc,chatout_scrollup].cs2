@@ -2,7 +2,7 @@
 [proc,chatout_scrollup]
 def_int $int0 = %varcint3;
 def_string $string0 = "null";
-if ($int0 = -1) {
+if ($int0 = null) {
 	$int0 = %varcint4;
 }
 if (%varcint3 ! %varcint4) {

@@ -15,6 +15,6 @@ while ($int1 < 10) {
 	$int1 = calc($int1 + 1);
 }
 if ($int3 <= 0) {
-	return(-1);
+	return(null);
 }
 return(calc($int4 / $int3));

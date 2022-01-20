@@ -1,8 +1,8 @@
 // 4428
 [clientscript,script4428](int $int0, int $int1, enum $enum2, component $component3, int $comsubid4, component $component5, component $component6, int $int7)
-if ($int0 = 1 & $enum2 ! null & ($int1 = -1 | $int1 >= 0 & $int1 < enum_getoutputcount($enum2))) {
+if ($int0 = 1 & $enum2 ! null & ($int1 = null | $int1 >= 0 & $int1 < enum_getoutputcount($enum2))) {
 	sound_synth(interface_select1, 1, 0);
-	if ($int1 ! -1) {
+	if ($int1 ! null) {
 		~script4423($enum2, $int1);
 	}
 	~script4427;

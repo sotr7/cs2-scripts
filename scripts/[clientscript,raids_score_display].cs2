@@ -16,35 +16,35 @@ $string2, $string0 = ~script632($string0);
 $string3, $string0 = ~script632($string0);
 $string4, $string0 = ~script632($string0);
 $string5, $string0 = ~script632($string0);
-if ($int2 = 0 | $int2 = -1) {
+if ($int2 = 0 | $int2 = null) {
 	$string6 = $string11;
 	$string1 = "Grab a team and get Raiding!";
 } else {
 	$string6 = ~time_convert_option($int2);
 	$string1 = "Team: <$string1>";
 }
-if ($int3 = 0 | $int3 = -1) {
+if ($int3 = 0 | $int3 = null) {
 	$string7 = $string11;
 	$string2 = "Grab a team and get Raiding!";
 } else {
 	$string7 = ~time_convert_option($int3);
 	$string2 = "Team: <$string2>";
 }
-if ($int4 = 0 | $int4 = -1) {
+if ($int4 = 0 | $int4 = null) {
 	$string8 = $string11;
 	$string3 = "Grab a team and get Raiding!";
 } else {
 	$string8 = ~time_convert_option($int4);
 	$string3 = "Team: <$string3>";
 }
-if ($int5 = 0 | $int5 = -1) {
+if ($int5 = 0 | $int5 = null) {
 	$string9 = $string11;
 	$string4 = "Grab a team and get Raiding!";
 } else {
 	$string9 = ~time_convert_option($int5);
 	$string4 = "Team: <$string4>";
 }
-if ($int6 = 0 | $int6 = -1) {
+if ($int6 = 0 | $int6 = null) {
 	$string10 = $string11;
 	$string5 = "Grab a team and get Raiding!";
 } else {

@@ -10,7 +10,7 @@ if (%varbit4394 = 1) {
 if (~is_group_iron = 0 & $int3 = 4) {
 	$int3 = %varcint945;
 }
-if ($int3 ! -1 & $int3 <= 4 & $int3 ! %varcint945) {
+if ($int3 ! null & $int3 <= 4 & $int3 ! %varcint945) {
 	%varcint945 = $int3;
 	if ($int3 ! 0) {
 		mes("Your chatbox mode is now set to <enum(int, string, enum_4070, $int3)> chat, to reset your mode type /@p");

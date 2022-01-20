@@ -1,6 +1,6 @@
 // 3171
 [clientscript,buff_bar_mobile_tooltip_remove](component $component0, int $clock1, component $component2)
-if (%varcint382 = -1) {
+if (%varcint382 = null) {
 	if_setontimer(null, $component2);
 	return;
 }
@@ -8,5 +8,5 @@ if (clientclock < $clock1) {
 	return;
 }
 ~deltooltip_action($component0);
-%varcint382 = -1;
+%varcint382 = null;
 if_setontimer(null, $component2);

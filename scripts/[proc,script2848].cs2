@@ -19,7 +19,7 @@ while ($int1 <= $int2) {
 		if ($obj12 ! bones_526) {
 			cc_create($component0, ^iftype_graphic, $int6);
 			cc_setposition(calc($int10 + $int4), $y3, ^setpos_abs_left, ^setpos_abs_top);
-			cc_setobject($obj12, -1);
+			cc_setobject($obj12, null);
 			cc_setsize(36, 32, ^setsize_abs, ^setsize_abs);
 			cc_setgraphicshadow(0x333333);
 			cc_setoutline(1);

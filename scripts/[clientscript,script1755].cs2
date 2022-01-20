@@ -3,7 +3,7 @@
 if (cc_find($component1, $comsubid2) = ^true) {
 	cc_setcolour($colour5);
 }
-if ($comsubid3 ! -1 & cc_find($component1, $comsubid3) = ^true) {
+if ($comsubid3 ! null & cc_find($component1, $comsubid3) = ^true) {
 	cc_setcolour($colour5);
 }
 if ($boolean0 = true) {

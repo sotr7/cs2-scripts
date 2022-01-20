@@ -153,4 +153,4 @@ switch_int ($int0) {
 				return(75, dinhs_bulwark_21015, "Members: Dinh's bulwark<br> (with 75 Attack)");
 		}
 }
-return(-1, null, "");
+return(null, null, "");

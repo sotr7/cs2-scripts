@@ -46,5 +46,5 @@ cc_setcolour($int7);
 cc_settextshadow(true);
 cc_settextfont(p12_full);
 cc_settextalign(^settextalign_left, ^settextalign_centre, 0);
-cc_settext("<enum(int, string, $enum0, -1)>:");
+cc_settext("<enum(int, string, $enum0, null)>:");
 ~ca_setup_display_hoveroff($component2, $int7);

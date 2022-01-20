@@ -1,7 +1,7 @@
 // 3228
 [proc,league_side_panel_update_text](component $component0, component $component1, component $component2, component $component3, int $int4, int $int5)
-def_int $int6 = -1;
-if ($int5 ! -1 & $int4 ! -1) {
+def_int $int6 = null;
+if ($int5 ! null & $int4 ! null) {
 	$int6 = calc($int5 - $int4);
 }
 if ($int6 <= 0 & if_find($component1) = true) {
@@ -13,7 +13,7 @@ if ($int6 <= 0 & if_find($component1) = true) {
 } else if (if_find($component1) = true) {
 	cc_settext("<col=ffffff><tostring($int6)></col> points until next Relic.");
 }
-def_int $int7 = -1;
+def_int $int7 = null;
 def_struct $struct8 = ~script3682(0);
 if ($struct8 ! null) {
 	$int7 = struct_param($struct8, param_1010);

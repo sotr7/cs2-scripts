@@ -1,6 +1,6 @@
 // 5551
 [clientscript,script5551](component $component0, int $clock1, component $component2)
-if (%varcint948 = -1) {
+if (%varcint948 = null) {
 	if_setontimer(null, $component2);
 	return;
 }
@@ -8,5 +8,5 @@ if (clientclock < $clock1) {
 	return;
 }
 ~deltooltip_action($component0);
-%varcint948 = -1;
+%varcint948 = null;
 if_setontimer(null, $component2);

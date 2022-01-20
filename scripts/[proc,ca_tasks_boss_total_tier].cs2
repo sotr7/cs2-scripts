@@ -1,7 +1,7 @@
 // 4787
 [proc,ca_tasks_boss_total_tier](enum $enum0, int $int1)(int)
 if ($enum0 = null) {
-	return(-1);
+	return(null);
 }
 def_int $count2 = 0;
 def_int $count3 = enum_getoutputcount($enum0);

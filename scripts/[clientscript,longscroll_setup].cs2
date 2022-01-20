@@ -16,9 +16,9 @@ if_setscrollpos(0, 0, $component2);
 if ($int4 = 1) {
 	if_sethide(true, $component0);
 	if_setsize(16, 266, ^setsize_abs, ^setsize_abs, $component3);
-	if_setposition(84, -1, ^setpos_abs_right, ^setpos_abs_centre, $component3);
+	if_setposition(84, null, ^setpos_abs_right, ^setpos_abs_centre, $component3);
 	if_setsize(if_getwidth($component2), 266, ^setsize_abs, ^setsize_abs, $component2);
-	if_setposition(-19, -1, ^setpos_abs_centre, ^setpos_abs_centre, $component2);
+	if_setposition(-19, null, ^setpos_abs_centre, ^setpos_abs_centre, $component2);
 } else {
 	if_settext($string0, $component0);
 	if_sethide(false, $component0);

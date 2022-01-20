@@ -12,5 +12,5 @@ switch_component ($component0) {
 	case xbows_pouch:16 :
 		return(4);
 	case default :
-		return(-1);
+		return(null);
 }

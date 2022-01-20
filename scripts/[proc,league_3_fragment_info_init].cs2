@@ -33,7 +33,7 @@ cc_setcolour(^black);
 cc_setfill(true);
 cc_settrans(200);
 $int10 = calc($int10 + 1);
-if ($int2 = -1) {
+if ($int2 = null) {
 	if_setcolour(0xcfcfcf, interface_735:13);
 	~v2_stone_button_in(interface_735:12);
 	if_setonmouseover(null, interface_735:12);

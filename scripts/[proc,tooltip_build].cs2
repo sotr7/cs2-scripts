@@ -9,7 +9,7 @@ if_setsize(calc(4 + parawidth($string0, $width3, p12_full)), calc(7 + 12 * parah
 def_int $int5 = if_getx($component0);
 def_int $int6 = if_gety($component0);
 def_int $int7 = 0;
-if ($comsubid1 ! -1 & cc_find($component0, $comsubid1) = ^true) {
+if ($comsubid1 ! null & cc_find($component0, $comsubid1) = ^true) {
 	$int5, $int6, $int7 = calc($int5 + cc_getx - if_getscrollx($component0)), calc($int6 + cc_gety - if_getscrolly($component0)), cc_getheight;
 } else {
 	$int7 = if_getheight($component0);

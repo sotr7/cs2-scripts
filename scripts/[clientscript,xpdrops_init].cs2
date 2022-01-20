@@ -2,8 +2,8 @@
 [clientscript,xpdrops_init](component $component0, component $component1, component $component2, component $component3, component $component4, component $component5, component $component6, component $component7, component $component8, component $component9, component $component10)
 ~script2511($component1, $component2, $component4);
 %varcint70, %varcint71 = 0, 0;
-%varcint953, %varcint954, %varcint955, %varcint956, %varcint957, %varcint958, %varcint959 = -1, -1, -1, -1, -1, -1, -1;
-%varcint960, %varcint961, %varcint962, %varcint963, %varcint964, %varcint965, %varcint966 = -1, -1, -1, -1, -1, -1, -1;
+%varcint953, %varcint954, %varcint955, %varcint956, %varcint957, %varcint958, %varcint959 = null, null, null, null, null, null, null;
+%varcint960, %varcint961, %varcint962, %varcint963, %varcint964, %varcint965, %varcint966 = null, null, null, null, null, null, null;
 if (%varcint76 <= 0) {
 	%varcint76 = clientclock;
 }

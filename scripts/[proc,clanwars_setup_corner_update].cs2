@@ -2,7 +2,7 @@
 [proc,clanwars_setup_corner_update](component $component0, int $int1, component $component2, int $int3)
 if_setonvartransmit("clanwars_setup_corner_update($component0, $int1, $component2, %varbit4285){var92}", $component0);
 if_setontimer("clanwars_setup_corner_update($component0, $int1, $component2, %varbit4285)", $component0);
-def_int $comsubid4 = -1;
+def_int $comsubid4 = null;
 if (%varbit4285 ! $int3) {
 	if (%varbit4285 = 1) {
 		$comsubid4 = ~v2_stone_button_in_filled($component2);

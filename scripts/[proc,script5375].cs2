@@ -23,7 +23,7 @@ def_int $int6 = ~script5380($stat0, $int5);
 def_string $string2 = "  Acts>";
 if ($int6 >= 0) {
 	$string2 = "  Kills>";
-} else if ($int6 = -1) {
+} else if ($int6 = null) {
 	$string2 = "  Acts>";
 } else {
 	$string2 = "  Kills>";

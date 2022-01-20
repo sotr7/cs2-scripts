@@ -2,7 +2,7 @@
 [proc,hidey_build_tab](component $component0, component $component1, enum $enum2, int $flags3, int $flags4, int $flags5)
 cc_deleteall($component0);
 def_int $int6 = 0;
-def_int $comsubid7 = -1;
+def_int $comsubid7 = null;
 def_int $int8 = 0;
 def_int $int9 = 0;
 def_int $y10 = 0;
@@ -26,7 +26,7 @@ while ($loc18 ! null) {
 		cc_settrans(245);
 		cc_setposition(0, $height15, ^setpos_abs_centre, ^setpos_abs_top);
 	} else {
-		$comsubid7 = -1;
+		$comsubid7 = null;
 	}
 	$string0 = enum(loc, string, enum_1531, $loc18);
 	$int8 = calc(paraheight($string0, 143, p12_full) * 12 + 9);
@@ -96,7 +96,7 @@ while ($loc18 ! null) {
 		cc_setposition(54, $y10, ^setpos_abs_left, ^setpos_abs_top);
 		cc_setgraphic("tick");
 	}
-	if ($comsubid7 ! -1 & cc_find($component0, $comsubid7) = ^true) {
+	if ($comsubid7 ! null & cc_find($component0, $comsubid7) = ^true) {
 		cc_setsize(0, $int8, ^setsize_minus, ^setsize_abs);
 	}
 	$height15 = calc($height15 + $int8);

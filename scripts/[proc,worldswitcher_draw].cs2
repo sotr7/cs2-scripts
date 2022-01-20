@@ -43,7 +43,7 @@ def_int $int24 = 0;
 def_int $world25 = 0;
 def_int $flags26 = 0;
 def_string $string0 = "";
-def_int $int27 = -1;
+def_int $int27 = null;
 def_int $int28 = 0;
 def_string $string1 = "";
 $world25, $flags26, $string0, $int27, $int28, $string1 = worldlist_start;
@@ -72,15 +72,15 @@ if (%varbit4597 > 0) {
 	if_sethide(true, $component14);
 	$world25, $flags26, $string0, $int27, $int28, $string1 = worldlist_specific(%varbit4597);
 	if (~script961($world25, $flags26) = 0) {
-		$world25, $string0, $int27, $int28 = 0, "Unavailable", -1, 0;
+		$world25, $string0, $int27, $int28 = 0, "Unavailable", null, 0;
 	}
-	~worldswitcher_entry_draw($component12, 0, 0, $component12, -1, $world25, $flags26, $string0, $int27, $int28, $int4, $width17, $width18, $width19, $width20, $x29, $int22, $int23, $component15);
+	~worldswitcher_entry_draw($component12, 0, 0, $component12, null, $world25, $flags26, $string0, $int27, $int28, $int4, $width17, $width18, $width19, $width20, $x29, $int22, $int23, $component15);
 	if (%varbit4598 > 0) {
 		$world25, $flags26, $string0, $int27, $int28, $string1 = worldlist_specific(%varbit4598);
 		if (~script961($world25, $flags26) = 0) {
-			$world25, $string0, $int27, $int28 = 0, "Unavailable", -1, 0;
+			$world25, $string0, $int27, $int28 = 0, "Unavailable", null, 0;
 		}
-		~worldswitcher_entry_draw($component13, 0, 0, $component13, -1, $world25, $flags26, $string0, $int27, $int28, $int4, $width17, $width18, $width19, $width20, $x29, $int22, $int23, $component15);
+		~worldswitcher_entry_draw($component13, 0, 0, $component13, null, $world25, $flags26, $string0, $int27, $int28, $int4, $width17, $width18, $width19, $width20, $x29, $int22, $int23, $component15);
 	} else {
 		~worldswitcher_wipe_favourite($component13);
 	}
@@ -90,9 +90,9 @@ if (%varbit4597 > 0) {
 		if_sethide(true, $component14);
 		$world25, $flags26, $string0, $int27, $int28, $string1 = worldlist_specific(%varbit4598);
 		if (~script961($world25, $flags26) = 0) {
-			$world25, $string0, $int27, $int28 = 0, "Unavailable", -1, 0;
+			$world25, $string0, $int27, $int28 = 0, "Unavailable", null, 0;
 		}
-		~worldswitcher_entry_draw($component13, 0, 0, $component13, -1, $world25, $flags26, $string0, $int27, $int28, $int4, $width17, $width18, $width19, $width20, $x29, $int22, $int23, $component15);
+		~worldswitcher_entry_draw($component13, 0, 0, $component13, null, $world25, $flags26, $string0, $int27, $int28, $int4, $width17, $width18, $width19, $width20, $x29, $int22, $int23, $component15);
 	} else {
 		if_sethide(false, $component14);
 		~worldswitcher_wipe_favourite($component13);

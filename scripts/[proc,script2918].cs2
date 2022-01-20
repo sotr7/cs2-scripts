@@ -1,7 +1,7 @@
 // 2918
 [proc,script2918](component $component0, string $text0, string $text1, namedobj $namedobj1)
 cc_create($component0, ^iftype_graphic, 0);
-cc_setobject($namedobj1, -1);
+cc_setobject($namedobj1, null);
 cc_setoutline(1);
 cc_setgraphicshadow(0x604e32);
 cc_setsize(36, 32, ^setsize_abs, ^setsize_abs);

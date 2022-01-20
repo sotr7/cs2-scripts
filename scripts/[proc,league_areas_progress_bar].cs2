@@ -11,19 +11,19 @@ def_struct $struct6 = null;
 def_int $int7 = 0;
 def_int $int8 = 1;
 def_int $int9 = 0;
-def_int $comsubid10 = -1;
+def_int $comsubid10 = null;
 def_struct $struct11 = ~script3682($int3);
-def_int $int12 = -1;
+def_int $int12 = null;
 def_int $int13 = if_getwidth($component0);
 def_string $string0 = "";
-def_int $int14 = -1;
+def_int $int14 = null;
 def_int $int15 = 0;
 def_graphic $graphic16 = struct_param($struct4, param_1022);
 def_graphic $graphic17 = struct_param($struct4, param_1023);
 if ($struct11 ! null) {
 	$int12 = struct_param($struct11, param_1010);
 }
-if ($int12 ! -1 & $int3 = 0) {
+if ($int12 ! null & $int3 = 0) {
 	$int13 = calc($int13 - 15);
 }
 if (cc_find($component0, 0) = ^false) {
@@ -61,7 +61,7 @@ if (cc_find($component0, 0) = ^false) {
 		cc_setfill(false);
 		cc_setcolour(0x0e0e0c);
 		$int9 = calc($int9 + 1);
-		if ($int12 ! -1) {
+		if ($int12 ! null) {
 			cc_create($component0, ^iftype_graphic, $int9);
 			cc_setsize(30, 30, ^setsize_abs, ^setsize_abs);
 			cc_setposition(0, 0, ^setpos_abs_right, ^setpos_abs_bottom);
@@ -135,7 +135,7 @@ if ($int3 = 0) {
 }
 def_int $width18 = calc($int13 - 4);
 def_int $width19 = $width18;
-if ($int12 ! -1 & $int12 > 0) {
+if ($int12 ! null & $int12 > 0) {
 	$width19 = scale(%varbit10046, $int12, $width18);
 }
 if ($width19 > $width18) {
@@ -151,9 +151,9 @@ if (cc_find($component0, 2) = ^true) {
 		cc_setsize($width19, cc_getheight, ^setsize_abs, ^setsize_abs);
 	}
 }
-def_int $int20 = -1;
-if ($comsubid10 ! -1 & cc_find($component0, $comsubid10) = ^true) {
-	if ($int3 = 0 & $int12 ! -1) {
+def_int $int20 = null;
+if ($comsubid10 ! null & cc_find($component0, $comsubid10) = ^true) {
+	if ($int3 = 0 & $int12 ! null) {
 		if (%varbit10046 >= $int12) {
 			if (%varbit10037 < 7) {
 				cc_settext("You have completed enough tasks to unlock your next area!");

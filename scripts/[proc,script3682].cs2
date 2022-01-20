@@ -4,7 +4,7 @@ def_struct $struct1 = enum(int, struct, enum_2670, %varbit10032);
 def_enum $enum2 = enum_3369;
 def_struct $struct3 = null;
 def_int $int4 = 0;
-def_int $int5 = -1;
+def_int $int5 = null;
 def_int $int6 = 0;
 def_int $int7 = 0;
 if ($struct1 ! null & $enum2 ! null) {

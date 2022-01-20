@@ -1,6 +1,6 @@
 // 5735
 [clientscript,script5735](component $component0, int $comsubid1, obj $obj2, string $string0, int $height3)
-if (%varcint58 <= -1) {
+if (%varcint58 <= null) {
 	return;
 }
 def_int $int4 = 0;

@@ -23,5 +23,5 @@ cc_settextfont(p12_full);
 cc_settextshadow(true);
 cc_setcolour(0xff981f);
 cc_settextalign(^settextalign_centre, ^settextalign_centre, 14);
-if_setonmouserepeat("tooltip_mouserepeat($component0, -1, $component1, $string0, 25, 190)", $component0);
+if_setonmouserepeat("tooltip_mouserepeat($component0, null, $component1, $string0, 25, 190)", $component0);
 %varcint2 = 0;

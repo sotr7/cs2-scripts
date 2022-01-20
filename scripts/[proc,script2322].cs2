@@ -11,7 +11,7 @@ cc_settextalign(^settextalign_centre, ^settextalign_centre, 0);
 cc_settextshadow(true);
 cc_setcolour($colour5);
 cc_settext($string1);
-if ($int1 ! -1) {
+if ($int1 ! null) {
 	cc_create(interface_50:42, ^iftype_text, calc($int3 + $int1));
 	cc_setposition(0, 0, ^setpos_abs_left, ^setpos_abs_top);
 	cc_setsize(0, 0, ^setsize_abs, ^setsize_abs);

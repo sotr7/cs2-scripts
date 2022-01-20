@@ -10,7 +10,7 @@ if ($length0 <= 0) {
 }
 def_int $index1 = 0;
 def_int $index2 = string_indexof_string(lowercase($string0), $string1, 0);
-while ($index2 ! -1) {
+while ($index2 ! null) {
 	$index1 = string_length($string0);
 	$string0 = append(append(substring($string0, 0, $index2), $string2), substring($string0, calc($index2 + $length0), $index1));
 	$index2 = string_indexof_string(lowercase($string0), $string1, 0);

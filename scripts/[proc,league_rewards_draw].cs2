@@ -16,7 +16,7 @@ def_struct $struct25 = null;
 def_enum $enum26 = null;
 def_int $int27 = 0;
 def_int $int28 = 0;
-%varbit10110 = -1;
+%varbit10110 = null;
 while ($int22 <= $count20) {
 	$struct25 = enum(int, struct, $enum19, $int22);
 	$enum26 = struct_param($struct25, param_87);
@@ -65,7 +65,7 @@ cc_deleteall($component7);
 cc_deleteall($component10);
 cc_deleteall($component12);
 cc_deleteall($component13);
-if ($int0 ! -1) {
+if ($int0 ! null) {
 	$text0, $string1, $int29, $struct30 = ~script3286($int0);
 	if (~script3292($struct30) = 1) {
 		%varbit10110 = $int0;

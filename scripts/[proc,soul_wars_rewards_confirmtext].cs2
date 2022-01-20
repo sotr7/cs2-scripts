@@ -1,6 +1,6 @@
 // 849
 [proc,soul_wars_rewards_confirmtext](boolean $boolean0, string $text0, component $component1)
-def_int $int2 = -1;
+def_int $int2 = null;
 if ($boolean0 = true) {
 	$int2 = ~v2_stone_button_in_filled($component1);
 } else {
@@ -12,7 +12,7 @@ def_int $comsubid3 = calc($int2 + 1);
 cc_setsize(0, 8, ^setsize_minus, ^setsize_minus);
 .cc_setsize(0, 8, ^setsize_minus, ^setsize_minus);
 cc_setposition(0, 0, ^setpos_abs_centre, ^setpos_abs_centre);
-.cc_setposition(0, -1, ^setpos_abs_centre, ^setpos_abs_centre);
+.cc_setposition(0, null, ^setpos_abs_centre, ^setpos_abs_centre);
 cc_setcolour(0xff981f);
 .cc_setcolour(0xff981f);
 cc_settextalign(^settextalign_centre, ^settextalign_top, 0);

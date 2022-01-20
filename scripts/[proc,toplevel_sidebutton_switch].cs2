@@ -26,6 +26,6 @@ if ($component3 ! null & $component4 ! null) {
 		~toplevel_sidebutton_highlight($component4);
 	}
 } else {
-	%varcint171 = -1;
+	%varcint171 = null;
 }
 ~toplevel_side_customise($enum1);

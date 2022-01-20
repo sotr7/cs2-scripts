@@ -14,7 +14,7 @@ if (~toplevel_getcomponents ! enum_1132) {
 		cc_settrans(255);
 		cc_setonmouserepeat("cc_settrans(event_com, event_comsubid, 75, null)");
 		cc_setonmouseleave("cc_settrans(event_com, event_comsubid, 255, null)");
-		cc_setdraggable($component0, -1);
+		cc_setdraggable($component0, null);
 		cc_setdragdeadzone(1);
 		cc_setdragdeadtime(5);
 		$int25 = calc($int25 + 1);
@@ -86,7 +86,7 @@ if ($int28 >= 2) {
 	~worldmap_keysort(intarray0, $component21, 0, calc(enum_getoutputcount(enum_1705) - 1));
 }
 $int29 = calc($int29 + 18);
-def_int $int31 = -1;
+def_int $int31 = null;
 def_string $string1 = "";
 def_int $int32 = 0;
 def_int $int33 = 0;
@@ -103,7 +103,7 @@ while ($int36 < $int28) {
 			$int33, $int35 = 0, 0;
 			while ($int33 < $int32 & $int33 < 10) {
 				$int34 = string_indexof_string("0123456789", substring($string1, calc($int32 - ($int33 + 1)), calc($int32 - $int33)), 0);
-				if ($int34 ! -1) {
+				if ($int34 ! null) {
 					$int34 = calc($int34 * pow(10, $int33));
 					if (calc(^max_32bit_int - $int34) < $int35) {
 						$int35 = ^max_32bit_int;

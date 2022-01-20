@@ -48,5 +48,5 @@ switch_stat ($stat0) {
 	case smithing :
 		return(%var1448);
 	case default :
-		return(-1);
+		return(null);
 }

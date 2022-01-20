@@ -1,7 +1,7 @@
 // 4275
 [proc,clan_banned_populatedisplay](int $int0, component $component1, component $component2, component $component3, int $int4, int $int5, int $int6)(int)
 def_string $string0 = "";
-def_int $int7 = -1;
+def_int $int7 = null;
 def_int $int8 = 0;
 def_int $int9 = 0;
 def_int $int10 = 0;
@@ -11,7 +11,7 @@ def_int $int13 = 0;
 if (~clan_members_searching = 1) {
 	$int13 = string_length(~bankmain_filterstring);
 }
-def_int $index14 = -1;
+def_int $index14 = null;
 def_boolean $boolean15 = ~on_mobile;
 def_int $int16 = 0;
 while ($int16 < 500) {
@@ -19,7 +19,7 @@ while ($int16 < 500) {
 		if ($int16 < $int0) {
 			$string0 = activeclansettings_getbanneddisplayname($int16);
 			$int7 = ~clan_members_filtername($string0);
-			if ($int7 ! -1) {
+			if ($int7 ! null) {
 				cc_sethide(false);
 				.cc_sethide(false);
 				$int9, $int10 = calc($int8 / 3), calc($int8 % 3);

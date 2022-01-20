@@ -15,7 +15,7 @@ if (cc_find(interface_162:50, $int4) = ^true) {
 }
 def_int $int7 = $int1;
 def_int $int8 = $int1;
-def_int $int9 = -1;
+def_int $int9 = null;
 while ($int8 < $int2) {
 	if (cc_find(interface_162:50, $intarray0($int8)) = ^true) {
 		$obj5 = cc_getinvobject;

@@ -17,13 +17,13 @@ if ($int4 = 1) {
 	if_setontimer(null, interface_28:1);
 	return;
 }
-def_int $int5 = -1;
-def_int $int6 = -1;
-def_int $int7 = -1;
+def_int $int5 = null;
+def_int $int6 = null;
+def_int $int7 = null;
 $int5, $int6, $int7 = ~hex_to_rgb($int0);
-def_int $int8 = -1;
-def_int $int9 = -1;
-def_int $int10 = -1;
+def_int $int8 = null;
+def_int $int9 = null;
+def_int $int10 = null;
 $int8, $int9, $int10 = ~hex_to_rgb($int1);
 def_int $int11 = calc(($int8 - $int5) / 20);
 def_int $int12 = calc(($int9 - $int6) / 20);
@@ -33,28 +33,28 @@ if ($int11 = 0) {
 	if ($int8 > $int5) {
 		$int11 = 1;
 	} else if ($int8 < $int5) {
-		$int11 = -1;
+		$int11 = null;
 	}
 }
 if ($int12 = 0) {
 	if ($int9 > $int6) {
 		$int12 = 1;
 	} else if ($int9 < $int6) {
-		$int12 = -1;
+		$int12 = null;
 	}
 }
 if ($int13 = 0) {
 	if ($int10 > $int7) {
 		$int13 = 1;
 	} else if ($int10 < $int7) {
-		$int13 = -1;
+		$int13 = null;
 	}
 }
 if ($int14 = 0) {
 	if ($int3 > $int2) {
 		$int14 = 1;
 	} else if ($int3 < $int2) {
-		$int14 = -1;
+		$int14 = null;
 	}
 }
 if (string_length($string0) > 0) {

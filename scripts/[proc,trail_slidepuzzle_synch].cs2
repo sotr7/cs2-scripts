@@ -40,7 +40,7 @@ while ($int11 < $int1) {
 			}
 		}
 	} else {
-		~trail_slidepuzzle_setint($int11, -1);
+		~trail_slidepuzzle_setint($int11, null);
 		if ($int11 < $int2 & cc_find($component0, calc($int1 + $int11)) = ^true) {
 			cc_setmodel(null);
 		}

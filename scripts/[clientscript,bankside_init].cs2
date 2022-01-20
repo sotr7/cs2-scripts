@@ -29,6 +29,6 @@ if_setoninvtransmit("bankside_bag_draw($component6, inv_516){inv_516}", $compone
 ~bankside_bag_draw($component9, inv_646);
 if_setoninvtransmit("bankside_bag_draw($component9, inv_646){inv_646}", $component8);
 ~bankside_switchview($component1, $component5, $component8);
-if_setonvartransmit("bankside_switchview(-1, $component1, $component5, $component8, -1){var115}", $component0);
+if_setonvartransmit("bankside_switchview(null, $component1, $component5, $component8, null){var115}", $component0);
 if_setonop("bankside_switchview(event_opindex, $component1, $component5, $component8, 0)", $component7);
 if_setonop("bankside_switchview(event_opindex, $component1, $component5, $component8, 0)", $component10);

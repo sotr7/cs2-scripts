@@ -15,7 +15,7 @@ def_int $int13 = 0;
 if ($int8 = $int3) {
 	return;
 }
-if ($int8 = -1 | $int3 = -1) {
+if ($int8 = null | $int3 = null) {
 	return;
 }
 if ($component1 ! null) {

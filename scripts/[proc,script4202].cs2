@@ -5,7 +5,7 @@ def_int $count4 = enum_getoutputcount($enum1);
 def_string $string1 = "";
 def_string $string2 = "(Return)";
 $string2 = append($string2, "|Loop through all");
-def_int $int5 = -1;
+def_int $int5 = null;
 while ($count3 < $count4) {
 	$string2 = append($string2, "|<enum(int, string, $enum1, $count3)>");
 	$count3 = calc($count3 + 1);

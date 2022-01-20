@@ -6,13 +6,13 @@ def_int $int2 = 0;
 switch_int ($int0) {
 	case 0 :
 		$int2 = 0;
-		$int1 = -1;
+		$int1 = null;
 	case 1 :
 		$int2 = 0;
 		$int1 = 1;
 	case 2 :
 		$int2 = 1;
-		$int1 = -1;
+		$int1 = null;
 	case 3 :
 		$int2 = 1;
 		$int1 = 1;

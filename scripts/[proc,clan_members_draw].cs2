@@ -21,7 +21,7 @@ def_int $int17 = 0;
 def_int $int18 = 0;
 def_string $string3 = "";
 def_int $int19 = 0;
-def_int $int20 = -1;
+def_int $int20 = null;
 def_int $int21 = 0;
 def_int $index22 = 0;
 if (%varbit12165 = 1 & %varbit12164 = 3 & activeclansettings_find_listened = true | %varbit12165 = 0 & %varbit933 = 3 & activeclansettings_find_affined(^clantype_clan) = true) {
@@ -53,8 +53,8 @@ if (%varbit12165 = 1 & %varbit12164 = 3 & activeclansettings_find_listened = tru
 			.cc_create($component9, ^iftype_rectangle, $int17);
 			cc_sethide(true);
 			.cc_sethide(true);
-			cc_setposition(0, -1, ^setpos_abs_centre, ^setpos_abs_top);
-			.cc_setposition(0, -1, ^setpos_abs_centre, ^setpos_abs_top);
+			cc_setposition(0, null, ^setpos_abs_centre, ^setpos_abs_top);
+			.cc_setposition(0, null, ^setpos_abs_centre, ^setpos_abs_top);
 			cc_setsize(0, $int12, ^setsize_minus, ^setsize_abs);
 			.cc_setsize(0, $int12, ^setsize_minus, ^setsize_abs);
 			cc_setfill(true);
@@ -66,7 +66,7 @@ if (%varbit12165 = 1 & %varbit12164 = 3 & activeclansettings_find_listened = tru
 		while ($int18 < $int11 & $int15 < 500) {
 			$int17 = activeclansettings_getsortedaffinedslot($int18);
 			$int20 = ~clan_members_filtercheck($int17);
-			if ($int20 ! -1) {
+			if ($int20 ! null) {
 				$string1 = activeclansettings_getaffineddisplayname($int17);
 				if (cc_find($component7, $int17) = ^true & .cc_find($component9, $int17) = ^true) {
 					cc_setposition(0, $int14, ^setpos_abs_centre, ^setpos_abs_top);

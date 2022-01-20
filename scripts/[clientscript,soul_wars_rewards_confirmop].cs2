@@ -5,9 +5,9 @@ if ($opindex0 ! 1) {
 }
 sound_synth(interface_select1, 1, 0);
 if ($int4 = 0) {
-	~script536(-1, $component1, $component2, $component3, $component5, $component6);
+	~script536(null, $component1, $component2, $component3, $component5, $component6);
 } else if ($int4 = 1) {
-	~script675(-1, $component1, $component2, $component3, interface_442:17, if_getscrolly($component1), $component5, $component6);
+	~script675(null, $component1, $component2, $component3, interface_442:17, if_getscrolly($component1), $component5, $component6);
 } else if ($int4 = 2) {
-	~script842(-1, $component1, $component2, $component3, interface_442:20, if_getscrolly($component1), $component5, $component6);
+	~script842(null, $component1, $component2, $component3, interface_442:20, if_getscrolly($component1), $component5, $component6);
 }

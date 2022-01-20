@@ -6,7 +6,7 @@ def_int $int4 = calc($width2 / 37);
 def_int $int5 = calc($height3 / 37);
 def_int $int6 = calc($int4 * $int5);
 if ($int1 >= $int6) {
-	return(-1, -1);
+	return(null, null);
 }
 def_int $int7 = 0;
 def_int $int8 = 0;

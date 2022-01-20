@@ -16,9 +16,9 @@ $length0 = string_length($string0);
 def_int $length3 = 0;
 while ($length3 < $length0) {
 	$string1 = substring($string0, $length3, calc($length3 + 1));
-	if (string_indexof_string("0123456789abcdef", $string1, 0) ! -1) {
+	if (string_indexof_string("0123456789abcdef", $string1, 0) ! null) {
 		$int1 = string_indexof_string("0123456789abcdef", $string1, 0);
-	} else if (string_indexof_string("0123456789ABCDEF", $string1, 0) ! -1) {
+	} else if (string_indexof_string("0123456789ABCDEF", $string1, 0) ! null) {
 		$int1 = string_indexof_string("0123456789ABCDEF", $string1, 0);
 	} else {
 		return(^max_32bit_int);

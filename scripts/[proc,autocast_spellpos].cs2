@@ -1,7 +1,7 @@
 // 243
 [proc,autocast_spellpos](int $int0, int $int1)(int, int)
 switch_int ($int1) {
-	case -1 :
+	case null :
 		return(~standard_autocast_spellpos($int0));
 	case 9013 :
 		return(~arceuus_autocast_spellpos($int0));
@@ -214,4 +214,4 @@ switch_int ($int1) {
 			return(~arceuus_autocast_spellpos($int0));
 		}
 }
-return(-1, -1);
+return(null, null);

@@ -9,4 +9,4 @@ if ($int0 = 1) {
 if ($int0 = 2) {
 	return("Other", 1);
 }
-return("", -1);
+return("", null);

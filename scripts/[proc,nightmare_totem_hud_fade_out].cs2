@@ -21,7 +21,7 @@ if_setontimer(null, $component6);
 if_setontimer(null, $component10);
 if_setontimer(null, $component14);
 if_setontimer(null, $component18);
-if ($int1 = -1) {
+if ($int1 = null) {
 	$int1 = if_gettrans($component7);
 }
 $int1 = ~min(255, calc($int1 + 3));

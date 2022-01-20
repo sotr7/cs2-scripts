@@ -9,7 +9,7 @@ def_int $int5 = 10;
 def_int $index6 = string_indexof_string($string0, "|", 0);
 def_string $text2 = "";
 if (%varbit12348 = 0 & $boolean0 = false) {
-	while ($index6 ! -1) {
+	while ($index6 ! null) {
 		$text2 = substring($string0, 0, $index6);
 		cc_create($component2, ^iftype_text, $int3);
 		$int3 = calc($int3 + 1);

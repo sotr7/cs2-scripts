@@ -10,7 +10,7 @@ if ($height5 = $height4) {
 	return;
 }
 def_int $width6 = if_getwidth($component3);
-if ($int0 = -1) {
+if ($int0 = null) {
 	$int0 = 16750623;
 }
 if_setcolour($int0, interface_664:28);

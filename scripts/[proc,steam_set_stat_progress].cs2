@@ -1,12 +1,12 @@
 // 2351
 [proc,steam_set_stat_progress](int $int0, int $int1, int $int2)(int)
-if ($int0 = -1) {
+if ($int0 = null) {
 	return(0);
 }
-if ($int1 = -1) {
+if ($int1 = null) {
 	return(0);
 }
-if ($int2 = -1) {
+if ($int2 = null) {
 	return(0);
 }
 def_string $string0 = enum_string(enum_1373, $int0);

@@ -53,4 +53,4 @@ if ($lvl0 >= oc_param(iron_pickaxe_1267, levelrequire) & ($obj1 = iron_pickaxe_1
 if ($lvl0 >= oc_param(bronze_pickaxe_1265, levelrequire) & ($obj1 = bronze_pickaxe_1265 | inv_total(inv, bronze_pickaxe_1265) > 0)) {
 	return(1265);
 }
-return(-1);
+return(null);

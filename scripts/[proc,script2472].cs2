@@ -11,10 +11,10 @@ if (string_length($string1) > 0 & $int0 = 1) {
 		}
 	}
 	$string1 = substring($string1, 0, 1);
-	if (string_indexof_string("kKmMbB", $string1, 0) ! -1) {
+	if (string_indexof_string("kKmMbB", $string1, 0) ! null) {
 		$int1 = 1;
 	}
-	if (($int1 = 1 | string_indexof_string("0123456789", $string1, 0) ! -1) & $length2 < 10) {
+	if (($int1 = 1 | string_indexof_string("0123456789", $string1, 0) ! null) & $length2 < 10) {
 		if ($int1 = 1 & $length2 <= 0) {
 			return($string0);
 		}

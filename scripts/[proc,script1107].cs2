@@ -6,7 +6,7 @@ if ($int0 = 1) {
 	cc_deleteall(interface_676:22);
 	if_sethide(true, $component4);
 	~league_setup_display_hoveroff($component2, $int5);
-	if ($int1 ! -1) {
+	if ($int1 ! null) {
 		~script858(interface_676:1, 44302345, interface_676:10, interface_676:11, interface_676:16, interface_676:17, interface_676:18, interface_676:12, interface_676:7, $int1);
 		~script1109($component2, $int1);
 	}

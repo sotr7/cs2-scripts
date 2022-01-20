@@ -2,9 +2,9 @@
 [clientscript,script5553](component $component0, component $component1, component $component2)
 %varcint949 = ~minmax(0, 1, calc(1 - %varcint949));
 if (%varcint949 = 1) {
-	if (%varcint948 ! -1) {
+	if (%varcint948 ! null) {
 		~deltooltip_action($component1);
-		%varcint948 = -1;
+		%varcint948 = null;
 		if_setontimer(null, $component0);
 	}
 	~script5555($component0, $component1);

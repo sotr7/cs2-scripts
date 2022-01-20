@@ -169,7 +169,7 @@ if ($enum1 = enum_1745) {
 		if (%varbit4606 = 3) {
 			if_setposition(0, 0, ^setpos_abs_centre, ^setpos_abs_bottom, $component2);
 		} else {
-			if_setposition(0, calc(23 * -1), ^setpos_abs_left, ^setpos_abs_bottom, $component2);
+			if_setposition(0, calc(23 * null), ^setpos_abs_left, ^setpos_abs_bottom, $component2);
 		}
 	} else {
 		if_setposition(0, 0, ^setpos_abs_left, ^setpos_abs_bottom, $component2);

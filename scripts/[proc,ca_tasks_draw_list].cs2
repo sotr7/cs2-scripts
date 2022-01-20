@@ -38,13 +38,13 @@ def_int $int24 = 40;
 def_int $trans25 = 255;
 def_graphic $graphic26 = "open_buttons_small,1";
 def_graphic $graphic27 = "open_buttons_small,0";
-def_int $int28 = -1;
-def_int $int29 = -1;
+def_int $int28 = null;
+def_int $int29 = null;
 def_string $text0 = "null";
 def_string $string1 = "null";
-def_int $int30 = -1;
-def_int $int31 = -1;
-def_int $int32 = -1;
+def_int $int30 = null;
+def_int $int31 = null;
+def_int $int32 = null;
 if (cc_find($component2, $int13) = ^true) {
 	cc_setcolour($colour16);
 }
@@ -91,7 +91,7 @@ while ($int18 < $length17) {
 		cc_setopbase("<col=ff981f><$text0></col>");
 		if ($int18 = $int0) {
 			cc_setop(1, "Collapse");
-			cc_setonop("ca_tasks_draw_list(-1, $component1, $component2, $component3, $component4, $component5, $component7, $component6, $component8, $component9, $component10, $component11, $component12, $int13, clientclock)");
+			cc_setonop("ca_tasks_draw_list(null, $component1, $component2, $component3, $component4, $component5, $component7, $component6, $component8, $component9, $component10, $component11, $component12, $int13, clientclock)");
 		} else {
 			cc_setop(1, "Expand");
 			cc_setonop("ca_tasks_draw_list($int18, $component1, $component2, $component3, $component4, $component5, $component7, $component6, $component8, $component9, $component10, $component11, $component12, $int13, clientclock)");

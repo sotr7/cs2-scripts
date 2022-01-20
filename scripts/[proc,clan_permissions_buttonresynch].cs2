@@ -6,11 +6,11 @@ def_int $int8 = 0;
 def_string $text0 = "...";
 def_graphic $graphic9 = null;
 def_int $int10 = 0;
-def_int $int11 = -1;
+def_int $int11 = null;
 if (%varbit12165 = 1 & %varbit12164 = 3 & activeclansettings_find_listened = true | %varbit12165 = 0 & %varbit933 = 3 & activeclansettings_find_affined(^clantype_clan) = true) {
 	$clanslot7 = activeclansettings_getaffinedslot(removetags(chat_playername));
 	if (struct_param($struct5, param_1255) = true) {
-		$int6 = -1;
+		$int6 = null;
 		switch_struct ($struct5) {
 			case guests_may_listen_in_chat_2957 :
 				if (activeclansettings_getallowunaffined = true) {
@@ -21,7 +21,7 @@ if (%varbit12165 = 1 & %varbit12164 = 3 & activeclansettings_find_listened = tru
 			case guest_minimum_combat_2958 :
 				if (activeclansettings_getallowunaffined = true) {
 					$int8 = getbit_range(%varclansetting26, 0, 6);
-					if ($int8 > 0 & %varclansetting26 ! -1) {
+					if ($int8 > 0 & %varclansetting26 ! null) {
 						$text0 = tostring($int8);
 					} else {
 						$text0 = "None";
@@ -32,7 +32,7 @@ if (%varbit12165 = 1 & %varbit12164 = 3 & activeclansettings_find_listened = tru
 			case guest_minimum_skill_total_2959 :
 				if (activeclansettings_getallowunaffined = true) {
 					$int8 = getbit_range(%varclansetting26, 7, 18);
-					if ($int8 > 0 & %varclansetting26 ! -1) {
+					if ($int8 > 0 & %varclansetting26 ! null) {
 						$text0 = ~tostring_spacer($int8, ",");
 					} else {
 						$text0 = "None";
@@ -43,7 +43,7 @@ if (%varbit12165 = 1 & %varbit12164 = 3 & activeclansettings_find_listened = tru
 			case guest_minimum_qp_2960 :
 				if (activeclansettings_getallowunaffined = true) {
 					$int8 = getbit_range(%varclansetting26, 19, 29);
-					if ($int8 > 0 & %varclansetting26 ! -1) {
+					if ($int8 > 0 & %varclansetting26 ! null) {
 						$text0 = tostring($int8);
 					} else {
 						$text0 = "None";
@@ -53,7 +53,7 @@ if (%varbit12165 = 1 & %varbit12164 = 3 & activeclansettings_find_listened = tru
 				}
 			case guest_iron_status_2961 :
 				if (activeclansettings_getallowunaffined = true) {
-					if (%varclansetting26 ! -1) {
+					if (%varclansetting26 ! null) {
 						$text0 = enum(int, string, enum_3828, getbit_range(%varclansetting26, 30, 31));
 					} else {
 						$text0 = enum(int, string, enum_3828, 0);

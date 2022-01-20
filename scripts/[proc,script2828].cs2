@@ -24,4 +24,4 @@ if (%varbit8178 = $int0) {
 if (%varbit8179 = $int0) {
 	return(8);
 }
-return(-1);
+return(null);

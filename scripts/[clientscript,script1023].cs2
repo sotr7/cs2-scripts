@@ -6,12 +6,12 @@ if ($opindex0 ! 1) {
 sound_synth(interface_select1, 1, 0);
 def_int $int25 = 0;
 def_int $int26 = 0;
-if ($int1 = -1) {
+if ($int1 = null) {
 	%varbit4703 = 0;
 } else {
 	%varbit4703 = calc($int1 + 1);
 	$int25, $int26 = ~xpdrops_data_get($stat2);
-	if ($int26 = -1) {
+	if ($int26 = null) {
 		%varbit4704 = 1;
 	} else if ($int26 > $int25) {
 		%varbit4704 = 2;

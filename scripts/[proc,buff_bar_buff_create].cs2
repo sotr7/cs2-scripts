@@ -82,7 +82,7 @@ if (struct_param($struct3, param_1480) = true) {
 } else {
 	$graphic17 = struct_param($struct3, param_1278);
 }
-if (struct_param($struct3, param_1285) ! null & $int4 ! -1) {
+if (struct_param($struct3, param_1285) ! null & $int4 ! null) {
 	$graphic17 = enum(int, graphic, struct_param($struct3, param_1285), $int4);
 }
 if ($graphic17 ! null) {

@@ -47,6 +47,6 @@ cc_settextalign(^settextalign_left, ^settextalign_centre, 0);
 if ($enum0 = enum_3795) {
 	cc_settext("Join Rank:");
 } else {
-	cc_settext("<enum(int, string, $enum0, -1)>:");
+	cc_settext("<enum(int, string, $enum0, null)>:");
 }
 ~league_setup_display_hoveroff($component2, $int5);

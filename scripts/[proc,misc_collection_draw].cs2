@@ -23,7 +23,7 @@ while ($size7 < $size0) {
 	}
 	$size7 = calc($size7 + 1);
 }
-if ($int5 ! -1) {
+if ($int5 ! null) {
 	$int5 = calc($int5 + 32);
 }
 if (if_getheight($component3) < $int5) {

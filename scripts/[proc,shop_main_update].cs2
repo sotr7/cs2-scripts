@@ -1,7 +1,7 @@
 // 1076
 [proc,shop_main_update](component $component0, int $size1, inv $inv2, obj $obj3, int $int4)
 def_obj $obj5 = null;
-def_int $int6 = -1;
+def_int $int6 = null;
 def_int $size7 = 0;
 while ($size7 < $size1) {
 	if (cc_find($component0, calc($size7 + 1)) = ^true) {
@@ -43,7 +43,7 @@ while ($size7 < $size1) {
 	}
 	$size7 = calc($size7 + 1);
 }
-if ($int6 ! -1) {
+if ($int6 ! null) {
 	$int6 = calc($int6 + 32);
 } else {
 	$int6 = 0;

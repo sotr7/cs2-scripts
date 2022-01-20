@@ -10,7 +10,7 @@ if (%varcint41 = 1337) {
 	$int2 = 1;
 }
 def_int $chattype3 = ^chattype_gamemessage;
-def_int $clock4 = -1;
+def_int $clock4 = null;
 def_string $string0 = "";
 def_string $string1 = "";
 def_string $string2 = "";
@@ -18,7 +18,7 @@ def_int $int5 = 0;
 def_string $string3 = "";
 def_int $int6 = 0;
 def_boolean $boolean7 = ~on_mobile;
-while ($mesuid0 ! -1) {
+while ($mesuid0 ! null) {
 	$chattype3, $clock4, $string0, $string1, $string2, $int5, $string3, $int6 = chat_gethistory_byuid($mesuid0);
 	if ($clock4 <= $clock1) {
 		return;

@@ -36,36 +36,36 @@ def_boolean $boolean34 = ~on_mobile;
 if ($int22 = 1) {
 	if ($int25 = 1) {
 		$int33 = 1;
-	} else if (string_indexof_string(lowercase(struct_param($struct0, param_1088)), lowercase($string0), 0) ! -1) {
+	} else if (string_indexof_string(lowercase(struct_param($struct0, param_1088)), lowercase($string0), 0) ! null) {
 		$int33 = 1;
 		if ($int26 = 5) {
 			$int25 = 1;
 		}
-	} else if (string_indexof_string(lowercase(struct_param($struct1, param_744)), lowercase($string0), 0) ! -1) {
+	} else if (string_indexof_string(lowercase(struct_param($struct1, param_744)), lowercase($string0), 0) ! null) {
 		$int33 = 1;
 	} else if ($boolean34 = false) {
-		if (string_indexof_string(lowercase(struct_param($struct0, param_1086)), lowercase($string0), 0) ! -1) {
+		if (string_indexof_string(lowercase(struct_param($struct0, param_1086)), lowercase($string0), 0) ! null) {
 			$int33 = 1;
 			if ($int26 = 5) {
 				$int25 = 1;
 			}
-		} else if (string_indexof_string(lowercase(struct_param($struct0, param_1096)), lowercase($string0), 0) ! -1) {
+		} else if (string_indexof_string(lowercase(struct_param($struct0, param_1096)), lowercase($string0), 0) ! null) {
 			$int33 = 1;
 		}
 	} else if ($boolean34 = true) {
-		if (string_length(struct_param($struct0, param_1087)) <= 0 & string_indexof_string(lowercase(struct_param($struct0, param_1086)), lowercase($string0), 0) ! -1) {
+		if (string_length(struct_param($struct0, param_1087)) <= 0 & string_indexof_string(lowercase(struct_param($struct0, param_1086)), lowercase($string0), 0) ! null) {
 			$int33 = 1;
 			if ($int26 = 5) {
 				$int25 = 1;
 			}
-		} else if (string_indexof_string(lowercase(struct_param($struct0, param_1087)), lowercase($string0), 0) ! -1) {
+		} else if (string_indexof_string(lowercase(struct_param($struct0, param_1087)), lowercase($string0), 0) ! null) {
 			$int33 = 1;
 			if ($int26 = 5) {
 				$int25 = 1;
 			}
-		} else if (string_length(struct_param($struct0, param_1097)) <= 0 & string_indexof_string(lowercase(struct_param($struct0, param_1096)), lowercase($string0), 0) ! -1) {
+		} else if (string_length(struct_param($struct0, param_1097)) <= 0 & string_indexof_string(lowercase(struct_param($struct0, param_1096)), lowercase($string0), 0) ! null) {
 			$int33 = 1;
-		} else if (string_indexof_string(lowercase(struct_param($struct0, param_1097)), lowercase($string0), 0) ! -1) {
+		} else if (string_indexof_string(lowercase(struct_param($struct0, param_1097)), lowercase($string0), 0) ! null) {
 			$int33 = 1;
 		}
 	}

@@ -14,7 +14,7 @@ if ($namedobj11 = null) {
 	return;
 }
 def_int $int12 = 0;
-def_int $int13 = -1;
+def_int $int13 = null;
 if ($drop2 = $drop8) {
 	if ($dropsubid3 >= 0 & $dropsubid3 < inv_size(inv)) {
 		$int13 = $dropsubid3;
@@ -22,15 +22,15 @@ if ($drop2 = $drop8) {
 	$int12 = 1;
 }
 def_int $int14 = inv_size(worn);
-if ($int13 = -1) {
+if ($int13 = null) {
 	while ($int14 > 0) {
 		$int14 = calc($int14 - 1);
-		if ($int13 = -1 & enum(int, component, enum_2632, $int14) = $drop2) {
+		if ($int13 = null & enum(int, component, enum_2632, $int14) = $drop2) {
 			$int13, $int12 = $int14, 0;
 		}
 	}
 }
-if ($int13 = -1) {
+if ($int13 = null) {
 	return;
 }
 if ($int12 = 0) {

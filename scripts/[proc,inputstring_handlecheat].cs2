@@ -14,9 +14,9 @@ $string2 = "::tele s ";
 $length1 = string_length($string2);
 if ($length0 >= $length1 & compare(substring($string1, 0, $length1), $string2) = 0) {
 	if ($length0 <= $length1) {
-		return(~inputstring_teledirection("", 0, -1));
+		return(~inputstring_teledirection("", 0, null));
 	}
-	return(~inputstring_teledirection(substring($string1, $length1, $length0), 0, -1));
+	return(~inputstring_teledirection(substring($string1, $length1, $length0), 0, null));
 }
 $string2 = "::tele e ";
 $length1 = string_length($string2);
@@ -30,25 +30,25 @@ $string2 = "::tele w ";
 $length1 = string_length($string2);
 if ($length0 >= $length1 & compare(substring($string1, 0, $length1), $string2) = 0) {
 	if ($length0 <= $length1) {
-		return(~inputstring_teledirection("", -1, 0));
+		return(~inputstring_teledirection("", null, 0));
 	}
-	return(~inputstring_teledirection(substring($string1, $length1, $length0), -1, 0));
+	return(~inputstring_teledirection(substring($string1, $length1, $length0), null, 0));
 }
 $string2 = "::tele nw ";
 $length1 = string_length($string2);
 if ($length0 >= $length1 & compare(substring($string1, 0, $length1), $string2) = 0) {
 	if ($length0 <= $length1) {
-		return(~inputstring_teledirection("", -1, 1));
+		return(~inputstring_teledirection("", null, 1));
 	}
-	return(~inputstring_teledirection(substring($string1, $length1, $length0), -1, 1));
+	return(~inputstring_teledirection(substring($string1, $length1, $length0), null, 1));
 }
 $string2 = "::tele sw ";
 $length1 = string_length($string2);
 if ($length0 >= $length1 & compare(substring($string1, 0, $length1), $string2) = 0) {
 	if ($length0 <= $length1) {
-		return(~inputstring_teledirection("", -1, -1));
+		return(~inputstring_teledirection("", null, null));
 	}
-	return(~inputstring_teledirection(substring($string1, $length1, $length0), -1, -1));
+	return(~inputstring_teledirection(substring($string1, $length1, $length0), null, null));
 }
 $string2 = "::tele ne ";
 $length1 = string_length($string2);
@@ -62,9 +62,9 @@ $string2 = "::tele se ";
 $length1 = string_length($string2);
 if ($length0 >= $length1 & compare(substring($string1, 0, $length1), $string2) = 0) {
 	if ($length0 <= $length1) {
-		return(~inputstring_teledirection("", 1, -1));
+		return(~inputstring_teledirection("", 1, null));
 	}
-	return(~inputstring_teledirection(substring($string1, $length1, $length0), 1, -1));
+	return(~inputstring_teledirection(substring($string1, $length1, $length0), 1, null));
 }
 $string2 = "::tele up";
 $length1 = string_length($string2);
@@ -74,6 +74,6 @@ if ($length0 >= $length1 & compare(substring($string1, 0, $length1), $string2) =
 $string2 = "::tele down";
 $length1 = string_length($string2);
 if ($length0 >= $length1 & compare(substring($string1, 0, $length1), $string2) = 0) {
-	return(~inputstring_televertical(-1));
+	return(~inputstring_televertical(null));
 }
 return($string0);

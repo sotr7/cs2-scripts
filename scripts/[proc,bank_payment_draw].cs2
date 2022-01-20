@@ -60,7 +60,7 @@ while ($int8 <= 14) {
 			$comsubid15 = ~v2_stone_button_out_filled($component9);
 		}
 		if_setonmouseover("bank_payment_draw($component0, $int8, $boolean2)", $component9);
-		if_setonmouseleave("bank_payment_draw($component0, -1, $boolean2)", $component9);
+		if_setonmouseleave("bank_payment_draw($component0, null, $boolean2)", $component9);
 	} else {
 		$comsubid15 = ~v2_stone_button_filled($component9);
 	}

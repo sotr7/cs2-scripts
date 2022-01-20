@@ -39,7 +39,7 @@ cc_setposition(calc($width3 - (36 + 10)), calc($int6 + 2), ^setpos_abs_left, ^se
 cc_setgraphicshadow(0x333333);
 cc_setoutline(1);
 cc_setonop("cc_settrans_temporarily(event_com, event_comsubid, 100, 0)");
-$int5 = ~stonepanel(-1, $component0, $int5);
+$int5 = ~stonepanel(null, $component0, $int5);
 def_int $int11 = calc($width3 - 60);
 cc_create($component0, ^iftype_rectangle, $int5);
 $int5 = calc($int5 + 1);

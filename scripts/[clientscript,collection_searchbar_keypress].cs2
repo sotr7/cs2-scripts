@@ -32,7 +32,7 @@ if ($key0 = ^key_backspace) {
 	~collection_populate_search_results(0);
 	return;
 }
-if (char_isprintable($keychar1) = false & string_indexof_char(" -/,", $keychar1) = -1) {
+if (char_isprintable($keychar1) = false & string_indexof_char(" -/,", $keychar1) = null) {
 	return;
 }
 if (string_length(append_char($string0, $keychar1)) > 50) {

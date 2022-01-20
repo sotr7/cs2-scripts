@@ -5,7 +5,7 @@ def_int $int6 = 0;
 def_int $int7 = 0;
 def_int $int8 = 0;
 def_string $string1 = "";
-if (%varcint459 = -1) {
+if (%varcint459 = null) {
 	%varcint459 = struct_param($struct5, param_1230);
 }
 $int6, $int7, $int8 = ~hex_to_rgb(%varcint459);

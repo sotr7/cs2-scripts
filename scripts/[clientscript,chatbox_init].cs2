@@ -8,13 +8,13 @@ if_setonfriendtransmit("chat_onchattransmit", interface_162:0);
 if_setonclantransmit("rebuildchatbox", interface_162:0);
 if_setonclansettingstransmit("rebuildchatbox", interface_162:0);
 if_setonmisctransmit("script664(true)", interface_162:0);
-%varcstring335, %varcint42 = "", -1;
+%varcstring335, %varcint42 = "", null;
 if (%varcint41 >= 0 & %varcint41 <= 6 | %varcint41 = 1337) {
 	%varcint41 = %varcint41;
 } else {
 	%varcint41 = 0;
 }
-%varcint3, %varcint4 = -1, 0;
+%varcint3, %varcint4 = null, 0;
 %varcstring336, %varcstring337, %varcstring338, %varcstring339, %varcstring340, %varcstring341, %varcstring342, %varcstring343, %varcstring344, %varcstring345, %varcstring346, %varcstring347, %varcstring348, %varcstring349, %varcstring350, %varcstring351, %varcstring352, %varcstring353, %varcstring354, %varcstring355 = "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "";
 %varcstring356, %varcstring357 = "", "";
 %varcint55 = ^min_32bit_int;

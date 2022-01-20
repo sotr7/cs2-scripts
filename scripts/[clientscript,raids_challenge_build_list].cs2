@@ -9,7 +9,7 @@ cc_setcolour(^white);
 cc_setfill(true);
 cc_settrans(210);
 def_int $count5 = 1;
-def_int $int6 = -1;
+def_int $int6 = null;
 if_settext("World <tostring(map_world)>", interface_21:18);
 while ($count5 <= enum_getoutputcount(enum_1915)) {
 	$int6 = enum(int, int, enum_1915, $count5);

@@ -4,7 +4,7 @@ def_int $count7 = enum_getoutputcount(enum_3319);
 def_int $int8 = calc((if_getwidth($component1) - 8 * 36) / 7 + 36);
 def_namedobj $namedobj9 = null;
 def_int $num10 = 0;
-def_int $int11 = -1;
+def_int $int11 = null;
 cc_deleteall($component1);
 def_int $count12 = 0;
 while ($count12 < $count7) {
@@ -30,7 +30,7 @@ while ($count12 < $count7) {
 	}
 	$count12 = calc($count12 + 1);
 }
-if ($int11 ! -1) {
+if ($int11 ! null) {
 	$int11 = calc($int11 + 32);
 }
 if_setscrollpos(0, 0, $component1);

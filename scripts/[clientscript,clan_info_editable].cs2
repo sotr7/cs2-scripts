@@ -59,7 +59,7 @@ cc_settiling(true);
 cc_setsize(0, 20, ^setsize_minus, ^setsize_abs);
 cc_setposition(0, calc($int8 - 20), ^setpos_abs_centre, ^setpos_abs_top);
 if_setsize(0, $int8, ^setsize_minus, ^setsize_abs, $component0);
-if ($int2 ! -1) {
+if ($int2 ! null) {
 	%varcint49 = calc(%varcint49 + $int8 - 3);
 	if ($int2 = 1) {
 		~script4215(interface_690:3, "Back to Recruitment Board");

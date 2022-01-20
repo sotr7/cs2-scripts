@@ -9,7 +9,7 @@ if ($int5 < 10) {
 	$string0 = "Time Remaining : <tostring($int4)>:0<tostring($int5)>";
 }
 if ($boolean2 = true) {
-	~tooltip_build($component0, -1, $component1, $string0, 512);
+	~tooltip_build($component0, null, $component1, $string0, 512);
 	if_setonop("teleblock_timer_tooltip(interface_90:46, interface_90:54, false)", interface_90:46);
 	if_setontimer("teleblock_timer($component0, $component1, $int5)", interface_90:46);
 	if_setonmouseleave("teleblock_toggle_onmouseleave($component1)", interface_90:46);

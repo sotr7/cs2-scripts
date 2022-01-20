@@ -49,9 +49,9 @@ while ($int18 < $int20) {
 	cc_settextshadow(true);
 	$int18 = calc($int18 + 1);
 }
-if_settext(~gravestone_generic_parsefee(-1), $component11);
-if_settext(~gravestone_generic_parsecoffer(-1), $component17);
-if_setontimer("gravestone_generic_resynchdata(-1, $component11, -1, $component17, $component14, $component15)", $component17);
+if_settext(~gravestone_generic_parsefee(null), $component11);
+if_settext(~gravestone_generic_parsecoffer(null), $component17);
+if_setontimer("gravestone_generic_resynchdata(null, $component11, null, $component17, $component14, $component15)", $component17);
 cc_deleteall($component0);
 $int18 = 0;
 while ($int18 < 8) {
@@ -61,7 +61,7 @@ while ($int18 < 8) {
 	cc_settrans(255);
 	cc_setonmouserepeat("cc_settrans(event_com, event_comsubid, 200, null)");
 	cc_setonmouseleave("cc_settrans(event_com, event_comsubid, 255, null)");
-	cc_setdraggable($component0, -1);
+	cc_setdraggable($component0, null);
 	cc_setdragdeadzone(1);
 	cc_setdragdeadtime(5);
 	$int18 = calc($int18 + 1);

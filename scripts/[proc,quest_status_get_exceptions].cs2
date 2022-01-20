@@ -58,5 +58,5 @@ switch_struct ($struct0) {
 		}
 		return(0);
 	case default :
-		return(-1);
+		return(null);
 }

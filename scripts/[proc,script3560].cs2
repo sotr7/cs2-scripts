@@ -31,7 +31,7 @@ while ($int4 > 0) {
 					$int11 = calc($int11 - 1);
 					$obj12 = enum(int, namedobj, $enum10, $int11);
 					$string0 = oc_name($obj12);
-					if (string_length(%varcstring359) <= 0 | string_indexof_string(lowercase($string0), lowercase(%varcstring359), 0) ! -1) {
+					if (string_length(%varcstring359) <= 0 | string_indexof_string(lowercase($string0), lowercase(%varcstring359), 0) ! null) {
 						cc_create(interface_162:50, ^iftype_rectangle, $int3);
 						cc_setopbase("<col=ff9040><$string0></col>");
 						cc_setonop("poh_costumes_searchresult($namedobj6, $enum0, ^key_return)");
@@ -50,7 +50,7 @@ while ($int4 > 0) {
 				$obj12 = enum(obj, namedobj, enum_3303, $namedobj9);
 				if ($obj12 ! null) {
 					$string0 = oc_name($obj12);
-					if (string_length(%varcstring359) <= 0 | string_indexof_string(lowercase($string0), lowercase(%varcstring359), 0) ! -1) {
+					if (string_length(%varcstring359) <= 0 | string_indexof_string(lowercase($string0), lowercase(%varcstring359), 0) ! null) {
 						cc_create(interface_162:50, ^iftype_rectangle, $int3);
 						cc_setopbase("<col=ff9040><$string0></col>");
 						cc_setonop("poh_costumes_searchresult($namedobj6, $enum0, ^key_return)");
@@ -67,7 +67,7 @@ while ($int4 > 0) {
 				}
 			}
 			$string0 = oc_name($namedobj9);
-			if (string_length(%varcstring359) <= 0 | string_indexof_string(lowercase($string0), lowercase(%varcstring359), 0) ! -1) {
+			if (string_length(%varcstring359) <= 0 | string_indexof_string(lowercase($string0), lowercase(%varcstring359), 0) ! null) {
 				cc_create(interface_162:50, ^iftype_rectangle, $int3);
 				cc_setopbase("<col=ff9040><$string0></col>");
 				cc_setonop("poh_costumes_searchresult($namedobj6, $enum0, ^key_return)");
@@ -90,7 +90,7 @@ while ($int4 > 0) {
 				$int11 = calc($int11 - 1);
 				$obj12 = enum(int, namedobj, $enum10, $int11);
 				$string0 = oc_name($obj12);
-				if (string_length(%varcstring359) <= 0 | string_indexof_string(lowercase($string0), lowercase(%varcstring359), 0) ! -1) {
+				if (string_length(%varcstring359) <= 0 | string_indexof_string(lowercase($string0), lowercase(%varcstring359), 0) ! null) {
 					cc_create(interface_162:50, ^iftype_rectangle, $int3);
 					cc_setopbase("<col=ff9040><$string0></col>");
 					$int3 = calc($int3 + 1);
@@ -109,7 +109,7 @@ while ($int4 > 0) {
 			$obj12 = enum(obj, namedobj, enum_3303, $namedobj6);
 			if ($obj12 ! null) {
 				$string0 = oc_name($obj12);
-				if (string_length(%varcstring359) <= 0 | string_indexof_string(lowercase($string0), lowercase(%varcstring359), 0) ! -1) {
+				if (string_length(%varcstring359) <= 0 | string_indexof_string(lowercase($string0), lowercase(%varcstring359), 0) ! null) {
 					cc_create(interface_162:50, ^iftype_rectangle, $int3);
 					cc_setopbase("<col=ff9040><$string0></col>");
 					cc_setonop("poh_costumes_searchresult($namedobj6, $enum0, ^key_return)");
@@ -126,7 +126,7 @@ while ($int4 > 0) {
 			}
 		}
 		$string0 = oc_name($namedobj6);
-		if (string_length(%varcstring359) <= 0 | string_indexof_string(lowercase($string0), lowercase(%varcstring359), 0) ! -1) {
+		if (string_length(%varcstring359) <= 0 | string_indexof_string(lowercase($string0), lowercase(%varcstring359), 0) ! null) {
 			cc_create(interface_162:50, ^iftype_rectangle, $int3);
 			cc_setopbase("<col=ff9040><$string0></col>");
 			cc_setonop("poh_costumes_searchresult($namedobj6, $enum0, ^key_return)");

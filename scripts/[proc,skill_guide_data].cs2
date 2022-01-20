@@ -103,7 +103,7 @@ switch_int ($int0) {
 				case 48 :
 					return(75, vestas_blighted_longsword_24617, "Members: Vesta's blighted longsword");
 				case default :
-					return(-1, null, "");
+					return(null, null, "");
 			}
 		}
 		if ($int1 = 1) {
@@ -113,12 +113,12 @@ switch_int ($int0) {
 			if ($int2 = 1) {
 				return(80, ferocious_gloves_22981, "Members: Ferocious Gloves<br> (with 80 Defence)");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 2) {
 			return(~skill_guide_salamanders($int2));
 		}
-		return(-1, null, "");
+		return(null, null, "");
 	case 2 :
 		switch_int ($int1) {
 			case 0 :
@@ -213,7 +213,7 @@ switch_int ($int0) {
 			case 4 :
 				switch_int ($int2) {
 					case 0 :
-						return(-1, obj_7620, "To start fishing like a Barbarian, talk to<br>Otto Godblessed when you have at least<br>level 48 Fishing, level 15 Agility and level 15 Strength.");
+						return(null, obj_7620, "To start fishing like a Barbarian, talk to<br>Otto Godblessed when you have at least<br>level 48 Fishing, level 15 Agility and level 15 Strength.");
 					case 1 :
 						return(15, leaping_trout_11328, "Leaping trout<br> (with 15 Agility & 48 Fishing)");
 					case 2 :
@@ -230,7 +230,7 @@ switch_int ($int0) {
 						return(76, raw_shark_383, "Shark<br> (with 96 Fishing)");
 				}
 		}
-		return(-1, null, "");
+		return(null, null, "");
 	case 5 :
 		return(~skill_guide_data_defence($int1, $int2));
 	case 3 :
@@ -277,7 +277,7 @@ switch_int ($int0) {
 			if ($int2 = 13) {
 				return(75, twisted_bow_20997, "Members: Twisted bow<br> Ammo: Arrows up to dragon");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 1) {
 			if ($int2 = 0) {
@@ -328,7 +328,7 @@ switch_int ($int0) {
 			if ($int2 = 15) {
 				return(75, toxic_blowpipe_empty_12924, "Toxic blowpipe");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 2) {
 			if ($int2 = 0) {
@@ -379,7 +379,7 @@ switch_int ($int0) {
 			if ($int2 = 15) {
 				return(80, zaryte_crossbow_26374, "Members: Zaryte crossbow<br> Ammo: Bolts up to dragon");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 3) {
 			if ($int2 = 0) {
@@ -520,7 +520,7 @@ switch_int ($int0) {
 			if ($int2 = 45) {
 				return(80, zaryte_vambraces_26235, "Members: Zaryte vambraces<br> (with 45 Defence)");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 4) {
 			if ($int2 = 0) {
@@ -532,7 +532,7 @@ switch_int ($int0) {
 			if ($int2 = 2) {
 				return(75, heavy_ballista_19481, "Heavy ballista (after Monkey Madness II)<br> Ammo: All Javelins");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 5) {
 			if ($int2 = 0) {
@@ -562,12 +562,12 @@ switch_int ($int0) {
 			if ($int2 = 8) {
 				return(70, agility_balance_6515, "Cross cave south of Dorgesh-Kaan<br>(with 70 Agility and 70 Strength)");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 6) {
 			return(~skill_guide_salamanders($int2));
 		}
-		return(-1, null, "");
+		return(null, null, "");
 	case 7 :
 		return(~skill_guide_data_prayer($int1, $int2));
 	case 4 :
@@ -576,196 +576,196 @@ switch_int ($int0) {
 		if ($int1 = 0) {
 			switch_int ($int2) {
 				case 0 :
-					return(-1, obj_7620, "Hitpoints are used to tell you how healthy your character is. A character who reaches 0 Hitpoints has died, but will reappear in their chosen respawn location (normally Lumbridge).");
+					return(null, obj_7620, "Hitpoints are used to tell you how healthy your character is. A character who reaches 0 Hitpoints has died, but will reappear in their chosen respawn location (normally Lumbridge).");
 				case 1 :
-					return(-1, obj_7620, "If you see any red 'hit splats' during combat, the number shown corresponds to the number of Hitpoints lost as a result of that strike.");
+					return(null, obj_7620, "If you see any red 'hit splats' during combat, the number shown corresponds to the number of Hitpoints lost as a result of that strike.");
 				case 2 :
-					return(-1, obj_7620, "Blue hit splats mean no damage has been dealt.");
+					return(null, obj_7620, "Blue hit splats mean no damage has been dealt.");
 				case 3 :
-					return(-1, obj_7620, "Green hit splats are poison damage.");
+					return(null, obj_7620, "Green hit splats are poison damage.");
 				case 4 :
-					return(-1, obj_7620, "Teal hit splats are venom damage. (Members)");
+					return(null, obj_7620, "Teal hit splats are venom damage. (Members)");
 				case 5 :
-					return(-1, obj_7620, "Orange hit splats are disease damage. (Members)");
+					return(null, obj_7620, "Orange hit splats are disease damage. (Members)");
 				case 6 :
-					return(-1, obj_7620, "Dark purple hit splats are corruption damage. (Members)");
+					return(null, obj_7620, "Dark purple hit splats are corruption damage. (Members)");
 				case default :
-					return(-1, null, "");
+					return(null, null, "");
 			}
 		}
 		if ($int1 = 1) {
 			if ($int2 = 0) {
-				return(-1, purple_sweets_10476, "Purple Sweets: Restores 1-3 Hitpoints<br>(Members)");
+				return(null, purple_sweets_10476, "Purple Sweets: Restores 1-3 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 1) {
-				return(-1, anchovies_319, "Anchovies: Restores 1 Hitpoint");
+				return(null, anchovies_319, "Anchovies: Restores 1 Hitpoint");
 			}
 			if ($int2 = 2) {
-				return(-1, shrimps_315, "Shrimp: Restores 3 Hitpoints");
+				return(null, shrimps_315, "Shrimp: Restores 3 Hitpoints");
 			}
 			if ($int2 = 3) {
-				return(-1, cooked_chicken_2140, "Cooked chicken: Restores 3 Hitpoints");
+				return(null, cooked_chicken_2140, "Cooked chicken: Restores 3 Hitpoints");
 			}
 			if ($int2 = 4) {
-				return(-1, sardine_325, "Sardine: Restores 3 Hitpoints");
+				return(null, sardine_325, "Sardine: Restores 3 Hitpoints");
 			}
 			if ($int2 = 5) {
-				return(-1, cooked_meat_2142, "Cooked meat: Restores 3 Hitpoints");
+				return(null, cooked_meat_2142, "Cooked meat: Restores 3 Hitpoints");
 			}
 			if ($int2 = 6) {
-				return(-1, cooked_mystery_meat_24785, "Cooked mystery meat: Restores 5 Hitpoints");
+				return(null, cooked_mystery_meat_24785, "Cooked mystery meat: Restores 5 Hitpoints");
 			}
 			if ($int2 = 7) {
-				return(-1, bread_2309, "Bread: Restores 5 Hitpoints");
+				return(null, bread_2309, "Bread: Restores 5 Hitpoints");
 			}
 			if ($int2 = 8) {
-				return(-1, herring_347, "Herring: Restores 5 Hitpoints");
+				return(null, herring_347, "Herring: Restores 5 Hitpoints");
 			}
 			if ($int2 = 9) {
-				return(-1, cooked_rabbit_3228, "Cooked Rabbit: Restores 5 Hitpoints<br>(Members)");
+				return(null, cooked_rabbit_3228, "Cooked Rabbit: Restores 5 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 10) {
-				return(-1, steak_sandwich_25631, "Steak Sandwich: Restores 6 Hitpoints");
+				return(null, steak_sandwich_25631, "Steak Sandwich: Restores 6 Hitpoints");
 			}
 			if ($int2 = 11) {
-				return(-1, mackerel_355, "Mackerel: Restores 6 Hitpoints<br>(Members)");
+				return(null, mackerel_355, "Mackerel: Restores 6 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 12) {
-				return(-1, botanical_pie_19662, "Botanical Pie: Restores 6 Hitpoints<br>(Members)");
+				return(null, botanical_pie_19662, "Botanical Pie: Restores 6 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 13) {
-				return(-1, cooked_slimy_eel_3381, "Slimy Eel: Restores 6-10 Hitpoints<br>(Members)");
+				return(null, cooked_slimy_eel_3381, "Slimy Eel: Restores 6-10 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 14) {
-				return(-1, trout_333, "Trout: Restores 7 Hitpoints");
+				return(null, trout_333, "Trout: Restores 7 Hitpoints");
 			}
 			if ($int2 = 15) {
-				return(-1, cod_339, "Cod: Restores 7 Hitpoints<br>(Members)");
+				return(null, cod_339, "Cod: Restores 7 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 16) {
-				return(-1, roast_rabbit_7223, "Roast Rabbit: Restores 7 Hitpoints<br>(Members)");
+				return(null, roast_rabbit_7223, "Roast Rabbit: Restores 7 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 17) {
-				return(-1, cave_eel_5003, "Cave Eel: Restores 7-11 Hitpoints<br>(Members)");
+				return(null, cave_eel_5003, "Cave Eel: Restores 7-11 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 18) {
-				return(-1, pike_351, "Pike: Restores 8 Hitpoints");
+				return(null, pike_351, "Pike: Restores 8 Hitpoints");
 			}
 			if ($int2 = 19) {
-				return(-1, salmon_329, "Salmon: Restores 9 Hitpoints");
+				return(null, salmon_329, "Salmon: Restores 9 Hitpoints");
 			}
 			if ($int2 = 20) {
-				return(-1, redberry_pie_2325, "Redberry pie: Restores 9 Hitpoints");
+				return(null, redberry_pie_2325, "Redberry pie: Restores 9 Hitpoints");
 			}
 			if ($int2 = 21) {
-				return(-1, tuna_361, "Tuna: Restores 10 Hitpoints");
+				return(null, tuna_361, "Tuna: Restores 10 Hitpoints");
 			}
 			if ($int2 = 22) {
-				return(-1, crab_meat_7518, "Crab meat: Restores 10 Hitpoints<br>(Members)");
+				return(null, crab_meat_7518, "Crab meat: Restores 10 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 23) {
-				return(-1, cooked_fishcake_7530, "Cooked fishcake: Restores 11 Hitpoints<br>(Members)");
+				return(null, cooked_fishcake_7530, "Cooked fishcake: Restores 11 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 24) {
-				return(-1, jug_of_wine_1993, "Jug of wine: Restores 11 Hitpoints");
+				return(null, jug_of_wine_1993, "Jug of wine: Restores 11 Hitpoints");
 			}
 			if ($int2 = 25) {
-				return(-1, meat_pie_2327, "Meat pie: Restores 11 Hitpoints");
+				return(null, meat_pie_2327, "Meat pie: Restores 11 Hitpoints");
 			}
 			if ($int2 = 26) {
-				return(-1, lava_eel_2149, "Lava Eel: Restores 11 Hitpoints<br>(Members)");
+				return(null, lava_eel_2149, "Lava Eel: Restores 11 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 27) {
-				return(-1, garden_pie_7178, "Garden pie: Restores 12 Hitpoints<br>(Members)");
+				return(null, garden_pie_7178, "Garden pie: Restores 12 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 28) {
-				return(-1, fish_pie_7188, "Fish pie: Restores 12 Hitpoints<br>(Members)");
+				return(null, fish_pie_7188, "Fish pie: Restores 12 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 29) {
-				return(-1, cake_1891, "Cake: Restores 12 Hitpoints");
+				return(null, cake_1891, "Cake: Restores 12 Hitpoints");
 			}
 			if ($int2 = 30) {
-				return(-1, lobster_379, "Lobster: Restores 12 Hitpoints");
+				return(null, lobster_379, "Lobster: Restores 12 Hitpoints");
 			}
 			if ($int2 = 31) {
-				return(-1, bass_365, "Bass: Restores 13 Hitpoints<br>(Members)");
+				return(null, bass_365, "Bass: Restores 13 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 32) {
-				return(-1, swordfish_373, "Swordfish: Restores 14 Hitpoints");
+				return(null, swordfish_373, "Swordfish: Restores 14 Hitpoints");
 			}
 			if ($int2 = 33) {
-				return(-1, plain_pizza_2289, "Plain pizza: Restores 14 Hitpoints");
+				return(null, plain_pizza_2289, "Plain pizza: Restores 14 Hitpoints");
 			}
 			if ($int2 = 34) {
-				return(-1, apple_pie_2323, "Apple pie: Restores 14 Hitpoints");
+				return(null, apple_pie_2323, "Apple pie: Restores 14 Hitpoints");
 			}
 			if ($int2 = 35) {
-				return(-1, potato_with_butter_6703, "Potato with butter: Restores 14 Hitpoints<br>(Members)");
+				return(null, potato_with_butter_6703, "Potato with butter: Restores 14 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 36) {
-				return(-1, chilli_potato_7054, "Chilli Potato: Restores 14 Hitpoints<br>(Members)");
+				return(null, chilli_potato_7054, "Chilli Potato: Restores 14 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 37) {
-				return(-1, chocolate_cake_1897, "Chocolate Cake: Restores 15 Hitpoints");
+				return(null, chocolate_cake_1897, "Chocolate Cake: Restores 15 Hitpoints");
 			}
 			if ($int2 = 38) {
-				return(-1, monkfish_7946, "Monkfish: Restores 16 Hitpoints<br>(Members)");
+				return(null, monkfish_7946, "Monkfish: Restores 16 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 39) {
-				return(-1, admiral_pie_7198, "Admiral pie: Restores 16 Hitpoints<br>(Members)");
+				return(null, admiral_pie_7198, "Admiral pie: Restores 16 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 40) {
-				return(-1, meat_pizza_2293, "Meat pizza: Restores 16 Hitpoints");
+				return(null, meat_pizza_2293, "Meat pizza: Restores 16 Hitpoints");
 			}
 			if ($int2 = 41) {
-				return(-1, potato_with_cheese_6705, "Potato with cheese: Restores 16 Hitpoints<br>(Members)");
+				return(null, potato_with_cheese_6705, "Potato with cheese: Restores 16 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 42) {
-				return(-1, egg_potato_7056, "Egg Potato: Restores 16 Hitpoints<br>(Members)");
+				return(null, egg_potato_7056, "Egg Potato: Restores 16 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 43) {
-				return(-1, cooked_karambwan_3144, "Cooked karambwan: Restores 18 Hitpoints<br>(Members)");
+				return(null, cooked_karambwan_3144, "Cooked karambwan: Restores 18 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 44) {
-				return(-1, anchovy_pizza_2297, "Anchovy pizza: Restores 18 Hitpoints");
+				return(null, anchovy_pizza_2297, "Anchovy pizza: Restores 18 Hitpoints");
 			}
 			if ($int2 = 45) {
-				return(-1, ugthanki_kebab_1885, "Ugthanki kebab: Restores 19 Hitpoints<br>(Members)");
+				return(null, ugthanki_kebab_1885, "Ugthanki kebab: Restores 19 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 46) {
-				return(-1, shark_385, "Shark: Restores 20 Hitpoints<br>(Members)");
+				return(null, shark_385, "Shark: Restores 20 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 47) {
-				return(-1, mushroom_potato_7058, "Mushroom Potato: Restores 20 Hitpoints<br>(Members)");
+				return(null, mushroom_potato_7058, "Mushroom Potato: Restores 20 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 48) {
-				return(-1, sea_turtle_397, "Sea Turtle: Restores 21 Hitpoints<br>(Members)");
+				return(null, sea_turtle_397, "Sea Turtle: Restores 21 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 49) {
-				return(-1, manta_ray_391, "Manta Ray: Restores 22 Hitpoints<br>(Members)");
+				return(null, manta_ray_391, "Manta Ray: Restores 22 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 50) {
-				return(-1, dark_crab_11936, "Dark Crab: Restores 22 Hitpoints<br>(Members)");
+				return(null, dark_crab_11936, "Dark Crab: Restores 22 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 51) {
-				return(-1, tuna_potato_7060, "Tuna Potato: Restores 22 Hitpoints<br>(Members)");
+				return(null, tuna_potato_7060, "Tuna Potato: Restores 22 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 52) {
-				return(-1, wild_pie_7208, "Wild pie: Restores 22 Hitpoints<br>(Members)");
+				return(null, wild_pie_7208, "Wild pie: Restores 22 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 53) {
-				return(-1, summer_pie_7218, "Summer pie: Restores 22 Hitpoints<br>(Members)");
+				return(null, summer_pie_7218, "Summer pie: Restores 22 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 54) {
-				return(-1, pineapple_pizza_2301, "Pineapple pizza: Restores 22 Hitpoints<br>(Members)");
+				return(null, pineapple_pizza_2301, "Pineapple pizza: Restores 22 Hitpoints<br>(Members)");
 			}
 			if ($int2 = 55) {
-				return(-1, anglerfish_13441, "Anglerfish: Restores Hitpoints based on your Hitpoints level up to a maximum of 22 - can boost beyond your level<br>(Members)");
+				return(null, anglerfish_13441, "Anglerfish: Restores Hitpoints based on your Hitpoints level up to a maximum of 22 - can boost beyond your level<br>(Members)");
 			}
 			if ($int2 = 56) {
-				return(-1, saradomin_brew_3_6687, "Saradomin brew: Restores 15% of your Hitpoints level plus 2 - can boost beyond your level<br>(Members)");
+				return(null, saradomin_brew_3_6687, "Saradomin brew: Restores 15% of your Hitpoints level plus 2 - can boost beyond your level<br>(Members)");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 2) {
 			if ($int2 = 0) {
@@ -780,9 +780,9 @@ switch_int ($int0) {
 			if ($int2 = 3) {
 				return(75, ring_of_suffering_19550, "Enchanted zenyte jewellery");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
-		return(-1, null, "");
+		return(null, null, "");
 	case 8 :
 		switch_int ($int1) {
 			case 0 :
@@ -1049,7 +1049,7 @@ switch_int ($int0) {
 			case 3 :
 				switch_int ($int2) {
 					case 0 :
-						return(-1, obj_7620, "To start fishing like a Barbarian, talk to<br>Otto Godblessed when you have at least<br>level 48 Fishing, level 15 Agility and level 15 Strength.");
+						return(null, obj_7620, "To start fishing like a Barbarian, talk to<br>Otto Godblessed when you have at least<br>level 48 Fishing, level 15 Agility and level 15 Strength.");
 					case 1 :
 						return(15, leaping_trout_11328, "Leaping trout<br> (with 15 Strength & 48 Fishing)");
 					case 2 :
@@ -1077,13 +1077,13 @@ switch_int ($int0) {
 						return(92, hallowed_mark_25_24717, "Hallowed Sepulchre (Floor 5)");
 				}
 		}
-		return(-1, null, "");
+		return(null, null, "");
 	case 9 :
 		switch_int ($int1) {
 			case 0 :
 				switch_int ($int2) {
 					case 0 :
-						return(-1, obj_7620, "You must complete the Druidic Ritual quest before you can use Herblore.");
+						return(null, obj_7620, "You must complete the Druidic Ritual quest before you can use Herblore.");
 					case 1 :
 						return(3, eye_of_newt_221, "Attack potion<br>Guam leaf & eye of newt");
 					case 2 :
@@ -1195,12 +1195,12 @@ switch_int ($int0) {
 					case 55 :
 						return(98, lava_scale_shard_5_3256, "Extended super antifires<br>Super antifire potion & lava scale shards<br>(after Dragon Slayer II)");
 					case default :
-						return(-1, null, "");
+						return(null, null, "");
 				}
 			case 1 :
 				switch_int ($int2) {
 					case 0 :
-						return(-1, obj_7620, "You must complete the Druidic Ritual quest before you can use Herblore");
+						return(null, obj_7620, "You must complete the Druidic Ritual quest before you can use Herblore");
 					case 1 :
 						return(3, guam_leaf_249, "Guam leaf");
 					case 2 :
@@ -1234,12 +1234,12 @@ switch_int ($int0) {
 					case 16 :
 						return(75, torstol_269, "Torstol");
 					case default :
-						return(-1, null, "");
+						return(null, null, "");
 				}
 			case 2 :
 				switch_int ($int2) {
 					case 0 :
-						return(-1, obj_7620, "You must complete barbarian herblore training before you can make these potions.");
+						return(null, obj_7620, "You must complete barbarian herblore training before you can make these potions.");
 					case 1 :
 						return(4, attack_mix_2_11429, "Attack mix");
 					case 2 :
@@ -1299,12 +1299,12 @@ switch_int ($int0) {
 					case 29 :
 						return(99, extended_super_antifire_mix_2_22221, "Extended super antifire mix");
 					case default :
-						return(-1, null, "");
+						return(null, null, "");
 				}
 			case 3 :
 				switch_int ($int2) {
 					case 0 :
-						return(-1, obj_7620, "Potions may be <col=6f0000>strong</col>, <col=6f0000>standard</col> or <col=6f0000>weak</col>, depending on your Herblore level.");
+						return(null, obj_7620, "Potions may be <col=6f0000>strong</col>, <col=6f0000>standard</col> or <col=6f0000>weak</col>, depending on your Herblore level.");
 					case 1 :
 						return(47, golpar_20905, "Weak Golpar potions:");
 					case 2 :
@@ -1312,11 +1312,11 @@ switch_int ($int0) {
 					case 3 :
 						return(scale(150, 100, 47), golpar_20905, "Strong Golpar potions");
 					case 4 :
-						return(-1, elder_potion_4_20920, "Elder potions<br> with Stinkhorn mushroom");
+						return(null, elder_potion_4_20920, "Elder potions<br> with Stinkhorn mushroom");
 					case 5 :
-						return(-1, kodai_potion_4_20944, "Kodai potions<br> with Endarkened juice");
+						return(null, kodai_potion_4_20944, "Kodai potions<br> with Endarkened juice");
 					case 6 :
-						return(-1, twisted_potion_4_20932, "Twisted potions<br> with Cicely");
+						return(null, twisted_potion_4_20932, "Twisted potions<br> with Cicely");
 					case 7 :
 						return(52, buchu_leaf_20908, "Weak Buchu leaf potions:");
 					case 8 :
@@ -1324,11 +1324,11 @@ switch_int ($int0) {
 					case 9 :
 						return(scale(150, 100, 52), buchu_leaf_20908, "Strong Buchu leaf potions");
 					case 10 :
-						return(-1, revitalisation_potion_4_20956, "Revitalisation potions<br> with Stinkhorn mushroom");
+						return(null, revitalisation_potion_4_20956, "Revitalisation potions<br> with Stinkhorn mushroom");
 					case 11 :
-						return(-1, xerics_aid_4_20980, "Xeric's Aid potions<br> with Endarkened juice");
+						return(null, xerics_aid_4_20980, "Xeric's Aid potions<br> with Endarkened juice");
 					case 12 :
-						return(-1, prayer_enhance_4_20968, "Prayer enhance potions<br> with Cicely");
+						return(null, prayer_enhance_4_20968, "Prayer enhance potions<br> with Cicely");
 					case 13 :
 						return(60, noxifer_20902, "Weak Noxifer potions:");
 					case 14 :
@@ -1336,13 +1336,13 @@ switch_int ($int0) {
 					case 15 :
 						return(scale(150, 100, 60), noxifer_20902, "Strong Noxifer potions");
 					case 16 :
-						return(-1, antipoison_potion_4_25761, "Antipoison potions<br> with Cicely");
+						return(null, antipoison_potion_4_25761, "Antipoison potions<br> with Cicely");
 					case 17 :
-						return(-1, overload_4_20992, "Overload<br> with Elder, Kodai & Twisted potions");
+						return(null, overload_4_20992, "Overload<br> with Elder, Kodai & Twisted potions");
 					case 18 :
-						return(-1, overload_4_20996, "For overload potions, the tier is capped at the tier of the potions used to make it.");
+						return(null, overload_4_20996, "For overload potions, the tier is capped at the tier of the potions used to make it.");
 					case default :
-						return(-1, null, "");
+						return(null, null, "");
 				}
 			case 4 :
 				if ($int2 = 0) {
@@ -1351,9 +1351,9 @@ switch_int ($int0) {
 				if ($int2 = 1) {
 					return(58, herb_sack_13226, "Use the Herb Sack reward item, purchased from the Tithe Farm or Slayer Masters.");
 				}
-				return(-1, null, "");
+				return(null, null, "");
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 10 :
 		return(~skill_guide_data_thieving($int1, $int2));
@@ -1369,7 +1369,7 @@ switch_int ($int0) {
 				if ($int2 = 2) {
 					return(36, basket_5376, "Fruit basket");
 				}
-				return(-1, null, "");
+				return(null, null, "");
 			case 1 :
 				if ($int2 = 0) {
 					return(1, leather_gloves_1059, "Leather gloves");
@@ -1518,7 +1518,7 @@ switch_int ($int0) {
 				if ($int2 = 48) {
 					return(84, black_dhide_body_2503, "Members: Black dragonhide body");
 				}
-				return(-1, null, "");
+				return(null, null, "");
 			case 2 :
 				if ($int2 = 0) {
 					return(1, ball_of_wool_1759, "Wool");
@@ -1535,7 +1535,7 @@ switch_int ($int0) {
 				if ($int2 = 4) {
 					return(30, rope_954, "Members: Yak hair into rope");
 				}
-				return(-1, null, "");
+				return(null, null, "");
 			case 3 :
 				if ($int2 = 0) {
 					return(1, pot_1931, "Pot");
@@ -1552,7 +1552,7 @@ switch_int ($int0) {
 				if ($int2 = 4) {
 					return(25, pot_lid_4440, "Members: Pot lid");
 				}
-				return(-1, null, "");
+				return(null, null, "");
 			case 4 :
 				if ($int2 = 0) {
 					return(1, beer_glass_1919, "Beer glass");
@@ -1581,7 +1581,7 @@ switch_int ($int0) {
 				if ($int2 = 8) {
 					return(87, light_orb_10973, "Dorgeshuun light orb");
 				}
-				return(-1, null, "");
+				return(null, null, "");
 			case 5 :
 				if ($int2 = 0) {
 					return(1, opal_1609, "Members: Cut opal");
@@ -1763,7 +1763,7 @@ switch_int ($int0) {
 				if ($int2 = 59) {
 					return(98, zenyte_amulet_19541, "Members: Zenyte amulet");
 				}
-				return(-1, null, "");
+				return(null, null, "");
 			case 6 :
 				switch_int ($int2) {
 					case 0 :
@@ -1791,7 +1791,7 @@ switch_int ($int0) {
 					case 11 :
 						return(89, amethyst_dart_tip_25853, "Amethyst dart tips");
 					case default :
-						return(-1, null, "");
+						return(null, null, "");
 				}
 			case 7 :
 				switch_int ($int2) {
@@ -1828,7 +1828,7 @@ switch_int ($int0) {
 					case 15 :
 						return(82, bow_of_faerdhinen_c_25867, "Bow of Faerdhinen (c)<br>(with 82 Smithing)");
 					case default :
-						return(-1, null, "");
+						return(null, null, "");
 				}
 			case 8 :
 				switch_int ($int2) {
@@ -1857,10 +1857,10 @@ switch_int ($int0) {
 					case 11 :
 						return(90, redwood_bird_house_22204, "Craft a birdhouse trap from redwood logs");
 					case default :
-						return(-1, null, "");
+						return(null, null, "");
 				}
 			case default :
-				return(-1, null, "");
+				return(null, null, "");
 		}
 	case 19 :
 		if ($int1 = 0) {
@@ -1933,7 +1933,7 @@ switch_int ($int0) {
 			if ($int2 = 22) {
 				return(90, dragon_arrow_11212, "Dragon arrows");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 1) {
 			if ($int2 = 0) {
@@ -1975,7 +1975,7 @@ switch_int ($int0) {
 			if ($int2 = 12) {
 				return(85, magic_longbow_859, "Magic longbows");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 2) {
 			if ($int2 = 0) {
@@ -2053,7 +2053,7 @@ switch_int ($int0) {
 			if ($int2 = 24) {
 				return(84, dragon_bolts_21905, "Dragon bolts");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 3) {
 			if ($int2 = 0) {
@@ -2083,7 +2083,7 @@ switch_int ($int0) {
 			if ($int2 = 8) {
 				return(95, dragon_dart_11230, "Dragon darts");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 4) {
 			if ($int2 = 0) {
@@ -2110,7 +2110,7 @@ switch_int ($int0) {
 			if ($int2 = 7) {
 				return(78, magic_stock_21952, "Dragon/magic crossbows");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 5) {
 			if ($int2 = 0) {
@@ -2143,7 +2143,7 @@ switch_int ($int0) {
 			if ($int2 = 9) {
 				return(92, dragon_javelin_19484, "Dragon javelins");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 6) {
 			if ($int2 = 0) {
@@ -2164,15 +2164,15 @@ switch_int ($int0) {
 			if ($int2 = 5) {
 				return(92, redwood_shield_22266, "Redwood shield");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 7) {
 			if ($int2 = 0) {
 				return(40, battlestaff_1391, "Battlestaves");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
-		return(-1, null, "");
+		return(null, null, "");
 	case 13 :
 		if ($int1 = 0) {
 			switch_int ($int2) {
@@ -2243,7 +2243,7 @@ switch_int ($int0) {
 				case 32 :
 					return(92, amethyst_21347, "Members: Amethyst");
 				case default :
-					return(-1, null, "");
+					return(null, null, "");
 			}
 		}
 		if ($int1 = 1) {
@@ -2279,7 +2279,7 @@ switch_int ($int0) {
 				case 14 :
 					return(71, crystal_pickaxe_23680, "Members: Crystal pickaxe<br>(after Song of the Elves)");
 				case default :
-					return(-1, null, "");
+					return(null, null, "");
 			}
 		}
 		if ($int1 = 2) {
@@ -2291,7 +2291,7 @@ switch_int ($int0) {
 				case 2 :
 					return(72, pay_dirt_12011, "Members: Motherlode Mine upper area");
 				case default :
-					return(-1, null, "");
+					return(null, null, "");
 			}
 		}
 		if ($int1 = 3) {
@@ -2316,7 +2316,7 @@ switch_int ($int0) {
 					return(90, stardust_175_25532, "Size-9 stars");
 			}
 		}
-		return(-1, null, "");
+		return(null, null, "");
 	case 14 :
 		if ($int1 = 0) {
 			if ($int2 = 0) {
@@ -2349,7 +2349,7 @@ switch_int ($int0) {
 			if ($int2 = 9) {
 				return(85, runite_bar_2363, "Runite<br>8 coal & 1 runite ore");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 1) {
 			if ($int2 = 0) {
@@ -2436,11 +2436,11 @@ switch_int ($int0) {
 			if ($int2 = 27) {
 				return(18, bronze_platebody_1117, "Bronze platebodies<br>5 bars");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 2) {
 			if ($int2 = 0) {
-				return(-1, obj_7620, "After completing Knight's Sword, able to make:");
+				return(null, obj_7620, "After completing Knight's Sword, able to make:");
 			}
 			if ($int2 = 1) {
 				return(8, blurite_bolts_unf_9376, "Blurite crossbow bolts<br>1 bar makes 10");
@@ -2448,7 +2448,7 @@ switch_int ($int0) {
 			if ($int2 = 2) {
 				return(13, blurite_limbs_9422, "Blurite crossbow limbs<br>1 bar");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 3) {
 			if ($int2 = 0) {
@@ -2538,7 +2538,7 @@ switch_int ($int0) {
 			if ($int2 = 28) {
 				return(33, iron_platebody_1115, "Iron platebodies<br>5 bars");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 4) {
 			if ($int2 = 0) {
@@ -2631,7 +2631,7 @@ switch_int ($int0) {
 			if ($int2 = 29) {
 				return(49, bullseye_lantern_unf_4544, "Members: Bullseye lantern frames<br>1 bar");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 5) {
 			if ($int2 = 0) {
@@ -2718,7 +2718,7 @@ switch_int ($int0) {
 			if ($int2 = 27) {
 				return(68, mithril_platebody_1121, "Mithril platebodies<br>5 bars");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 6) {
 			if ($int2 = 0) {
@@ -2802,7 +2802,7 @@ switch_int ($int0) {
 			if ($int2 = 26) {
 				return(88, adamant_platebody_1123, "Adamant platebodies<br>5 bars");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 7) {
 			if ($int2 = 0) {
@@ -2886,7 +2886,7 @@ switch_int ($int0) {
 			if ($int2 = 26) {
 				return(99, rune_platebody_1127, "Rune platebodies<br>5 bars");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 8) {
 			if ($int2 = 0) {
@@ -2964,7 +2964,7 @@ switch_int ($int0) {
 			if ($int2 = 24) {
 				return(93, shayzien_supply_platebody_5_13562, "Shayzien supply platebody (5)<br>4 bars");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 9) {
 			if ($int2 = 0) {
@@ -3015,7 +3015,7 @@ switch_int ($int0) {
 			if ($int2 = 15) {
 				return(82, bow_of_faerdhinen_c_25867, "Bow of Faerdhinen (c)<br>(with 82 Crafting)");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 10) {
 			if ($int2 = 0) {
@@ -3051,9 +3051,9 @@ switch_int ($int0) {
 			if ($int2 = 10) {
 				return(90, torva_platebody_26384, "Members: Torva armour<br>(after Desert Treasure)");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
-		return(-1, null, "");
+		return(null, null, "");
 	case 15 :
 		if ($int1 = 0) {
 			if ($int2 = 0) {
@@ -3083,7 +3083,7 @@ switch_int ($int0) {
 			if ($int2 = 8) {
 				return(82, minnow_3_10572, "Members: Minnow - Small fishing net<br>(after Fishing Contest)");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 1) {
 			if ($int2 = 0) {
@@ -3104,7 +3104,7 @@ switch_int ($int0) {
 			if ($int2 = 5) {
 				return(46, raw_catfish_25670, "Members: Catfish - Big fishing net (After Below Ice Mountain)");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 2) {
 			if ($int2 = 0) {
@@ -3143,7 +3143,7 @@ switch_int ($int0) {
 			if ($int2 = 11) {
 				return(87, sacred_eel_13339, "Members: Sacred eel - Fishing rod & Fishing bait");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 3) {
 			if ($int2 = 0) {
@@ -3155,7 +3155,7 @@ switch_int ($int0) {
 			if ($int2 = 2) {
 				return(76, raw_shark_383, "Members: Shark - Harpoon");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 4) {
 			if ($int2 = 0) {
@@ -3170,7 +3170,7 @@ switch_int ($int0) {
 			if ($int2 = 3) {
 				return(91, greater_siren_22835, "Members: Greater siren - Aerial fishing<br>(With 87 hunter)");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 5) {
 			if ($int2 = 0) {
@@ -3179,11 +3179,11 @@ switch_int ($int0) {
 			if ($int2 = 1) {
 				return(85, raw_dark_crab_11934, "Members: Dark crab - Lobster pot & Dark fishing bait");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 6) {
 			if ($int2 = 0) {
-				return(-1, obj_7620, "To start fishing like a Barbarian, talk to<br>Otto Godblessed when you have at least<br>level 48 Fishing, level 15 Agility and level 15 Strength.");
+				return(null, obj_7620, "To start fishing like a Barbarian, talk to<br>Otto Godblessed when you have at least<br>level 48 Fishing, level 15 Agility and level 15 Strength.");
 			}
 			if ($int2 = 1) {
 				return(48, leaping_trout_11328, "Leaping trout - Barbarian rod & most bait types<br> (with 15 Agility & 15 Strength)");
@@ -3206,7 +3206,7 @@ switch_int ($int0) {
 			if ($int2 = 7) {
 				return(96, raw_shark_383, "Shark<br> (with 76 Strength)");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 7) {
 			if ($int2 = 0) {
@@ -3248,7 +3248,7 @@ switch_int ($int0) {
 			if ($int2 = 12) {
 				return(75, infernal_harpoon_21031, "Members: Infernal harpoon<br>(with 85 Cooking)");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 8) {
 			if ($int2 = 0) {
@@ -3272,7 +3272,7 @@ switch_int ($int0) {
 			if ($int2 = 6) {
 				return(90, raw_kyren_fish_6_20867, "Kyren fish");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 9) {
 			if ($int2 = 0) {
@@ -3293,9 +3293,9 @@ switch_int ($int0) {
 			if ($int2 = 5) {
 				return(81, raw_manta_ray_389, "Members: Manta ray - Trawler & Tempoross");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
-		return(-1, null, "");
+		return(null, null, "");
 	case 16 :
 		if ($int1 = 0) {
 			if ($int2 = 0) {
@@ -3421,7 +3421,7 @@ switch_int ($int0) {
 			if ($int2 = 40) {
 				return(91, manta_ray_391, "Members: Manta ray");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 1) {
 			if ($int2 = 0) {
@@ -3431,21 +3431,21 @@ switch_int ($int0) {
 				return(58, pitta_bread_1865, "Members: Pitta bread");
 			}
 			if ($int2 = 2) {
-				return(-1, obj_7620, "1. Pick some grain and take it to a windmill to make flour.");
+				return(null, obj_7620, "1. Pick some grain and take it to a windmill to make flour.");
 			}
 			if ($int2 = 3) {
-				return(-1, obj_7620, "2. Use a pot to collect the flour you have made.");
+				return(null, obj_7620, "2. Use a pot to collect the flour you have made.");
 			}
 			if ($int2 = 4) {
-				return(-1, obj_7620, "3. Fill a bucket or jug with water from a sink or fountain.");
+				return(null, obj_7620, "3. Fill a bucket or jug with water from a sink or fountain.");
 			}
 			if ($int2 = 5) {
-				return(-1, obj_7620, "4. Mix the flour and water to make some bread dough.");
+				return(null, obj_7620, "4. Mix the flour and water to make some bread dough.");
 			}
 			if ($int2 = 6) {
-				return(-1, obj_7620, "5. Cook the dough by using it with a stove.");
+				return(null, obj_7620, "5. Cook the dough by using it with a stove.");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 2) {
 			if ($int2 = 0) {
@@ -3485,21 +3485,21 @@ switch_int ($int0) {
 				return(95, summer_pie_7218, "Members: Summer pie");
 			}
 			if ($int2 = 12) {
-				return(-1, obj_7620, "To make a pie:");
+				return(null, obj_7620, "To make a pie:");
 			}
 			if ($int2 = 13) {
-				return(-1, obj_7620, "1. Mix flour and water to make pastry dough.");
+				return(null, obj_7620, "1. Mix flour and water to make pastry dough.");
 			}
 			if ($int2 = 14) {
-				return(-1, obj_7620, "2. Place the dough in an empty pie dish.");
+				return(null, obj_7620, "2. Place the dough in an empty pie dish.");
 			}
 			if ($int2 = 15) {
-				return(-1, obj_7620, "3. Use your choice of filling with the empty pie (refer to pie recipe book).");
+				return(null, obj_7620, "3. Use your choice of filling with the empty pie (refer to pie recipe book).");
 			}
 			if ($int2 = 16) {
-				return(-1, obj_7620, "4. Cook the pie by using it with a stove.");
+				return(null, obj_7620, "4. Cook the pie by using it with a stove.");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 3) {
 			if ($int2 = 0) {
@@ -3509,27 +3509,27 @@ switch_int ($int0) {
 				return(60, curry_2011, "Members: Curry");
 			}
 			if ($int2 = 2) {
-				return(-1, obj_7620, "To make stew:");
+				return(null, obj_7620, "To make stew:");
 			}
 			if ($int2 = 3) {
-				return(-1, obj_7620, "1. Obtain a bowl and fill it with water from a sink or fountain.");
+				return(null, obj_7620, "1. Obtain a bowl and fill it with water from a sink or fountain.");
 			}
 			if ($int2 = 4) {
-				return(-1, obj_7620, "2. Pick a potato and place it in the bowl.");
+				return(null, obj_7620, "2. Pick a potato and place it in the bowl.");
 			}
 			if ($int2 = 5) {
-				return(-1, obj_7620, "3. Cook some meat and place it in the bowl.");
+				return(null, obj_7620, "3. Cook some meat and place it in the bowl.");
 			}
 			if ($int2 = 6) {
-				return(-1, obj_7620, "4. Cook the stew by using it with a stove or fire.");
+				return(null, obj_7620, "4. Cook the stew by using it with a stove or fire.");
 			}
 			if ($int2 = 7) {
-				return(-1, obj_7620, "After completing Evil Dave's miniquest<br>from Recipe for Disaster, I can add<br>spices to cooked stew.");
+				return(null, obj_7620, "After completing Evil Dave's miniquest<br>from Recipe for Disaster, I can add<br>spices to cooked stew.");
 			}
 			if ($int2 = 8) {
-				return(-1, obj_7620, "To make curry: make uncooked stew as above. Before cooking, add some spices or 3 curry leaves.");
+				return(null, obj_7620, "To make curry: make uncooked stew as above. Before cooking, add some spices or 3 curry leaves.");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 4) {
 			if ($int2 = 0) {
@@ -3545,24 +3545,24 @@ switch_int ($int0) {
 				return(65, pineapple_pizza_2301, "Members: Pineapple pizza");
 			}
 			if ($int2 = 4) {
-				return(-1, obj_7620, "To make a pizza:");
+				return(null, obj_7620, "To make a pizza:");
 			}
 			if ($int2 = 5) {
-				return(-1, obj_7620, "1. Mix flour and water to make a pizza base.");
+				return(null, obj_7620, "1. Mix flour and water to make a pizza base.");
 			}
 			if ($int2 = 6) {
-				return(-1, obj_7620, "2. Add a tomato to the pizza.");
+				return(null, obj_7620, "2. Add a tomato to the pizza.");
 			}
 			if ($int2 = 7) {
-				return(-1, obj_7620, "3. Add some cheese to the pizza.");
+				return(null, obj_7620, "3. Add some cheese to the pizza.");
 			}
 			if ($int2 = 8) {
-				return(-1, obj_7620, "4. Cook the pizza by using it with a stove.");
+				return(null, obj_7620, "4. Cook the pizza by using it with a stove.");
 			}
 			if ($int2 = 9) {
-				return(-1, obj_7620, "5. Add your choice of topping to the pizza.");
+				return(null, obj_7620, "5. Add your choice of topping to the pizza.");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 5) {
 			if ($int2 = 0) {
@@ -3572,18 +3572,18 @@ switch_int ($int0) {
 				return(50, chocolate_cake_1897, "Chocolate cake");
 			}
 			if ($int2 = 2) {
-				return(-1, obj_7620, "To make a cake:");
+				return(null, obj_7620, "To make a cake:");
 			}
 			if ($int2 = 3) {
-				return(-1, obj_7620, "1. Mix flour, eggs and milk together in a cake tin.");
+				return(null, obj_7620, "1. Mix flour, eggs and milk together in a cake tin.");
 			}
 			if ($int2 = 4) {
-				return(-1, obj_7620, "2. Cook the cake by using it with a stove.");
+				return(null, obj_7620, "2. Cook the cake by using it with a stove.");
 			}
 			if ($int2 = 5) {
-				return(-1, obj_7620, "3. Optional: Buy some chocolate and add it to the cake to make a chocolate cake.");
+				return(null, obj_7620, "3. Optional: Buy some chocolate and add it to the cake to make a chocolate cake.");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 6) {
 			if ($int2 = 0) {
@@ -3593,45 +3593,45 @@ switch_int ($int0) {
 				return(65, wine_of_zamorak_245, "Members: Wine of Zamorak");
 			}
 			if ($int2 = 2) {
-				return(-1, obj_7620, "To make wine:");
+				return(null, obj_7620, "To make wine:");
 			}
 			if ($int2 = 3) {
-				return(-1, obj_7620, "1. Fill a jug with water.");
+				return(null, obj_7620, "1. Fill a jug with water.");
 			}
 			if ($int2 = 4) {
-				return(-1, obj_7620, "2. Use grapes with the jug of water.");
+				return(null, obj_7620, "2. Use grapes with the jug of water.");
 			}
 			if ($int2 = 5) {
-				return(-1, obj_7620, "3. Wait until the wine ferments.");
+				return(null, obj_7620, "3. Wait until the wine ferments.");
 			}
 			if ($int2 = 6) {
-				return(-1, obj_7620, "Wine will ferment when left in<br>your inventory or the bank.");
+				return(null, obj_7620, "Wine will ferment when left in<br>your inventory or the bank.");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 7) {
 			if ($int2 = 0) {
 				return(20, cup_of_tea_4242, "Nettle tea");
 			}
 			if ($int2 = 1) {
-				return(-1, obj_7620, "To make nettle tea:");
+				return(null, obj_7620, "To make nettle tea:");
 			}
 			if ($int2 = 2) {
-				return(-1, obj_7620, "1. Fill a bowl with water.");
+				return(null, obj_7620, "1. Fill a bowl with water.");
 			}
 			if ($int2 = 3) {
-				return(-1, obj_7620, "2. Put some picked nettles into the bowl of water.");
+				return(null, obj_7620, "2. Put some picked nettles into the bowl of water.");
 			}
 			if ($int2 = 4) {
-				return(-1, obj_7620, "3. Boil the nettle-water by using it with a range or a fire.");
+				return(null, obj_7620, "3. Boil the nettle-water by using it with a range or a fire.");
 			}
 			if ($int2 = 5) {
-				return(-1, obj_7620, "4. Use the bowl of nettle tea with a cup.");
+				return(null, obj_7620, "4. Use the bowl of nettle tea with a cup.");
 			}
 			if ($int2 = 6) {
-				return(-1, obj_7620, "5. If you take milk, use a bucket of milk on the nettle tea.");
+				return(null, obj_7620, "5. If you take milk, use a bucket of milk on the nettle tea.");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 8) {
 			if ($int2 = 0) {
@@ -3664,7 +3664,7 @@ switch_int ($int0) {
 			if ($int2 = 9) {
 				return(59, slayers_respite_5759, "Slayer's Respite<br>4 Wildblood hops");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 9) {
 			if ($int2 = 0) {
@@ -3716,33 +3716,33 @@ switch_int ($int0) {
 				return(68, tuna_potato_7060, "Baked potato with tuna and sweetcorn");
 			}
 			if ($int2 = 16) {
-				return(-1, obj_7620, "To make baked potatoes with toppings:");
+				return(null, obj_7620, "To make baked potatoes with toppings:");
 			}
 			if ($int2 = 17) {
-				return(-1, obj_7620, "1. Bake the potato on a range.");
+				return(null, obj_7620, "1. Bake the potato on a range.");
 			}
 			if ($int2 = 18) {
-				return(-1, obj_7620, "2. Add some butter.");
+				return(null, obj_7620, "2. Add some butter.");
 			}
 			if ($int2 = 19) {
-				return(-1, obj_7620, "3. If needed, combine topping ingredients by chopping them into a bowl.");
+				return(null, obj_7620, "3. If needed, combine topping ingredients by chopping them into a bowl.");
 			}
 			if ($int2 = 20) {
-				return(-1, obj_7620, "Ingredients for toppings:");
+				return(null, obj_7620, "Ingredients for toppings:");
 			}
 			if ($int2 = 21) {
-				return(-1, obj_7620, "1. Chilli con carne: meat & spicy sauce (made from garlic and gnome spice)");
+				return(null, obj_7620, "1. Chilli con carne: meat & spicy sauce (made from garlic and gnome spice)");
 			}
 			if ($int2 = 22) {
-				return(-1, obj_7620, "2. Egg and tomato: scrambled egg & tomato");
+				return(null, obj_7620, "2. Egg and tomato: scrambled egg & tomato");
 			}
 			if ($int2 = 23) {
-				return(-1, obj_7620, "3. Mushroom and onion: fried bittercap mushroom & fried onion");
+				return(null, obj_7620, "3. Mushroom and onion: fried bittercap mushroom & fried onion");
 			}
 			if ($int2 = 24) {
-				return(-1, obj_7620, "4. Tuna and sweetcorn: tuna & cooked sweetcorn");
+				return(null, obj_7620, "4. Tuna and sweetcorn: tuna & cooked sweetcorn");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 10) {
 			if ($int2 = 0) {
@@ -3755,18 +3755,18 @@ switch_int ($int0) {
 				return(48, cheese_1985, "Cheese");
 			}
 			if ($int2 = 3) {
-				return(-1, obj_7620, "To make dairy products:");
+				return(null, obj_7620, "To make dairy products:");
 			}
 			if ($int2 = 4) {
-				return(-1, obj_7620, "1. Get a bucket of milk, a pot of cream or a pot of butter.");
+				return(null, obj_7620, "1. Get a bucket of milk, a pot of cream or a pot of butter.");
 			}
 			if ($int2 = 5) {
-				return(-1, obj_7620, "2. Use the milk, cream or butter in a churn.");
+				return(null, obj_7620, "2. Use the milk, cream or butter in a churn.");
 			}
 			if ($int2 = 6) {
-				return(-1, obj_7620, "3. Milk can be churned into cream, then into butter, then into cheese.");
+				return(null, obj_7620, "3. Milk can be churned into cream, then into butter, then into cheese.");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 11) {
 			if ($int2 = 0) {
@@ -3829,7 +3829,7 @@ switch_int ($int0) {
 			if ($int2 = 19) {
 				return(42, chocolate_bomb_2185, "Chocolate bomb");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 12) {
 			if ($int2 = 0) {
@@ -3874,11 +3874,11 @@ switch_int ($int0) {
 			if ($int2 = 13) {
 				return(90, psykk_bat_6_20883, "Psykk bat");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 13) {
 			if ($int2 = 0) {
-				return(-1, obj_7620, "Ritual Offering are used in the Ancient Offering Ritual in the ruins of Camdozaal (After Below Ice Mountain).");
+				return(null, obj_7620, "Ritual Offering are used in the Ancient Offering Ritual in the ruins of Camdozaal (After Below Ice Mountain).");
 			} else if ($int2 = 1) {
 				return(7, guppy_25654, "Guppy");
 			} else if ($int2 = 2) {
@@ -3889,7 +3889,7 @@ switch_int ($int0) {
 				return(46, catfish_25672, "Members: Catfish");
 			}
 		}
-		return(-1, null, "");
+		return(null, null, "");
 	case 17 :
 		return(~skill_guide_data_firemaking($int1, $int2));
 	case 18 :
@@ -3932,7 +3932,7 @@ switch_int ($int0) {
 				case 17 :
 					return(90, redwood_logs_19669, "Members: Redwood trees");
 				case default :
-					return(-1, null, "");
+					return(null, null, "");
 			}
 		}
 		if ($int1 = 1) {
@@ -3962,7 +3962,7 @@ switch_int ($int0) {
 				case 11 :
 					return(71, crystal_axe_23673, "Members: Crystal axe<br>(after Song of the Elves)");
 				case default :
-					return(-1, null, "");
+					return(null, null, "");
 			}
 		}
 		if ($int1 = 2) {
@@ -3980,10 +3980,10 @@ switch_int ($int0) {
 				case 5 :
 					return(57, paddle_7414, "Waka canoe");
 				case default :
-					return(-1, null, "");
+					return(null, null, "");
 			}
 		}
-		return(-1, null, "");
+		return(null, null, "");
 	case 12 :
 		if ($int1 = 0) {
 			if ($int2 = 0) {
@@ -4049,11 +4049,11 @@ switch_int ($int0) {
 			if ($int2 = 20) {
 				return(95, wrath_rune_21880, "Members: Wrath runes");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 1) {
 			if ($int2 = 0) {
-				return(-1, obj_7620, "As your Runecrafting skill develops, you will be able to craft multiple runes from one piece of essence. You only receive experience for each piece of essence crafted, not each rune crafted.");
+				return(null, obj_7620, "As your Runecrafting skill develops, you will be able to craft multiple runes from one piece of essence. You only receive experience for each piece of essence crafted, not each rune crafted.");
 			}
 			if ($int2 = 1) {
 				return(11, air_rune_556, "2 Air runes per essence");
@@ -4157,11 +4157,11 @@ switch_int ($int0) {
 			if ($int2 = 34) {
 				return(99, death_rune_560, "Members: 2 Death runes per essence");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 2) {
 			if ($int2 = 0) {
-				return(-1, obj_7620, "Pouches come in various sizes which allow you to carry extra essence in them. As you use the pouches they degrade and store less essence, just speak to the Dark Mage at the centre of the Abyss to restore them.");
+				return(null, obj_7620, "Pouches come in various sizes which allow you to carry extra essence in them. As you use the pouches they degrade and store less essence, just speak to the Dark Mage at the centre of the Abyss to restore them.");
 			}
 			if ($int2 = 1) {
 				return(1, small_pouch_5509, "Small pouch: Holds 3 extra essence");
@@ -4175,7 +4175,7 @@ switch_int ($int0) {
 			if ($int2 = 4) {
 				return(75, giant_pouch_5514, "Giant pouch: Holds 12 extra essence");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 3) {
 			if ($int2 = 0) {
@@ -4205,9 +4205,9 @@ switch_int ($int0) {
 			if ($int2 = 8) {
 				return(81, bloodbark_body_25404, "Bloodbark body and legs");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
-		return(-1, null, "");
+		return(null, null, "");
 	case 20 :
 		return(~skill_guide_data_slayer($int1, $int2));
 	case 21 :
@@ -4236,7 +4236,7 @@ switch_int ($int0) {
 			if ($int2 = 7) {
 				return(61, snape_grass_231, "Snape grass<br>Payment: Jangerberries x5");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 1) {
 			if ($int2 = 0) {
@@ -4260,7 +4260,7 @@ switch_int ($int0) {
 			if ($int2 = 6) {
 				return(28, wildblood_hops_6002, "Wildblood hops<br>Payment: Nasturtiums");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 2) {
 			if ($int2 = 0) {
@@ -4278,7 +4278,7 @@ switch_int ($int0) {
 			if ($int2 = 4) {
 				return(75, magic_logs_1513, "Magic trees<br>Payment: Coconut x25");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 3) {
 			if ($int2 = 0) {
@@ -4305,7 +4305,7 @@ switch_int ($int0) {
 			if ($int2 = 7) {
 				return(81, dragonfruit_22929, "Dragonfruit trees<br>Payment: Coconut x15");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 4) {
 			if ($int2 = 0) {
@@ -4326,7 +4326,7 @@ switch_int ($int0) {
 			if ($int2 = 5) {
 				return(70, poison_ivy_berries_6018, "Poison ivy bushes");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 5) {
 			if ($int2 = 0) {
@@ -4350,7 +4350,7 @@ switch_int ($int0) {
 			if ($int2 = 6) {
 				return(58, white_lily_22932, "White lily<br>Protects all allotment crops");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 6) {
 			if ($int2 = 0) {
@@ -4398,7 +4398,7 @@ switch_int ($int0) {
 			if ($int2 = 14) {
 				return(85, torstol_269, "Torstol");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 7) {
 			if ($int2 = 0) {
@@ -4435,7 +4435,7 @@ switch_int ($int0) {
 				return(74, crystal_shard_23962, "Crystal trees");
 			}
 			if ($int2 = 10) {
-				return(-1, obj_7620, "Anima plants have effects on all other farming patches");
+				return(null, obj_7620, "Anima plants have effects on all other farming patches");
 			}
 			if ($int2 = 11) {
 				return(76, dummy_kronos_plant_22938, "Anima: Kronos<br>Increases speed of growth");
@@ -4462,33 +4462,33 @@ switch_int ($int0) {
 				return(99, spirit_tree_6063, "Spirit trees<br>(unlimited)");
 			}
 			if ($int2 = 19) {
-				return(-1, obj_7620, "Payment: Monkey bar, ground suqah tooth & 5 monkey nuts");
+				return(null, obj_7620, "Payment: Monkey bar, ground suqah tooth & 5 monkey nuts");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 8) {
 			if ($int2 = 0) {
 				return(23, scarecrow_6059, "Able to make and place a scarecrow");
 			}
 			if ($int2 = 1) {
-				return(-1, obj_7620, "Scarecrows ward sweetcorn from being attacked by birds, which helps to prevent disease.");
+				return(null, obj_7620, "Scarecrows ward sweetcorn from being attacked by birds, which helps to prevent disease.");
 			}
 			if ($int2 = 2) {
-				return(-1, obj_7620, "How to make a scarecrow:");
+				return(null, obj_7620, "How to make a scarecrow:");
 			}
 			if ($int2 = 3) {
-				return(-1, obj_7620, "1. Fill an empty sack with straw from a bale.");
+				return(null, obj_7620, "1. Fill an empty sack with straw from a bale.");
 			}
 			if ($int2 = 4) {
-				return(-1, obj_7620, "2. Drive the hay sack onto a bronze spear.");
+				return(null, obj_7620, "2. Drive the hay sack onto a bronze spear.");
 			}
 			if ($int2 = 5) {
-				return(-1, obj_7620, "3. Place a watermelon on top as a head.");
+				return(null, obj_7620, "3. Place a watermelon on top as a head.");
 			}
 			if ($int2 = 6) {
-				return(-1, obj_7620, "4. Stand the scarecrow in an empty flower patch.");
+				return(null, obj_7620, "4. Stand the scarecrow in an empty flower patch.");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 9) {
 			if ($int2 = 0) {
@@ -4536,7 +4536,7 @@ switch_int ($int0) {
 			if ($int2 = 14) {
 				return(99, magic_roots_6051, "4x magic roots");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 10) {
 			if ($int2 = 0) {
@@ -4548,7 +4548,7 @@ switch_int ($int0) {
 			if ($int2 = 2) {
 				return(74, logavano_fruit_13428, "Logavano fruit");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 11) {
 			if ($int2 = 0) {
@@ -4560,7 +4560,7 @@ switch_int ($int0) {
 			if ($int2 = 2) {
 				return(55, noxifer_20902, "Noxifer");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
 		if ($int1 = 12) {
 			if ($int2 = 0) {
@@ -4572,13 +4572,13 @@ switch_int ($int0) {
 			if ($int2 = 2) {
 				return(85, obj_23005, "Farming Guild - High tier<br>(with 60% Hosidius Favour)");
 			}
-			return(-1, null, "");
+			return(null, null, "");
 		}
-		return(-1, null, "");
+		return(null, null, "");
 	case 22 :
 		return(~skill_guide_data_construction($int1, $int2));
 	case 23 :
 		return(~skill_guide_data_hunter($int1, $int2));
 	case default :
-		return(-1, null, "");
+		return(null, null, "");
 }

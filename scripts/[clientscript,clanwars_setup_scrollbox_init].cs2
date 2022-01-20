@@ -6,7 +6,7 @@ cc_deleteall($component3);
 if ($component4 ! null) {
 	cc_deleteall($component4);
 }
-~clanwars_setup_scrollbox_drawframe($component2, $component3, enum(int, string, $enum0, -1));
+~clanwars_setup_scrollbox_drawframe($component2, $component3, enum(int, string, $enum0, null));
 def_int $int7 = ~tournament_world;
 def_int $height8 = 0;
 def_int $int9 = 0;

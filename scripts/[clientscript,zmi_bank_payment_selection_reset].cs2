@@ -9,4 +9,4 @@ if (.cc_find($component3, $comsubid4) = ^true & .cc_gethide = true) {
 if (clientclock < $clock0) {
 	return;
 }
-~bank_payment_draw($component2, -1, $boolean5);
+~bank_payment_draw($component2, null, $boolean5);

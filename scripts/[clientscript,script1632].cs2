@@ -6,7 +6,7 @@ if (clientclock < $clock3) {
 if (~keypress_permit(interface_458, null) = 0) {
 	return;
 }
-if ($keychar0 ! null & (string_indexof_char($string0, $keychar0) ! -1 | string_indexof_char($string1, $keychar0) ! -1)) {
+if ($keychar0 ! null & (string_indexof_char($string0, $keychar0) ! null | string_indexof_char($string1, $keychar0) ! null)) {
 	if_setonkey("script1632(event_keychar, $comsubid1, event_com, $string0, $string1, calc(clientclock + 20))", $component2);
 	if (cc_find($component2, 4) = ^true) {
 		cc_settrans(120);

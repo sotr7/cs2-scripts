@@ -10,7 +10,7 @@ switch_int (~script5534($stat0)) {
 	case 0 :
 		$text0 = append("Lvl. ", tostring(calc(~script5536($stat0) + 1)));
 	case 1 :
-		if ($int4 ! -1) {
+		if ($int4 ! null) {
 			$text0 = append("Lvl. ", tostring($int4));
 		} else {
 			$text0 = "Goal";

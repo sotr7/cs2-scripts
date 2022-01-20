@@ -1,11 +1,11 @@
 // 553
 [proc,script553]()(int)
-def_int $mesuid0 = -1;
-def_int $int1 = -1;
+def_int $mesuid0 = null;
+def_int $int1 = null;
 def_string $string0 = "";
 def_string $string1 = "";
 def_string $string2 = "";
-def_int $mesuid2 = -1;
+def_int $mesuid2 = null;
 def_int $int3 = ^min_32bit_int;
 def_int $int4 = ^min_32bit_int;
 def_int $chattype5 = ^chattype_gamemessage;
@@ -26,7 +26,7 @@ while ($chattype5 <= 112) {
 					%varcstring356 = removetags($string0);
 				}
 			case ^chattype_broadcast :
-				if ($mesuid0 ! -1 & $int1 >= %varcint202 & $int1 > calc(clientclock - 3000)) {
+				if ($mesuid0 ! null & $int1 >= %varcint202 & $int1 > calc(clientclock - 3000)) {
 					%varcint55 = $int1;
 					if_setontimer("script664(false)", interface_162:0);
 				}

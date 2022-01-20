@@ -4,7 +4,7 @@ if (%varcint5 = 14 | %varcint5 = 17) {
 	%varcint66 = 1;
 	return;
 }
-def_int $mesuid0 = -1;
+def_int $mesuid0 = null;
 def_string $string0 = "";
 def_int $length1 = string_length(%varcstring359);
 if ($length1 > 0) {

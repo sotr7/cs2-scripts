@@ -1,6 +1,6 @@
 // 2201
 [clientscript,diary_mouseover](component $component0, int $comsubid1, int $int2, boolean $boolean3)
-def_int $int4 = -1;
+def_int $int4 = null;
 def_int $colour5 = ^red;
 if ($boolean3 = false) {
 	$int4 = ~area_task_complete($int2);

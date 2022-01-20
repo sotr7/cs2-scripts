@@ -18,7 +18,7 @@ if (if_gethide($component9) = true & if_gethide($component10) = true) {
 }
 cc_deleteall($component11);
 def_int $int14 = 0;
-def_int $int15 = -1;
+def_int $int15 = null;
 def_int $int16 = 0;
 def_int $int17 = 0;
 def_string $string0 = "Create";

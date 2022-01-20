@@ -113,7 +113,7 @@ if ($obj7 = null) {
 	$int19 = calc($int19 - 32 - 14);
 }
 def_int $int20 = 5;
-if ($comsubid3 ! -1 & cc_find($component2, $comsubid3) = ^true) {
+if ($comsubid3 ! null & cc_find($component2, $comsubid3) = ^true) {
 	if (cc_gety < 110) {
 		$int20 = calc($int5 - $int19);
 		if ($int5 >= 261) {
@@ -179,7 +179,7 @@ if ($obj7 ! null) {
 	$int24 = calc($int24 + 1);
 	cc_setposition($int22, calc($int20 + 2 + $int17 + $int18), ^setpos_abs_left, ^setpos_abs_top);
 	cc_setsize(35, 32, ^setsize_abs, ^setsize_abs);
-	cc_setobject($obj7, -1);
+	cc_setobject($obj7, null);
 	cc_create($component4, ^iftype_text, $int24);
 	$int24 = calc($int24 + 1);
 	cc_setposition($int22, calc($int20 + 2 + $int17 + $int18 + 32), ^setpos_abs_left, ^setpos_abs_top);
@@ -200,7 +200,7 @@ if ($obj9 ! null) {
 	$int24 = calc($int24 + 1);
 	cc_setposition(calc($int22 * 2 + 35), calc($int20 + 2 + $int17 + $int18), ^setpos_abs_left, ^setpos_abs_top);
 	cc_setsize(35, 32, ^setsize_abs, ^setsize_abs);
-	cc_setobject($obj9, -1);
+	cc_setobject($obj9, null);
 	cc_create($component4, ^iftype_text, $int24);
 	$int24 = calc($int24 + 1);
 	cc_setposition(calc($int22 * 2 + 35), calc($int20 + 2 + $int17 + $int18 + 32), ^setpos_abs_left, ^setpos_abs_top);
@@ -221,7 +221,7 @@ if ($obj11 ! null) {
 	$int24 = calc($int24 + 1);
 	cc_setposition(calc($int22 * 3 + 70), calc($int20 + 2 + $int17 + $int18), ^setpos_abs_left, ^setpos_abs_top);
 	cc_setsize(35, 32, ^setsize_abs, ^setsize_abs);
-	cc_setobject($obj11, -1);
+	cc_setobject($obj11, null);
 	cc_create($component4, ^iftype_text, $int24);
 	$int24 = calc($int24 + 1);
 	cc_setposition(calc($int22 * 3 + 70), calc($int20 + 2 + $int17 + $int18 + 32), ^setpos_abs_left, ^setpos_abs_top);
@@ -242,7 +242,7 @@ if ($obj13 ! null) {
 	$int24 = calc($int24 + 1);
 	cc_setposition(calc($int22 * 4 + 105), calc($int20 + 2 + $int17 + $int18), ^setpos_abs_left, ^setpos_abs_top);
 	cc_setsize(35, 32, ^setsize_abs, ^setsize_abs);
-	cc_setobject($obj13, -1);
+	cc_setobject($obj13, null);
 	cc_create($component4, ^iftype_text, $int24);
 	$int24 = calc($int24 + 1);
 	cc_setposition(calc($int22 * 4 + 105), calc($int20 + 2 + $int17 + $int18 + 32), ^setpos_abs_left, ^setpos_abs_top);

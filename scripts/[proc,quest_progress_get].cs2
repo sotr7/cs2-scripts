@@ -324,5 +324,5 @@ switch_struct ($struct0) {
 	case the_frozen_door_3768 :
 		return(%varbit13175);
 	case default :
-		return(-1);
+		return(null);
 }

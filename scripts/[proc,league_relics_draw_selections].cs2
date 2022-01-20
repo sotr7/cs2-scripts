@@ -48,7 +48,7 @@ if ($int18 > 0) {
 	$int24 = calc($width22 / $int18);
 	$int27 = calc(($width22 - $int24 * $int18) / 2);
 }
-def_int $int29 = -1;
+def_int $int29 = null;
 def_string $string0 = "";
 def_int $int30 = 0;
 def_int $int31 = 0;
@@ -61,7 +61,7 @@ def_int $int37 = 0;
 def_struct $struct38 = null;
 def_graphic $graphic39 = null;
 def_string $text1 = "";
-def_int $int40 = -1;
+def_int $int40 = null;
 def_struct $struct41 = null;
 def_int $int42 = 0;
 def_int $int43 = 0;
@@ -169,7 +169,7 @@ while ($int42 < $int18) {
 		cc_setsize(34, 34, ^setsize_abs, ^setsize_abs);
 		cc_setposition(calc($int27 + $int24 / 2 - 17), calc($int26 + $int25 / 2 - 33), ^setpos_abs_left, ^setpos_abs_top);
 		cc_setgraphic(struct_param($struct14, param_1026));
-		if ($int29 ! -1) {
+		if ($int29 ! null) {
 			cc_settrans($int29);
 		} else {
 			cc_settrans(255);

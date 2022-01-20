@@ -3,7 +3,7 @@
 cc_deleteall(interface_481:34);
 def_int $int14 = 0;
 def_component $component15 = null;
-def_int $int16 = -1;
+def_int $int16 = null;
 def_obj $objarray0(14);
 $objarray0(0) = $obj0;
 $objarray0(1) = $obj1;

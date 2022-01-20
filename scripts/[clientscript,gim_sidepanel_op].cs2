@@ -9,7 +9,7 @@ if (cc_find($component1, $comsubid2) = ^true) {
 	switch_int ($opindex0) {
 		case 1 :
 			cc_setontimer("gim_sidepanel_reset(calc(clientclock + 20), event_com, event_comsubid, $string0, $world3, false)");
-			if ($world3 ! -1) {
+			if ($world3 ! null) {
 				if (friend_test($string0) = true) {
 					~meslayer_mode6($string0);
 				}

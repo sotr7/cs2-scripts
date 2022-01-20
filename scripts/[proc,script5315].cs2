@@ -48,4 +48,4 @@ if ($obj0 = iron_axe_1349 | inv_total(inv, iron_axe_1349) > 0) {
 if ($obj0 = bronze_axe_1351 | inv_total(inv, bronze_axe_1351) > 0) {
 	return(1351);
 }
-return(-1);
+return(null);

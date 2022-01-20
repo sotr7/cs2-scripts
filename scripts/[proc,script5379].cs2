@@ -2,7 +2,7 @@
 [proc,script5379](stat $stat0, int $int1)(int)
 def_int $xp2 = stat_xp($stat0);
 def_int $int3 = ~script5459($stat0);
-def_int $int4 = -1;
+def_int $int4 = null;
 if ($int3 > 0) {
 	$int4 = calc(($int1 - $xp2 - 1) / $int3 + 1);
 }

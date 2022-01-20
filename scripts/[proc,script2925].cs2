@@ -2,7 +2,7 @@
 [proc,script2925](int $int0, component $component1, string $text0, string $string1, namedobj $namedobj2)(int)
 cc_deleteall($component1);
 cc_create($component1, ^iftype_graphic, 0);
-cc_setobject($namedobj2, -1);
+cc_setobject($namedobj2, null);
 cc_setoutline(1);
 cc_setgraphicshadow(0x604e32);
 cc_setsize(36, 32, ^setsize_abs, ^setsize_abs);

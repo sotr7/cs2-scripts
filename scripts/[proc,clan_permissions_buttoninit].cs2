@@ -10,10 +10,10 @@ if ($struct7 ! null) {
 	$int11 = ~max($int11, calc(paraheight(struct_param($struct7, param_1252), $width9, p12_full) * 12 + 5));
 }
 def_int $int12 = calc(6 + $int10 + 3 + 21 + 3 + $int11 + 6);
-def_int $int13 = -1;
-def_int $comsubid14 = -1;
-def_int $comsubid15 = -1;
-def_int $comsubid16 = -1;
+def_int $int13 = null;
+def_int $comsubid14 = null;
+def_int $comsubid15 = null;
+def_int $comsubid16 = null;
 if (.cc_find($component8, $comsubid5) = ^true) {
 	.cc_setsize($int3, $int12, ^setsize_abs, ^setsize_abs);
 	.cc_setposition($int1, $int2, ^setpos_abs_left, ^setpos_abs_top);

@@ -3,7 +3,7 @@
 if ($obj0 ! null) {
 	cc_clearops;
 	if ($obj0 = bank_filler_20594) {
-		cc_setobject($obj0, -1);
+		cc_setobject($obj0, null);
 		cc_setop(7, "Clear");
 		cc_setop(8, "Clear-All");
 		cc_settrans(0);

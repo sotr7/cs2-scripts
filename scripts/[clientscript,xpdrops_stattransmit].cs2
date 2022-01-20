@@ -1,6 +1,6 @@
 // 1004
 [clientscript,xpdrops_stattransmit](boolean $boolean0, component $component1, component $component2, component $component3, component $component4, component $component5, component $component6, component $component7, component $component8, component $component9, int $int10, int $xp11, int $xp12, int $xp13, int $xp14, int $xp15, int $xp16, int $xp17, int $xp18, int $xp19, int $xp20, int $xp21, int $xp22, int $xp23, int $xp24, int $xp25, int $xp26, int $xp27, int $xp28, int $xp29, int $xp30, int $xp31, int $xp32, int $xp33)
-if ($boolean0 = true & %varcint953 = -1) {
+if ($boolean0 = true & %varcint953 = null) {
 	return;
 }
 def_int $length34 = calc(23 + 1);
@@ -9,7 +9,7 @@ def_int $intarray1($length34);
 def_int $int35 = 0;
 def_int $int36 = 0;
 if ($boolean0 = true) {
-	while (%varcint953 ! -1) {
+	while (%varcint953 ! null) {
 		if (%varcint960 = -10) {
 			~xpdrops_showpanel($component1, $component3, $component8, $component9);
 		} else {
@@ -19,8 +19,8 @@ if ($boolean0 = true) {
 				$int35 = calc($int35 + 1);
 			}
 		}
-		%varcint953, %varcint954, %varcint955, %varcint956, %varcint957, %varcint958, %varcint959 = %varcint954, %varcint955, %varcint956, %varcint957, %varcint958, %varcint959, -1;
-		%varcint960, %varcint961, %varcint962, %varcint963, %varcint964, %varcint965, %varcint966 = %varcint961, %varcint962, %varcint963, %varcint964, %varcint965, %varcint966, -1;
+		%varcint953, %varcint954, %varcint955, %varcint956, %varcint957, %varcint958, %varcint959 = %varcint954, %varcint955, %varcint956, %varcint957, %varcint958, %varcint959, null;
+		%varcint960, %varcint961, %varcint962, %varcint963, %varcint964, %varcint965, %varcint966 = %varcint961, %varcint962, %varcint963, %varcint964, %varcint965, %varcint966, null;
 	}
 } else {
 	$int36 = calc(stat_xp(fishing) - $xp25);

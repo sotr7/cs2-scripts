@@ -68,18 +68,18 @@ if ((%varcint41 = 0 | %varcint41 = 2) & string_length(chat_getmessagefilter) > 0
 }
 def_int $mesuid10 = $mesuid0;
 def_int $chattype11 = ^chattype_gamemessage;
-def_int $int12 = -1;
+def_int $int12 = null;
 def_string $string16 = "";
 def_string $string17 = "";
 def_string $string18 = "";
 def_string $string19 = "";
-def_int $int13 = -1;
+def_int $int13 = null;
 def_int $int14 = 0;
 def_int $int15 = 0;
 def_string $string20 = "";
 def_graphic $graphic16 = null;
 def_int $clanslot17 = null;
-def_int $int18 = -1;
+def_int $int18 = null;
 def_int $int19 = 126;
 def_int $int20 = 126;
 if (activeclansettings_find_affined(^clantype_clan) = true & activeclanchannel_find_affined(^clantype_clan) = true) {
@@ -92,7 +92,7 @@ if (activeclansettings_find_affined(^clantype_clan) = true & activeclanchannel_f
 def_string $string21 = "";
 def_int $int21 = 0;
 def_string $string22 = "";
-while ($mesuid10 ! -1 & $component9 ! null) {
+while ($mesuid10 ! null & $component9 ! null) {
 	$chattype11, $int12, $string16, $string17, $string18, $int15, $string21, $int21 = chat_gethistory_byuid($mesuid10);
 	if (~panetest($chattype11, $string16, $int15, $string18) = 1 & ~filtertest($chattype11, $string16, ~affixtimestamp($string21, $string18, "null"), $string18, $int12, $int2, $string0, $int15) = 1) {
 		switch_int ($chattype11) {
@@ -136,7 +136,7 @@ while ($mesuid10 ! -1 & $component9 ! null) {
 							$int7 = ~script4483(~affixtimestamp($string21, "[<$string2><$string17></col>]", "null"), null, 0, 0, "<$string2><$string20></col> <$string16>:", "<$string8><$string18></col>", $int8, $component9, interface_162:56, $width1, 3, 14, $int6, ^setpos_abs_top, 103, $int3, $boolean4);
 						}
 					} else {
-						$string20, $graphic16 = ~script4302(-1);
+						$string20, $graphic16 = ~script4302(null);
 						$int7 = ~script4483(~affixtimestamp($string21, "[<$string2><$string17></col>]", "null"), $graphic16, 13, 13, "<$string16>:", "<$string8><$string18></col>", $int8, $component9, interface_162:56, $width1, 3, 14, $int6, ^setpos_abs_top, 103, $int3, $boolean4);
 					}
 				} else {
@@ -153,7 +153,7 @@ while ($mesuid10 ! -1 & $component9 ! null) {
 							$int7 = ~script4483(~affixtimestamp($string21, "[<$string2><$string17></col>]", "null"), null, 0, 0, "<$string2><$string20></col> <$string16>:", "<$string11><$string18></col>", $int8, $component9, interface_162:56, $width1, 3, 14, $int6, ^setpos_abs_top, 103, $int3, $boolean4);
 						}
 					} else {
-						$string20, $graphic16 = ~script4302(-1);
+						$string20, $graphic16 = ~script4302(null);
 						$int7 = ~script4483(~affixtimestamp($string21, "[<$string2><$string17></col>]", "null"), $graphic16, 13, 13, "<$string16>:", "<$string11><$string18></col>", $int8, $component9, interface_162:56, $width1, 3, 14, $int6, ^setpos_abs_top, 103, $int3, $boolean4);
 					}
 				} else {
@@ -215,7 +215,7 @@ while ($mesuid10 ! -1 & $component9 ! null) {
 						}
 					} else if ($chattype11 = ^chattype_clanchat & $int18 >= $int19 & activeclanchannel_find_affined(^clantype_clan) = true) {
 						$clanslot17 = activeclanchannel_getuserslot(removetags($string16));
-						if ($clanslot17 = null | activeclanchannel_getuserrank($clanslot17) <= -1) {
+						if ($clanslot17 = null | activeclanchannel_getuserrank($clanslot17) <= null) {
 							if_setop(9, "Kick", $component9);
 							if ($int18 >= $int20) {
 								if_setop(10, "Ban", $component9);
@@ -248,7 +248,7 @@ while ($mesuid10 ! -1 & $component9 ! null) {
 					if_setop(7, "Add ignore", $component9);
 				}
 			case ^chattype_broadcast :
-				if (string_length($string19) > 0 & $int13 ! -1) {
+				if (string_length($string19) > 0 & $int13 ! null) {
 					if_setop(6, "Open", $component9);
 					if_setop(7, "Check", $component9);
 					if_setonmouseover("chat_recol(if_getlayer($component9), $int8, 0x3030ff)", $component9);

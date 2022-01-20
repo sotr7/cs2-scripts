@@ -11,7 +11,7 @@ def_int $int4 = 0;
 def_int $count5 = 0;
 def_int $int6 = 0;
 def_enum $enum7 = enum_2103;
-def_int $int8 = -1;
+def_int $int8 = null;
 def_struct $structarray0(100);
 def_int $int9 = 0;
 def_int $int10 = 0;
@@ -33,12 +33,12 @@ if ($namedobj16 ! null | compare($string3, "") ! 0) {
 	if ($namedobj16 ! null) {
 		$int13 = 12;
 	}
-	~collection_search_display_item($int3, $component1, $int12, $int13, $namedobj16, $int17, $string3, -1, null);
+	~collection_search_display_item($int3, $component1, $int12, $int13, $namedobj16, $int17, $string3, null, null);
 	~collection_search_scrollbar($int13, $component1, $component2);
 	return;
 }
 if (compare($string0, "") = 0) {
-	~collection_search_display_item($int3, $component1, $int12, $int13, null, -1, $string3, -1, null);
+	~collection_search_display_item($int3, $component1, $int12, $int13, null, null, $string3, null, null);
 	~collection_search_scrollbar($int13, $component1, $component2);
 	return;
 }
@@ -85,7 +85,7 @@ while ($int6 < $int9) {
 		} else {
 			$namedobj11 = enum(int, namedobj, $enum7, $int4);
 			$string1 = oc_name($namedobj11);
-			if (string_indexof_string(lowercase($string1), lowercase($string0), 0) ! -1 | string_indexof_string(lowercase($string2), lowercase($string0), 0) ! -1) {
+			if (string_indexof_string(lowercase($string1), lowercase($string0), 0) ! null | string_indexof_string(lowercase($string2), lowercase($string0), 0) ! null) {
 				if ($int14 = 0) {
 					if ($int13 ! 0) {
 						$int13 = calc($int13 + 36 + 4);
@@ -99,7 +99,7 @@ while ($int6 < $int9) {
 					$int3 = calc($int3 + 1);
 					$int14 = 1;
 				}
-				$int12, $int13 = ~collection_search_display_item($int3, $component1, $int12, $int13, $namedobj11, -1, "", $int6, $structarray0($int6));
+				$int12, $int13 = ~collection_search_display_item($int3, $component1, $int12, $int13, $namedobj11, null, "", $int6, $structarray0($int6));
 				$int15 = calc($int15 + 1);
 				$int3 = calc($int3 + 1);
 				$int18 = 1;

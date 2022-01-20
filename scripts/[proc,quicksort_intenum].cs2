@@ -6,7 +6,7 @@ $intarray0($index4) = $intarray0($int2);
 $intarray0($int2) = $int5;
 def_int $int6 = $int1;
 def_int $int7 = $int1;
-def_int $int8 = -1;
+def_int $int8 = null;
 while ($int7 < $int2) {
 	if (compare(enum(int, string, $enum3, $intarray0($int7)), enum(int, string, $enum3, $int5)) <= 0) {
 		$int8 = $intarray0($int7);

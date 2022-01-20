@@ -1,4 +1,4 @@
 // 1996
 [clientscript,fossilquest_voyage_end](component $component0)
-%varcint197 = -1;
+%varcint197 = null;
 if_setontimer(null, $component0);

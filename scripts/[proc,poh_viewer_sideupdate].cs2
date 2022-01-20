@@ -38,7 +38,7 @@ if (%varbit5330 > $int15) {
 		}
 	}
 }
-def_component $component17 = enum(int, component, enum_1424, -1);
+def_component $component17 = enum(int, component, enum_1424, null);
 if (%varbit5333 <= 0) {
 	if_settext("---", $component0);
 	if_setgraphic(null, $component1);

@@ -17,7 +17,7 @@ if (%varbit6670 = 2 & $int17 >= 8) {
 	return;
 }
 def_int $int19 = ~script2665($int10);
-if ($int19 = -1) {
+if ($int19 = null) {
 	return;
 }
 $int19 = calc($int19 + 1);

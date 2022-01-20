@@ -31,7 +31,7 @@ if ($inv13 = null) {
 		$inv13 = enum(int, inv, enum_150, $int12);
 	}
 	%varbit4439 = calc($int1 + 1);
-	if ($int2 ! -1 & stockmarket_isofferempty($int1) = true) {
+	if ($int2 ! null & stockmarket_isofferempty($int1) = true) {
 		%varbit4397 = $int2;
 	}
 }

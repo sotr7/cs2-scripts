@@ -2,7 +2,7 @@
 [clientscript,script5734](int $int0, int $comsubid1, obj $obj2, string $string0)
 if ($int0 = 1) {
 	cc_deleteall(interface_731:12);
-	%varcint43, %varcint49, %varcint58 = 0, 0, -1;
+	%varcint43, %varcint49, %varcint58 = 0, 0, null;
 	cc_deleteall(interface_731:13);
 	cc_deleteall(interface_731:3);
 	if_sethide(true, interface_731:3);

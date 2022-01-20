@@ -133,7 +133,7 @@ if (struct_param($struct6, param_1107) = false) {
 	~script3888($int21, $component7, calc($int3 - 1), $int35, $int32, $int33);
 }
 if ($boolean37 = true) {
-	cc_setdraggable($component10, -1);
+	cc_setdraggable($component10, null);
 	cc_setdragdeadzone(struct_param($struct6, param_1109));
 	cc_setdragdeadtime(struct_param($struct6, param_1110));
 	~settings_slider_choose_ondrag($int21, $component7, calc($int3 - 1), $int35, $int32, $int33);

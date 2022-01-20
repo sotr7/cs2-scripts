@@ -81,8 +81,8 @@ while ($int8 <= 23) {
 	$int4, $int8 = $int8, calc($int8 + 1);
 }
 if ($int3 = 1) {
-	~script1558(interface_699:40, "<col=0dc10d>Accept</col>", interface_699:1, enum_3806, -1);
-	~script1558(interface_699:39, "<col=ff0000>Decline</col>", interface_699:1, enum_3806, -1);
+	~script1558(interface_699:40, "<col=0dc10d>Accept</col>", interface_699:1, enum_3806, null);
+	~script1558(interface_699:39, "<col=ff0000>Decline</col>", interface_699:1, enum_3806, null);
 } else {
 	~script1560(interface_699:40, "", true, 1);
 	if_setonmouserepeat(null, interface_699:40);

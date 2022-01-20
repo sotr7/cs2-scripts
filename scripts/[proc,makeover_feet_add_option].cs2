@@ -5,7 +5,7 @@ def_string $string0 = enum(int, string, enum_3315, $int0);
 cc_create($component4, ^iftype_model, $comsubid1);
 cc_setsize(80, 80, ^setsize_abs, ^setsize_abs);
 cc_setposition($x3, $y2, ^setpos_abs_left, ^setpos_abs_top);
-cc_setobject($obj6, -1);
+cc_setobject($obj6, null);
 cc_setop(1, "Choose-<$string0>");
 cc_setonop("makeover_feet_select($int0, $component4, $component5)");
 cc_create($component5, ^iftype_text, $int0);

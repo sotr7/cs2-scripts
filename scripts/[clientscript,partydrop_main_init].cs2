@@ -17,7 +17,7 @@ while ($int13 < $int9) {
 	cc_setonop("cc_settrans_temporarily(event_com, event_comsubid, 125, 0)");
 	$int13 = calc($int13 + 1);
 }
-if ($int12 ! -1) {
+if ($int12 ! null) {
 	$int12 = calc($int12 + 32);
 }
 if_setscrollpos(0, 0, $component5);

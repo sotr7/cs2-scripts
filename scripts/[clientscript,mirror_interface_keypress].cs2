@@ -3,7 +3,7 @@
 if ($keychar1 = null | ~keypress_permit(interface_635, null) = 0) {
 	return;
 }
-if (string_indexof_char($string0, $keychar1) ! -1 | ($key0 = ^key_return | $key0 = ^key_space) & $component2 = $component3) {
+if (string_indexof_char($string0, $keychar1) ! null | ($key0 = ^key_return | $key0 = ^key_space) & $component2 = $component3) {
 	~mirror_interface_button_draw($component2, $text1, true);
 	if_setonkey(null, $component2);
 	if_setontimer("mirror_interface_button_reset($component2, $string0, calc(clientclock + 40), $text1)", $component2);

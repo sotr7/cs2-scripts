@@ -14,5 +14,5 @@ switch_int ($int0) {
 	case 6 :
 		return(%varbit12890);
 	case default :
-		return(-1);
+		return(null);
 }

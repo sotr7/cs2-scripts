@@ -6,11 +6,11 @@ if (~script5534($stat2) ! 1) {
 def_string $string0 = "";
 def_string $string1 = "";
 def_string $string2 = ",";
-def_int $int3 = -1;
-def_int $int4 = -1;
+def_int $int3 = null;
+def_int $int4 = null;
 def_string $string3 = "null";
 $int3, $int4 = ~xpdrops_data_get($stat2);
-if ($int3 ! 0 & enum(int, int, enum_1162, $int3) = -1) {
+if ($int3 ! 0 & enum(int, int, enum_1162, $int3) = null) {
 	if ($int3 = 200000000) {
 		$string3 = "max";
 	} else {
@@ -19,7 +19,7 @@ if ($int3 ! 0 & enum(int, int, enum_1162, $int3) = -1) {
 	$string0 = "Start:";
 	$string1 = "<~tostring_spacer($int3, $string2)> XP (<$string3>)";
 }
-if ($int4 ! 0 & enum(int, int, enum_1162, $int4) = -1) {
+if ($int4 ! 0 & enum(int, int, enum_1162, $int4) = null) {
 	if (~script5529($string0) = 0) {
 		$string0 = "<$string0>|";
 		$string1 = "<$string1>|";

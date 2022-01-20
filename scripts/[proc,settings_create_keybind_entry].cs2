@@ -20,7 +20,7 @@ if ($int0 = ^max_32bit_int) {
 	$int0 = 2;
 }
 def_int $int18 = ^max_32bit_int;
-if (struct_param($struct5, param_1093) ! -1) {
+if (struct_param($struct5, param_1093) ! null) {
 	$int18 = struct_param($struct5, param_1093);
 	if ($int18 > $int0) {
 		$int0 = $int18;
