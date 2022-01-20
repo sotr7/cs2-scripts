@@ -1,20 +1,20 @@
 // 5752
 [proc,script5752](component $component0, int $int1, int $int2, struct $struct3, int $int4)(int)
 if ($int4 = 1) {
-	$int1 = ~script5749($component0, $int1);
-	$int1 = ~script5749($component0, $int1);
-	$int1 = ~script5749($component0, $int1);
-	$int1 = ~script5749($component0, $int1);
-	$int1 = ~script5749($component0, $int1);
-	$int1 = ~script5749($component0, $int1);
-	$int1 = ~script5749($component0, $int1);
-	$int1 = ~script5749($component0, $int1);
-	$int1 = ~script5749($component0, $int1);
+	$int1 = ~league_3_fragment_shim($component0, $int1);
+	$int1 = ~league_3_fragment_shim($component0, $int1);
+	$int1 = ~league_3_fragment_shim($component0, $int1);
+	$int1 = ~league_3_fragment_shim($component0, $int1);
+	$int1 = ~league_3_fragment_shim($component0, $int1);
+	$int1 = ~league_3_fragment_shim($component0, $int1);
+	$int1 = ~league_3_fragment_shim($component0, $int1);
+	$int1 = ~league_3_fragment_shim($component0, $int1);
+	$int1 = ~league_3_fragment_shim($component0, $int1);
 	return($int1);
 }
 def_int $int5 = 42;
-def_int $colour6 = ~script5465(3);
-def_int $int7 = ~min(~script5788(struct_param($struct3, param_1455)), 8000);
+def_int $colour6 = ~league_get_league_colour(3);
+def_int $int7 = ~min(~league_3_fragment_get_xp(struct_param($struct3, param_1455)), 8000);
 cc_create($component0, ^iftype_rectangle, $int1);
 cc_setsize(0, $int5, ^setsize_minus, ^setsize_abs);
 cc_setposition(0, calc($int5 * $int2), ^setpos_abs_left, ^setpos_abs_top);
@@ -34,10 +34,10 @@ if (~on_mobile = false) {
 	cc_setonmouseover("cc_colour_swapper(event_com, event_comsubid, ^white)");
 	cc_setonmouseleave("cc_colour_swapper(event_com, event_comsubid, ^black)");
 }
-cc_setonop("script5776(interface_735:32, interface_735:33, struct_param($struct3, param_1455), event_opindex, 1, 0)");
+cc_setonop("league_3_fragment_info_init_sound(interface_735:32, interface_735:33, struct_param($struct3, param_1455), event_opindex, 1, 0)");
 $int1 = calc($int1 + 1);
 def_int $comsubid8 = calc($int1 + 1);
-$int1 = ~script5793($component0, $int1, 5, calc($int5 * $int2 + 5), struct_param($struct3, param_1461), $int7, 0);
+$int1 = ~league_3_fragment_draw_fragment($component0, $int1, 5, calc($int5 * $int2 + 5), struct_param($struct3, param_1461), $int7, 0);
 if (cc_find($component0, $comsubid8) = ^true) {
 	cc_setdragdeadzone(5);
 	cc_setdragdeadtime(5);

@@ -4,4 +4,4 @@ if_setonmouserepeat(null, $component0);
 if_setonmouseleave(null, $component0);
 if_setnoclickthrough(false, $component0);
 if_setonclick(null, $component0);
-~script5546;
+~popout_tooltip_clear;
