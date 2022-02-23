@@ -1,5 +1,6 @@
 // 4673
 [proc,enhanced_buffs](component $component0, component $component1, int $int2)(int)
+return(0);
 if (~on_enhanced_any = 0 | %varbit9528 = 1) {
 	return($int2);
 }
@@ -150,3 +151,4 @@ if (~buff_bar_buff_create($component0, $int2, $component1, struct_4134, -1) = 1)
 	$int2 = calc($int2 + 1);
 }
 return($int2);
+return(0);
