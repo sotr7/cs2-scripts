@@ -151,4 +151,3 @@ if (~buff_bar_buff_create($component0, $int2, $component1, struct_4134, -1) = 1)
 	$int2 = calc($int2 + 1);
 }
 return($int2);
-return(0);
