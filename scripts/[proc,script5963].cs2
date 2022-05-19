@@ -15,7 +15,7 @@ if ($int3 >= $int4) {
 	$int5 = calc(17 - $int3);
 }
 def_int $int6 = _7460;
-if (_7108 = true) {
+if (is_minimenu_open = true) {
 	~script5950(4);
 	~script5955(4);
 	if ($int3 >= $int4) {

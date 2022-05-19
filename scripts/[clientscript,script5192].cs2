@@ -3,4 +3,4 @@
 if (~on_enhanced_any = 0) {
 	return;
 }
-_7252(4);
+set_minimap_zoom(4);

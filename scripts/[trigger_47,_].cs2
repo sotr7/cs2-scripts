@@ -3,11 +3,11 @@
 if (~on_enhanced_any = 0) {
 	return;
 }
-if (%varbit12979 = 0 | _7038(_6950, 4, 0) = true) {
+if (%varbit12979 = 0 | highlight_tile_get(hovered_coord, 4, 0) = true) {
 	return;
 }
-_7039(4);
-if (_6902 > 0 & _6950 = _6903(0) | _6950 = coord) {
+highlight_tile_clear(4);
+if (waypoint_count > 0 & hovered_coord = waypoint_specific(0) | hovered_coord = coord) {
 	return;
 }
-highlight_tile_on(_6950, 4, 0);
+highlight_tile_on(hovered_coord, 4, 0);

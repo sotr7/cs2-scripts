@@ -5,98 +5,98 @@
 ~script1659($component5, 8, 9, 9, "Sort by last world change", $component0, $component1, $component2, $component3, $component4, $component5, $component6, $component7, $component8, $component9, $component10, $component11, $component12, $component13, $component14);
 ~script1659($component6, 4, 5, 4, "Sort by world", $component0, $component1, $component2, $component3, $component4, $component5, $component6, $component7, $component8, $component9, $component10, $component11, $component12, $component13, $component14);
 ~script1659($component7, 0, 1, 0, "Legacy sort", $component0, $component1, $component2, $component3, $component4, $component5, $component6, $component7, $component8, $component9, $component10, $component11, $component12, $component13, $component14);
-_3644;
+clan_sort_reset;
 switch_int (%varcint185) {
 	case 1 :
-		_3645(false);
+		clan_sort_legacy(false);
 	case 2 :
-		_3646(true);
+		clan_sort_name(true);
 	case 3 :
-		_3646(false);
+		clan_sort_name(false);
 	case 6 :
-		_3657(true);
+		clan_sort_rank(true);
 		switch_int (%varcint206) {
 			case default :
-				_3646(true);
+				clan_sort_name(true);
 			case 3 :
-				_3646(false);
+				clan_sort_name(false);
 			case 4 :
-				_3652(true);
-				_3647(true);
-				_3646(true);
+				clan_sort_online_world(true);
+				clan_sort_world(true);
+				clan_sort_name(true);
 			case 5 :
-				_3652(true);
-				_3647(false);
-				_3646(true);
+				clan_sort_online_world(true);
+				clan_sort_world(false);
+				clan_sort_name(true);
 			case 8 :
-				_3648(true);
+				clan_sort_hoptime(true);
 			case 9 :
-				_3648(false);
+				clan_sort_hoptime(false);
 		}
 	case 7 :
-		_3657(false);
+		clan_sort_rank(false);
 		switch_int (%varcint206) {
 			case default :
-				_3646(true);
+				clan_sort_name(true);
 			case 3 :
-				_3646(false);
+				clan_sort_name(false);
 			case 4 :
-				_3652(true);
-				_3647(true);
-				_3646(true);
+				clan_sort_online_world(true);
+				clan_sort_world(true);
+				clan_sort_name(true);
 			case 5 :
-				_3652(true);
-				_3647(false);
-				_3646(true);
+				clan_sort_online_world(true);
+				clan_sort_world(false);
+				clan_sort_name(true);
 			case 8 :
-				_3648(true);
+				clan_sort_hoptime(true);
 			case 9 :
-				_3648(false);
+				clan_sort_hoptime(false);
 		}
 	case 8 :
-		_3648(true);
+		clan_sort_hoptime(true);
 	case 9 :
-		_3648(false);
+		clan_sort_hoptime(false);
 	case 4 :
-		_3652(true);
-		_3647(true);
+		clan_sort_online_world(true);
+		clan_sort_world(true);
 		switch_int (%varcint206) {
 			case default :
-				_3646(true);
+				clan_sort_name(true);
 			case 3 :
-				_3646(false);
+				clan_sort_name(false);
 			case 6 :
-				_3657(true);
-				_3646(true);
+				clan_sort_rank(true);
+				clan_sort_name(true);
 			case 7 :
-				_3657(false);
-				_3646(true);
+				clan_sort_rank(false);
+				clan_sort_name(true);
 			case 8 :
-				_3648(true);
+				clan_sort_hoptime(true);
 			case 9 :
-				_3648(false);
+				clan_sort_hoptime(false);
 		}
 	case 5 :
-		_3652(true);
-		_3647(false);
+		clan_sort_online_world(true);
+		clan_sort_world(false);
 		switch_int (%varcint206) {
 			case default :
-				_3646(true);
+				clan_sort_name(true);
 			case 3 :
-				_3646(false);
+				clan_sort_name(false);
 			case 6 :
-				_3657(true);
-				_3646(true);
+				clan_sort_rank(true);
+				clan_sort_name(true);
 			case 7 :
-				_3657(false);
-				_3646(true);
+				clan_sort_rank(false);
+				clan_sort_name(true);
 			case 8 :
-				_3648(true);
+				clan_sort_hoptime(true);
 			case 9 :
-				_3648(false);
+				clan_sort_hoptime(false);
 		}
 }
-_3655;
+clan_sort_apply;
 cc_deleteall($component8);
 def_int $int15 = clan_getchatcount;
 if (%varbit6363 = 1) {

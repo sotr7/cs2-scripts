@@ -6,10 +6,10 @@ if (~on_enhanced_any = 0) {
 if (%varbit12978 = 0) {
 	return;
 }
-if (player_uid = self_player_uid) {
-	_7039(3);
-	if (_6902 > 0) {
-		highlight_tile_on(_6903(0), 3, 0);
+if (uid = self_player_uid) {
+	highlight_tile_clear(3);
+	if (waypoint_count > 0) {
+		highlight_tile_on(waypoint_specific(0), 3, 0);
 	} else {
 		highlight_tile_on(coord, 3, 0);
 	}

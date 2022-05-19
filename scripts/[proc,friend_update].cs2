@@ -38,52 +38,52 @@ if ($count15 <= -2) {
 	}
 	if_settext("", $component7);
 	if_sethide(false, $component0);
-	_3628;
+	friendlist_sort_reset;
 	switch_int (%varcint183) {
 		case 1 :
-			_3629(false);
+			friendlist_sort_legacy(false);
 		case 2 :
-			_3633(true);
-			_3630(true);
+			friendlist_sort_online_status(true);
+			friendlist_sort_name(true);
 		case 3 :
-			_3633(true);
-			_3630(false);
+			friendlist_sort_online_status(true);
+			friendlist_sort_name(false);
 		case 8 :
-			_3633(true);
-			_3632(true);
+			friendlist_sort_online_status(true);
+			friendlist_sort_hoptime(true);
 		case 9 :
-			_3633(true);
-			_3632(false);
+			friendlist_sort_online_status(true);
+			friendlist_sort_hoptime(false);
 		case 4 :
-			_3633(true);
-			_3636(true);
-			_3631(true);
+			friendlist_sort_online_status(true);
+			friendlist_sort_online_world(true);
+			friendlist_sort_world(true);
 			switch_int (%varcint205) {
 				case default :
-					_3630(true);
+					friendlist_sort_name(true);
 				case 3 :
-					_3630(false);
+					friendlist_sort_name(false);
 				case 8 :
-					_3632(true);
+					friendlist_sort_hoptime(true);
 				case 9 :
-					_3632(false);
+					friendlist_sort_hoptime(false);
 			}
 		case 5 :
-			_3633(true);
-			_3636(true);
-			_3631(false);
+			friendlist_sort_online_status(true);
+			friendlist_sort_online_world(true);
+			friendlist_sort_world(false);
 			switch_int (%varcint205) {
 				case default :
-					_3630(true);
+					friendlist_sort_name(true);
 				case 3 :
-					_3630(false);
+					friendlist_sort_name(false);
 				case 8 :
-					_3632(true);
+					friendlist_sort_hoptime(true);
 				case 9 :
-					_3632(false);
+					friendlist_sort_hoptime(false);
 			}
 	}
-	_3639;
+	friendlist_sort_apply;
 	while ($count9 < $count15) {
 		$string0, $string1 = friend_getname($count9);
 		cc_create($component5, ^iftype_text, $int10);

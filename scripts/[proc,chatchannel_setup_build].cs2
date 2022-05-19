@@ -41,22 +41,22 @@ if ($count16 <= -2) {
 	if ($boolean15 = true) {
 		$int12 = scale(8, 5, $int12);
 	}
-	_3628;
+	friendlist_sort_reset;
 	switch_int (%varcint186) {
 		case 1 :
-			_3629(false);
+			friendlist_sort_legacy(false);
 		case 2 :
-			_3630(true);
+			friendlist_sort_name(true);
 		case 3 :
-			_3630(false);
+			friendlist_sort_name(false);
 		case 6 :
-			_3656(true);
-			_3630(true);
+			friendlist_sort_rank(true);
+			friendlist_sort_name(true);
 		case 7 :
-			_3656(false);
-			_3630(true);
+			friendlist_sort_rank(false);
+			friendlist_sort_name(true);
 	}
-	_3639;
+	friendlist_sort_apply;
 	$width9, $width7, $width8 = if_getwidth($component3), calc($width6 - 5), calc(if_getwidth($component1) - 5);
 	while ($count14 < $count16) {
 		$string0, $string1 = friend_getname($count14);

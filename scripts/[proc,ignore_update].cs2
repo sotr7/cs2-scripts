@@ -28,16 +28,16 @@ if ($count12 < 0) {
 	}
 	if_settext("", $component5);
 	if_sethide(false, $component0);
-	_3640;
+	ignorelist_sort_reset;
 	switch_int (%varcint184) {
 		case 1 :
-			_3641(false);
+			ignorelist_sort_legacy(false);
 		case 2 :
-			_3642(true);
+			ignorelist_sort_name(true);
 		case 3 :
-			_3642(false);
+			ignorelist_sort_name(false);
 	}
-	_3643;
+	ignorelist_sort_apply;
 	while ($count7 < $count12) {
 		$string0, $string1 = ignore_getname($count7);
 		cc_create($component3, ^iftype_text, $int8);

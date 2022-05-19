@@ -4,6 +4,6 @@ if (%varcint981 = 1) {
 	return;
 }
 ~debug_mes("Initialising mobile analytics and attribution.");
-_3177;
-_3179;
+init_mobile_analytics_service;
+init_mobile_attribution_service;
 %varcint981 = 1;

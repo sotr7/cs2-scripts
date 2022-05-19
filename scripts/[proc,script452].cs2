@@ -1,14 +1,14 @@
 // 452
 [proc,script452](string $string0, int $int0)(int)
-switch_int (_5632) {
+switch_int (get_store_status) {
 	case 20 :
 		switch_int ($int0) {
 			case 1 :
-				_5633($string0, "store/oldschool/bonds");
+				open_store($string0, "store/oldschool/bonds");
 			case 3 :
-				_5633($string0, "store/oldschool/membership");
+				open_store($string0, "store/oldschool/membership");
 			case default :
-				_5633($string0, "store/oldschool");
+				open_store($string0, "store/oldschool");
 		}
 		if_setontimer(null, interface_229:1);
 		if_resume_pausebutton(interface_229:2);
