@@ -8,6 +8,8 @@ switch_int ($setting0) {
 		~settings_music_unlock_message;
 	case ^setting_hitsplat_tinting :
 		~settings_hitsplat_tinting;
+	case 279 :
+		~script6715;
 	case ^setting_wiki_lookup :
 		~settings_wiki_lookup;
 	case ^setting_data_orbs :
@@ -25,7 +27,7 @@ switch_int ($setting0) {
 	case ^setting_standard_health_overlay :
 		~settings_standard_health_overlay;
 	case 11 :
-		~script3981;
+		~settings_resizable_opaque_chatbox;
 	case 13 :
 		~script3982;
 	case 34 :
@@ -44,6 +46,14 @@ switch_int ($setting0) {
 		~script4017;
 	case ^setting_drop_item_warnings :
 		~settings_drop_item_warnings;
+	case 278 :
+		~script6714;
+	case 281 :
+		~script6716;
+	case 282 :
+		~script6717;
+	case 283 :
+		~script6718;
 	case 46 :
 		~script3988;
 	case ^setting_store_button_mobile :
@@ -180,12 +190,32 @@ switch_int ($setting0) {
 		~settings_buff_antifire_duration;
 	case ^setting_buff_antipoison_duration :
 		~settings_buff_antipoison_duration;
+	case 284 :
+		~script6563;
 	case 208 :
 		~script5519;
+	case 285 :
+		~script6564;
+	case 286 :
+		~script6565;
+	case 287 :
+		~script6566;
+	case 288 :
+		~script6567;
+	case 289 :
+		~script6568;
+	case 290 :
+		~script6569;
+	case 291 :
+		~script6570;
+	case 292 :
+		~script6571;
+	case 293 :
+		~script6572;
 	case ^setting_always_on_top :
 		~settings_always_on_top;
 	case 241 :
-		~script6073;
+		~settings_full_screen;
 	case 148 :
 		~script4612;
 	case 149 :
@@ -285,11 +315,11 @@ switch_int ($setting0) {
 	case 218 :
 		~script5974;
 	case 219 :
-		~script5975;
+		~settings_questlist_completed_toggle;
 	case 220 :
-		~script5976;
+		~settings_questlist_miniquests_toggle;
 	case 221 :
-		~script5977;
+		~settings_questlist_quests_toggle;
 	case 223 :
 		~script5978;
 	case 229 :
@@ -310,4 +340,46 @@ switch_int ($setting0) {
 		~script2178;
 	case 257 :
 		~script636;
+	case 242 :
+		~settings_helper_tog;
+	case 243 :
+		~script6447;
+	case 244 :
+		~script6448;
+	case 245 :
+		~settings_helper_herbiboar;
+	case 246 :
+		~settings_buff_cannon_decay;
+	case 247 :
+		~settings_cannon_hud;
+	case 248 :
+		~settings_cannon_low_notification;
+	case 250 :
+		~settings_cannon_no_ammo;
+	case 261 :
+		~settings_npc_indicators;
+	case 260 :
+		~script6467;
+	case 265 :
+		~script6463;
+	case 268 :
+		~settings_blast_furnace_helper;
+	case 269 :
+		~settings_blast_furnace_highlights;
+	case 270 :
+		~settings_cluehelper_overlay;
+	case 277 :
+		~settings_cluehelper_target_highlight;
+	case 271 :
+		~settings_cluehelper;
+	case 272 :
+		~settings_cluehelper_worldmap_marker;
+	case 273 :
+		~script6459;
+	case 274 :
+		~settings_cluehelper_menu_highlight;
+	case 275 :
+		~settings_cluehelper_infobox;
+	case 276 :
+		~script6462;
 }

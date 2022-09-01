@@ -7,6 +7,8 @@ switch_int ($setting0) {
 		return(%varbit10078);
 	case ^setting_hitsplat_tinting :
 		return(%varbit10236);
+	case 279 :
+		return(%varbit14196);
 	case ^setting_wiki_lookup :
 		return(%varbit10113);
 	case ^setting_data_orbs :
@@ -45,6 +47,8 @@ switch_int ($setting0) {
 		return(%varbit4930);
 	case ^setting_drop_item_warnings :
 		return(%varbit5411);
+	case 278 :
+		return(calc(1 - %varbit14194));
 	case 46 :
 		return(%varbit2570);
 	case ^setting_store_button_mobile :
@@ -181,10 +185,30 @@ switch_int ($setting0) {
 		return(%varbit12371);
 	case 208 :
 		return(%varbit13134);
+	case 284 :
+		return(%varbit14287);
+	case 285 :
+		return(%varbit14288);
+	case 286 :
+		return(%varbit14289);
+	case 287 :
+		return(%varbit14290);
+	case 288 :
+		return(%varbit14295);
+	case 289 :
+		return(%varbit14291);
+	case 290 :
+		return(%varbit14292);
+	case 291 :
+		return(%varbit14293);
+	case 292 :
+		return(%varbit14294);
+	case 293 :
+		return(%varbit14296);
 	case ^setting_always_on_top :
 		return(%varbit12372);
 	case 241 :
-		return(getdeviceoption(17));
+		return(getdeviceoption(^deviceoption_full_screen));
 	case 148 :
 		return(%varbit12373);
 	case 149 :
@@ -254,6 +278,12 @@ switch_int ($setting0) {
 		return(%varbit13089);
 	case ^setting_gravestone_confirmation :
 		return(%varbit13113);
+	case 281 :
+		return(calc(1 - %varbit14197));
+	case 282 :
+		return(calc(1 - %varbit4814));
+	case 283 :
+		return(calc(1 - %varbit14198));
 	case 195 :
 		return(%varbit13120);
 	case 201 :
@@ -305,6 +335,48 @@ switch_int ($setting0) {
 		return(%varbit13890);
 	case 257 :
 		return(%varbit5368);
+	case 242 :
+		return(%varbit14167);
+	case 243 :
+		return(%varbit14165);
+	case 244 :
+		return(%varbit14166);
+	case 245 :
+		return(%varbit14172);
+	case 246 :
+		return(%varbit14173);
+	case 247 :
+		return(%varbit14174);
+	case 248 :
+		return(%varbit14175);
+	case 250 :
+		return(%varbit14177);
+	case 261 :
+		return(%varbit14168);
+	case 260 :
+		return(%varbit14170);
+	case 265 :
+		return(%varbit14179);
+	case 268 :
+		return(%varbit14180);
+	case 269 :
+		return(%varbit14181);
+	case 270 :
+		return(%varbit14189);
+	case 277 :
+		return(%varbit14184);
+	case 271 :
+		return(%varbit14182);
+	case 272 :
+		return(%varbit14183);
+	case 273 :
+		return(%varbit14185);
+	case 274 :
+		return(%varbit14186);
+	case 275 :
+		return(%varbit14187);
+	case 276 :
+		return(%varbit14188);
 	case default :
 		return(0);
 }

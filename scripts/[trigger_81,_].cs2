@@ -3,6 +3,7 @@
 if (~on_enhanced_mobile = 0 | %varbit13666 = 1) {
 	return;
 }
-~script5950(4);
-~script5961;
-~script5954(4);
+~entity_highlight_clear(4);
+def_newvar $newvar0 = _7203(0, 0, 1, 1, 0);
+~entity_highlight_active_player(4);
+~script5961($newvar0);

@@ -1,0 +1,14 @@
+// 6560
+[clientscript,script6560]
+cc_deleteall(welcome_screen:93);
+if_sethide(true, welcome_screen:91);
+if (cc_find(welcome_screen:90, 0) = ^true) {
+	if (cc_getcrm_hasresponse = false) {
+		cc_delete;
+		~script6562(null, "");
+	} else {
+		~script533;
+	}
+} else {
+	~script6562(null, "");
+}
