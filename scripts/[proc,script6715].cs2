@@ -1,3 +1,0 @@
-// 6715
-[proc,script6715]
-%varbit14196 = calc(1 - %varbit14196);
